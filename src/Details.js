@@ -1,9 +1,9 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+import logogradient from "./assets/SmallC.svg";
+import logo from "./assets/SmallC.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/TestC(2).gif";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -36,17 +36,39 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "TsungWei Cheng Mike",
-  tagline: "I build things for web",
+  tagline: "I'm a researcher | programmer | designer",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: [
+    "TsungWei Cheng Mike is a passionate researcher and designer specializing in digital architecture." +
+      " He holds a Master’s in Architecture from National Taiwan University of Science and Technology (NTUST)" +
+      " and participated in exchange programs with TU Berlin and the Digital Design Unit (DDU) at TU Darmstadt." +
+      " He also interned at Gobel Reengineering Company for four years, focusing on optimizing UHPC facade panels" +
+      " with Grasshopper.",
+
+    "Currently, TsungWei works as a Ph.D. student and research assistant at the GAS lab at NTUST and lectures " +
+      "at National Kaohsiung University. His research centers on dry stacking systems, computer-aided design (CAD)," +
+      " and digital fabrication for building components.",
+
+    "He actively contributes to research projects, such as Auto-Replicating Robotic Assembly using SL Blocks, " +
+      " through the PPP program between Taiwan and Germany. He also applied Rhino Compute to automate metal sheet" +
+      " designs for IPCS/BIES Fabrication Center projects. His programming expertise includes C# and Grasshopper" +
+      " for simulation, visualization, and optimization. Additionally, he explores circular economy concepts using " +
+      "osteomorphic and topological interlocking block systems in collaboration with ZhenXi Construction and Bio " +
+      "Architecture Formosa.",
+
+    "TsungWei has presented at CAADRIA 2024 in Singapore and has authored eight academic publications across" +
+      " journals and conferences. With extensive experience in both academic and industrial collaborations, his" +
+      " work emphasizes sustainable and reusable components in architecture, aiming to drive meaningful advancements" +
+      " in the field.",
+  ],
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
+  linkdein: "linkedin.com/in/宗偉-鄭-b76a45251",
   github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  email: "mike861104@gmail.com",
+  instagram: "https://www.instagram.com/__zhong_wei/",
 };
 
 // Enter your Work Experience here

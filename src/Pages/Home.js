@@ -46,9 +46,8 @@ function Home() {
       .from(
         myimageref.current,
         {
-          x: "200%",
-          delay: 0.5,
-          opacity: 0,
+          x: "0%",
+          opacity: 0.5,
           duration: 2,
           ease: "Power3.easeOut",
         },
@@ -61,25 +60,30 @@ function Home() {
       <div>
         <h1
           ref={h11}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-2xl text-lightgray-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          Hi,👋<br></br>My Name is<br></br>
+          Hello,<br></br>My Name is<br></br>
         </h1>
         <h1
           ref={h12}
-          className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-2xl text-gray-heading dark:text-light-content md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
           {name}
         </h1>
         <h2
           ref={h13}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-1g text-lightgray-heading dark:text-light-heading md:text-x1 xl:text-2xl xl:leading-tight font-bold leading-snug"
         >
           {tagline}
         </h2>
       </div>
-      <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Pavan MG" />
+      <div className="mt-5 md:mt-0" id="HomeClick">
+        <img
+          ref={myimageref}
+          className="w-1/2 md:ml-auto"
+          src={img}
+          alt="Pavan MG"
+        />
       </div>
     </main>
   );
