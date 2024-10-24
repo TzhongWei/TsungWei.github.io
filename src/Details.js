@@ -65,9 +65,9 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "linkedin.com/in/宗偉-鄭-b76a45251",
+  linkdein: "https://linkedin.com/in/宗偉-鄭-b76a45251",
   github: "https://www.github.com/",
-  email: "mike861104@gmail.com",
+  email: "https://mike861104@gmail.com",
   instagram: "https://www.instagram.com/__zhong_wei/",
 };
 
