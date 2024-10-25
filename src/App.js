@@ -5,7 +5,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
-import Technologies from "./Pages/Technologies";
+import Publications from "./Pages/Publication";
+import Monologue from "./Pages/Monoloque";
 function App() {
   return (
     <Router>
@@ -15,7 +16,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/publications" element={<Technologies />} />
+        <Route path="/publications" element={<Publications />} />
+        <Route path="/monologue" element={<Monologue />} />
       </Routes>
       <Footer />
     </Router>

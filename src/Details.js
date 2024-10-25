@@ -74,6 +74,7 @@ export const socialMediaUrl = {
   linkdein: "https://linkedin.com/in/宗偉-鄭-b76a45251",
   github: "https://www.github.com/",
   email: "https://mike861104@gmail.com",
+  ResearchGate: "https://www.researchgate.net/profile/Tsung-Wei-Cheng/research",
   instagram: "https://www.instagram.com/__zhong_wei/",
 };
 
@@ -299,6 +300,102 @@ export const techStackDetails = {
   figma: figma,
 };
 
+export const PublicationsDetails = {
+  ConferenceAndJournalPapers: [
+    {
+      Name:
+        "Tsung-Wei Cheng, Kevin Harsono, Yuxi Lui, Ching-Yen Chen, Shen-Guan Shih, Oliver Tessmann. (2024)." +
+        " Beyond Babel: Towering With Minimal Communication. Proceedings of the IASS 2024 Symposium. International" +
+        " Association for Shell and Spatial Structures (IASS 2024). Switzerland.",
+      Link: "https://www.researchgate.net/publication/383818429_Beyond_Babel_Towering_With_Minimal_Communication",
+    },
+    {
+      Name:
+        "Felicia Wagiri, Shen-Guan Shih, Yu-Chuan Kao, Tsung-Wei Cheng, Mu-Kuan Lu. (2024)." +
+        " Bending-active molds for pre-fabricated concrete shells. Proceedings of the IASS 2024 Symposium." +
+        " Redefining the Art of Structural Design (IASS 2024). Switzerland.",
+      Link: "https://www.researchgate.net/publication/384291461_Bending-active_molds_for_pre-fabricated_concrete_shells",
+    },
+    {
+      Name:
+        "Fatma Kayatekin, Felicia Wagiri, Tsung-Wei Cheng, Shen-Guan Shih (2024)." +
+        " Hat Monotiles: Driving Innovation in Aperiodic Pattern Generation and Application." +
+        " Nexus Network Journal. https://doi.org/10.1007/s00004-024-00795-8",
+      Link: "https://www.researchgate.net/publication/383039499_Hat_Monotiles_Driving_Innovation_in_Aperiodic_Pattern_Generation_and_Application",
+    },
+    {
+      Name:
+        "Yuxi Liu, Boris Belousov, Tim Schneidern, Kevin Harsono, Tsung-Wei Cheng, Shen-Guan Shih, Oliver Tessman (2024)." +
+        " Advancing Sustainable Construction: Discrete Modular Systems & Robotic Assembly." +
+        " Sustainability 16(15):6678. https://doi.org/10.3390/su16156678",
+      Link: "https://www.researchgate.net/publication/382906405_Advancing_Sustainable_Construction_Discrete_Modular_Systems_Robotic_Assembly",
+    },
+    {
+      Name:
+        "Kevin Harsono, Shen-Guan Shih, Ye Yint Aung, Felicia Wagiri, Tsung-Wei Cheng (2024)." +
+        " RULE-BASED GENERATION OF INTERWOVEN ASSEMBLIES IN ARCHITECTURAL DESIGN: A COMPUTATIONAL APPROACH INTEGRATING ATTRIBUTE GRAMMAR." +
+        " Conference: 29th International Conference on Computer-Aided Architectural Design Research in Asia (CAADRIA 2024). At: Singapore.",
+      Link: "https://www.researchgate.net/publication/379961011_RULE-BASED_GENERATION_OF_INTERWOVEN_ASSEMBLIES_IN_ARCHITECTURAL_DESIGN_A_COMPUTATIONAL_APPROACH_INTEGRATING_ATTRIBUTE_GRAMMAR",
+    },
+    {
+      Name:
+        "Ye Yint.Aung, Shen-Guan Shih,Kevin Harsono,Tsung-Wei Cheng. (2024)." +
+        " ON THE INFORMATION SCAPE OF SPACES. Conference: 29th International Conference " +
+        " on Computer-Aided Architectural Design Research in Asia (CAADRIA 2024). At: Singapore.",
+      Link: "https://www.researchgate.net/publication/379977834_ON_THE_INFORMATION_SCAPE_OF_SPACES",
+    },
+    {
+      Name:
+        "Felicia Wagiri, Shen-Guan Shih, Kevin Harsono, Tsung-Wei Cheng, Mu-Kuan Lu. (2023)." +
+        " Exploration of Building Information Modeling and Integrated Project Cloud Service in early" +
+        " architectural design stages." +
+        " VITRUVIO - International Journal of Architectural Technology and Sustainability." +
+        "https://doi.org/10.4995/vitruvio-ijats.2023.20453",
+      Link: "https://www.researchgate.net/publication/376721500_Exploration_of_Building_Information_Modeling_and_Integrated_Project_Cloud_Service_in_early_architectural_design_stages",
+    },
+    {
+      Name:
+        "Wu, B.R., Liao, C.T., Cheng, T.W., Chiang, Y.T. (2018)." +
+        " Investigation and Study on the Deterioration of Wall Tiles with Raised Patterns in Nanzih District, Kaohsiung City." +
+        " Processings of the 30th Annual Conference of the Architecture Institute of Taiwan",
+      Link: undefined,
+    },
+  ],
+
+  ThsisAndBooks: [
+    {
+      Name: "Tsung-Wei Cheng. (2022), Production Rules for the Arrangement of Osteomorphic Block.",
+      Link: "https://hdl.handle.net/11296/33yrph",
+    },
+  ],
+  ComingSoon: [
+    {
+      Name: "Kevin Harsono, Shen-Guan Shih, Tsung-Wei Cheng, Felicia Wagiri, Ye Yint Aung. Reducing Panel Complexity in Topological Interlocking Assemblies on Curved Surfaces.",
+      Link: undefined,
+    },
+    {
+      Name:
+        "Kevin Harsono, Shen-Guan Shih, Felicia Wagiri, Ye Yint Aung, Tsung-Wei Cheng, William Alfred." +
+        " Building for Tomorrow: Harnessing Topological Interlocking for Sustainable Reusable Building Component.",
+      Link: undefined,
+    },
+  ],
+  Portfolio: [
+    {
+      Name: "Portfolio for My colleage design studio",
+      Link: "https://issuu.com/182025/docs/_edit",
+    },
+    {
+      Name: "作品集 (Portfolio for my sophomore design studio)",
+      Link: "https://issuu.com/182025/docs/___",
+    },
+    {
+      Name: "Specere",
+      Link: "https://issuu.com/182025/docs/_-3_",
+    },
+  ],
+};
+
 // Enter your Project Details here
 export const projectDetails = [
   {
@@ -306,7 +403,6 @@ export const projectDetails = [
     image: projectImage1,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
@@ -315,7 +411,6 @@ project lorem ipsum generator for dummy content`,
     image: projectImage2,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
@@ -324,7 +419,6 @@ project lorem ipsum generator for dummy content`,
     image: projectImage3,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
@@ -333,7 +427,6 @@ project lorem ipsum generator for dummy content`,
     image: projectImage4,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
@@ -342,7 +435,6 @@ project lorem ipsum generator for dummy content`,
     image: projectImage5,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
@@ -351,7 +443,6 @@ project lorem ipsum generator for dummy content`,
     image: projectImage6,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
@@ -362,3 +453,5 @@ export const contactDetails = {
   email: "mike861104@gmail.com",
   phone: "+886 988388094",
 };
+
+export const MonologueDetails = {};

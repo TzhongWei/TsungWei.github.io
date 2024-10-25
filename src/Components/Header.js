@@ -4,7 +4,7 @@ import { logos, socialMediaUrl } from "../Details";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { linkdein, github, email } = socialMediaUrl;
+  const { linkdein, github, email, ResearchGate } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
@@ -60,6 +60,11 @@ function Header() {
             </NavLink>
           </li>
           <li>
+            <NavLink to="/monologue" onClick={toggleClass}>
+              Monologue
+            </NavLink>
+          </li>
+          <li>
             <NavLink to="/contact" onClick={toggleClass}>
               Contact
             </NavLink>
@@ -81,6 +86,43 @@ function Header() {
                   d="M44 122 L44 55 L88.5 90 L133 55 L133 122 L111 122 L111 85 L88.5 105 L66 85 L66 122 Z"
                   fill="#FFFFFF"
                 />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href={ResearchGate} target="_blank" rel="noreferrer noopener">
+              <svg
+                className="dark:fill-light-heading fill-dark-heading"
+                width="32"
+                height="32"
+                viewBox="0 0 177 177"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="88.5" cy="88.5" r="88.5" fill="#292929" />
+                <text
+                  x="80.5"
+                  y="100"
+                  font-size="100"
+                  fill="#FFFFFF"
+                  text-anchor="middle"
+                  dominant-baseline="middle"
+                  font-family="Arial"
+                  font-weight="bold"
+                >
+                  R
+                </text>
+                <text
+                  x="125.5"
+                  y="50"
+                  font-size="50"
+                  fill="#FFFFFF"
+                  text-anchor="middle"
+                  dominant-baseline="middle"
+                  font-family="Arial"
+                >
+                  G
+                </text>
               </svg>
             </a>
           </li>
