@@ -33,6 +33,8 @@ import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
 import LectureImage4 from "./assets/LectureImage/Grasshopper_Lecture_1.jpg";
 import LectureImage5 from "./assets/LectureImage/3D_Printing.jpg";
 
+import RepImage_1 from "./assets/TestC(2).gif";
+
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -454,4 +456,47 @@ export const contactDetails = {
   phone: "+886 988388094",
 };
 
-export const MonologueDetails = {};
+export const MonologueDetails = [
+  {
+    title:
+      "C the grammar of alphabet. How's the stacking influences blocks permutation.",
+    RepImage: projectImage1,
+    abstract:
+      "The stacking of languages deeply impacts modern programming languages. It influences semantic" +
+      " order and reveals hierarchical structures. In this section, I explore how SL-block strands" +
+      " represent English letters. Closed chain construction can be achieved through stacking," +
+      " demonstrating its utility in aggregation.",
+    date: "24/10/2024",
+    description: [
+      "In this section, I explore how SL-block strands represent English letters.",
+      "Closed chain construction can be achieved through stacking, demonstrating its utility in aggregation.",
+    ],
+    OtherImages: [
+      projectImage1,
+      projectImage2,
+      projectImage3,
+      projectImage4,
+      projectImage1,
+      projectImage2,
+    ],
+  },
+  {
+    title: "Exploring SL block permutation.",
+    RepImage: projectImage1,
+    abstract:
+      "This section delves into the grammar formed by SL blocks and how they relate to programming languages...",
+    date: "24/10/2024",
+    description: [
+      "Alphabet segmentation helps visualize the stacking.",
+      "Using SL blocks offers a unique perspective on the construction of linguistic hierarchies.",
+    ],
+    OtherImages: [
+      projectImage1,
+      projectImage2,
+      projectImage2,
+      projectImage1,
+      projectImage2,
+      projectImage2,
+    ],
+  },
+];
