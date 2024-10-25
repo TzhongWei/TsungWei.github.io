@@ -27,6 +27,12 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
+import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
+import LectureImage2 from "./assets/LectureImage/Lego.jpg";
+import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
+import LectureImage4 from "./assets/LectureImage/Grasshopper_Lecture_1.jpg";
+import LectureImage5 from "./assets/LectureImage/3D_Printing.jpg";
+
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -42,11 +48,11 @@ export const personalDetails = {
     "TsungWei Cheng Mike is a passionate researcher and designer specializing in digital architecture." +
       " He holds a Master’s in Architecture from National Taiwan University of Science and Technology (NTUST)" +
       " and participated in exchange programs with TU Berlin and the Digital Design Unit (DDU) at TU Darmstadt." +
-      " He also interned at Gobel Reengineering Company for four years, focusing on optimizing UHPC facade panels" +
+      " He also interned at Gobel Reengineering Company for three years, focusing on optimizing UHPC facade panels" +
       " with Grasshopper.",
 
     "Currently, TsungWei works as a Ph.D. student and research assistant at the GAS lab at NTUST and lectures " +
-      "at National Kaohsiung University. His research centers on dry stacking systems, computer-aided design (CAD)," +
+      "at National University of Kaohsiung (NUK). His research centers on dry stacking systems, computer-aided design (CAD)," +
       " and digital fabrication for building components.",
 
     "He actively contributes to research projects, such as Auto-Replicating Robotic Assembly using SL Blocks, " +
@@ -74,43 +80,204 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Research Assistant",
+    Company: `GAS Lab, Department of Architecture, NTUST`,
+    Location: "Taipei, Taiwan",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Apr 2023 - present",
   },
   {
     Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Company: `Gobel Reengineering Company Ltd.`,
+    Location: "Yilan, Taiwan",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Jul 2021 - Jul 2024",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Project Assitant of Topological Interlocking System",
+    Company: `GAS Lab, Department of Architecture, NTUST`,
+    Location: "Taipei, Taiwan",
+    Type: "Full Time",
+    Duration: "Jul 2021 - Jul 2022",
+  },
+  {
+    Position: "Project Assitant of Topological Interlocking System",
+    Company: `GAS Lab, Department of Architecture, NTUST`,
+    Location: "Taipei, Taiwan",
+    Type: "Full Time",
+    Duration: "Sep 2021 - Jul 2022",
+  },
+  {
+    Position:
+      "Project Assitant of Industry Cooperation with ZhenXi Construction Company",
+    Company: `GAS Lab, Department of Architecture, NTUST`,
+    Location: "Taipei, Taiwan",
+    Type: "Full Time",
+    Duration: "Sep 2020 - Jul 2021",
+  },
+  {
+    Position: "Modeller and Draftman",
+    Company: `CCHsu Architect & Associates`,
+    Location: "Kaohsiung, Taiwan",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Jul 2018 - Aug 2018",
+  },
+  {
+    Position: "Lecturer of 3D Printer Machine in Maker Lecture",
+    Company: `Nation University of Kaohsiung`,
+    Location: "Kaohsiung, Taiwan",
+    Type: "Part Time",
+    Duration: "Sep 2017 - Jul 2020",
+  },
+  {
+    Position: "Research Assistant",
+    Company: `Nation University of Kaohsiung`,
+    Location: "Kaohsiung, Taiwan",
+    Type: "Part Time",
+    Duration: "Sep 2017 - Jul 2018",
+  },
+  {
+    Position: "Modeller and Draftman",
+    Company: `Apple Green Environment Planning and Design Co.,Ltd`,
+    Location: "Kaohsiung, Taiwan",
+    Type: "Internship",
+    Duration: "Jul 2016 - Aug 2016",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "PhD. Student",
+    Company: "GAS, Department of Architecture, NTUST",
+    Location: "Taipei, Taiwan",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Jan 2024 - July 2024",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Exchange Student",
+    Company: `Department of Civil Engineering, Technische Universitat Berlin`,
+    Location: "Berlin, Germany",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Sep 2022 - Mar 2023",
+  },
+  {
+    Position: "Master of Architecture",
+    Company: `GAS, Department of Architecture, NTUST`,
+    Location: "Taipei, Taiwan",
+    Type: "Full Time",
+    Duration: "Sep 2020 - Jul 2023",
+  },
+  {
+    Position: "Bachelor of Architecture",
+    Company: `Department of Architectur and Creative Design, NUK`,
+    Location: "Kaohsiung, Taiwan",
+    Type: "Full Time",
+    Duration: "Sep 2016 - Jul 2020",
+  },
+];
+
+export const LecDetails = [
+  {
+    Topic: "Minecraft Serious Gaming",
+    Company: "Department of Architecture, NUK",
+    Location: "Kaohsiung, Taiwan",
+    Duration: "Nov 2024 - Jan 2025",
+    DetailsContent: {
+      image: LectureImage1,
+      description: "Comming Soon",
+      materialLink: false,
+      classmaterial: "None",
+    },
+  },
+  {
+    Topic: "Lego BIM Workshop",
+    Company: "Department of Architecture, NUK",
+    Location: "Kaohsiung, Taiwan",
+    Duration: "May 2024 - Jun 2024",
+    DetailsContent: {
+      image: LectureImage2,
+      description: [
+        "This lecture focused on introducing students to the workflow processes within the architecture, " +
+          "engineering, and construction (AEC) industry through an engaging, interactive game. In the class, " +
+          "students assumed different roles—such as architects, consultants, constructors, and developers—working " +
+          "collaboratively to complete a design using LEGO blocks.",
+        "The game guided participants through each stage of the process, starting with land bidding, followed" +
+          " by architectural concept development, detailed planning with the blocks, purchasing materials, and" +
+          " finally, constructing their design. This hands-on approach provided students with an engaging and" +
+          " insightful experience, simulating real-world roles and responsibilities within the industry.",
+        "The class offered a heuristic and practical learning experience, encouraging students to step into" +
+          " industry positions and reflect on their roles and decisions. Unlike conventional academic programs," +
+          " which typically teach these skills only after graduation, this class gave students an early introduction" +
+          " to the industry’s expectations. By participating in this activity, students gained a deeper understanding" +
+          " of the criteria for each role and could begin thinking about.",
+      ],
+      materialLink: true,
+      classMaterial: "https://github.com/TzhongWei/BIM-Game.git",
+    },
+  },
+  {
+    Topic: "Rhino Advance Lecture",
+    Company: "Department of Architecture, NUK",
+    Location: "Kaohsiung, Taiwan",
+    Duration: "Nov 2023 - Dec 2023",
+    DetailsContent: {
+      image: LectureImage3,
+      description:
+        "Rhinoceros is a powerful tool in architectural design, leveraging NURBS" +
+        " modeling to create and manipulate curved and complex geometries. Widely used in the" +
+        " industry for visualizing design concepts, it also integrates with Grasshopper and other" +
+        " programming tools for heuristic parametric design processes. In this lecture, TsungWei introduced" +
+        " basic Rhino commands, emphasizing the differences between mesh, polygons, and NURBS modeling, and" +
+        " demonstrated the workflow from curves to NURBS objects. The course materials apply architectural" +
+        " practices, helping students effectively integrate these tools into their design projects.",
+      materialLink: true,
+      classMaterial:
+        "https://docs.google.com/presentation/d/1ttnaMh05mzzSy3LtACrA4lhutlrgyekrzD5dikOgd3o/edit?usp=sharing",
+    },
+  },
+  {
+    Topic: "Grasshopper Lecture",
+    Company: `Department of Architecture, NTUST`,
+    Location: "Taipei, Taiwan",
+    Duration: "Nov 2023",
+    DetailsContent: {
+      image: LectureImage4,
+      description: [
+        "This lecture, part of a design studio course, introduced college freshmen to digital" +
+          " fabrication and parametric design. Students developed a pavilion using form-finding" +
+          " processes in Grasshopper, identified neighbouring panels, and labelled them for efficient" +
+          " assembly. By the end of the course, they used laser-cut corrugated board components to" +
+          " complete the pavilion.",
+        "TsungWei taught students how to use Grasshopper, incorporating the plugins Kangaroo and" +
+          " NGons for the form-finding process and implementing collision detection to prevent assembly" +
+          " overlaps. He guided students in reorienting panels on the XY plane for laser cutting and" +
+          " highlighted the use of topology relationships to build label systems based on the mesh's" +
+          " dual graph. The course effectively demonstrated how digital tools integrate with practical" +
+          " architectural design and fabrication, offering students valuable hands-on experience for" +
+          " real-world applications.",
+      ],
+      materialLink: true,
+      classMaterial:
+        "https://drive.google.com/file/d/1NPZHAKDq_J0xJ_O-zg24LL_SymPrsnPu/view?usp=sharing",
+    },
+  },
+  {
+    Topic: "3D printer Lecture",
+    Company: `Department of Architecture, NUK`,
+    Location: "Kaohsiung, Taiwan",
+    Duration: "Sep 2017 - Jul 2020",
+    DetailsContent: {
+      image: LectureImage5,
+      description:
+        "TsungWei served as a part-time lecturer at NUK, teaching students from" +
+        " various departments how to use FDM 3D printers. He also introduced basic modeling" +
+        " skills with SketchUp, guiding students in creating small items like key charms and" +
+        " magnet decorations. In advanced courses, students learned how to debug and fix printer" +
+        " issues, gaining hands-on experience in operating and maintaining 3D printing equipment.",
+      materialLink: false,
+      classMaterial: "123",
+    },
   },
 ];
 
@@ -192,6 +359,6 @@ project lorem ipsum generator for dummy content`,
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "mike861104@gmail.com",
+  phone: "+886 988388094",
 };

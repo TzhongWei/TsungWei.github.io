@@ -1,6 +1,12 @@
 import React from "react";
 import Work from "../Components/Work";
-import { personalDetails, workDetails, eduDetails } from "../Details";
+import Lecture from "../Components/Lecture";
+import {
+  personalDetails,
+  workDetails,
+  eduDetails,
+  LecDetails,
+} from "../Details";
 
 function About() {
   return (
@@ -47,6 +53,24 @@ function About() {
               duration={Duration}
             />
           ))
+        )}
+      </section>
+      <section>
+        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+          Lecture
+        </h1>
+        {React.Children.toArray(
+          LecDetails.map(
+            ({ Topic, Company, Location, Duration, DetailsContent }) => (
+              <Lecture
+                Topic={Topic}
+                company={Company}
+                location={Location}
+                duration={Duration}
+                detailsContent={DetailsContent}
+              />
+            )
+          )
         )}
       </section>
     </main>
