@@ -47,10 +47,10 @@ export const personalDetails = {
   tagline: "I'm a researcher | programmer | designer",
   img: profile,
   about: [
-    "TsungWei Cheng Mike is a passionate researcher and designer specializing in digital architecture." +
+    "TsungWei Cheng Mike is a passionate researcher and designer specialising in digital architecture." +
       " He holds a Master’s in Architecture from National Taiwan University of Science and Technology (NTUST)" +
       " and participated in exchange programs with TU Berlin and the Digital Design Unit (DDU) at TU Darmstadt." +
-      " He also interned at Gobel Reengineering Company for three years, focusing on optimizing UHPC facade panels" +
+      " He also interned at Gobel Reengineering Company for three years, focusing on optimising UHPC facade panels" +
       " with Grasshopper.",
 
     "Currently, TsungWei works as a Ph.D. student and research assistant at the GAS lab at NTUST and lectures " +
@@ -60,13 +60,13 @@ export const personalDetails = {
     "He actively contributes to research projects, such as Auto-Replicating Robotic Assembly using SL Blocks, " +
       " through the PPP program between Taiwan and Germany. He also applied Rhino Compute to automate metal sheet" +
       " designs for IPCS/BIES Fabrication Center projects. His programming expertise includes C# and Grasshopper" +
-      " for simulation, visualization, and optimization. Additionally, he explores circular economy concepts using " +
+      " for simulation, visualisation, and optimisation. Additionally, he explores circular economy concepts using " +
       "osteomorphic and topological interlocking block systems in collaboration with ZhenXi Construction and Bio " +
       "Architecture Formosa.",
 
     "TsungWei has presented at CAADRIA 2024 in Singapore and has authored eight academic publications across" +
       " journals and conferences. With extensive experience in both academic and industrial collaborations, his" +
-      " work emphasizes sustainable and reusable components in architecture, aiming to drive meaningful advancements" +
+      " work emphasises sustainable and reusable components in architecture, aiming to drive meaningful advancements" +
       " in the field.",
   ],
 };
@@ -229,9 +229,9 @@ export const LecDetails = [
       description:
         "Rhinoceros is a powerful tool in architectural design, leveraging NURBS" +
         " modeling to create and manipulate curved and complex geometries. Widely used in the" +
-        " industry for visualizing design concepts, it also integrates with Grasshopper and other" +
+        " industry for visualising design concepts, it also integrates with Grasshopper and other" +
         " programming tools for heuristic parametric design processes. In this lecture, TsungWei introduced" +
-        " basic Rhino commands, emphasizing the differences between mesh, polygons, and NURBS modeling, and" +
+        " basic Rhino commands, emphasising the differences between mesh, polygons, and NURBS modeling, and" +
         " demonstrated the workflow from curves to NURBS objects. The course materials apply architectural" +
         " practices, helping students effectively integrate these tools into their design projects.",
       materialLink: true,
@@ -485,8 +485,8 @@ export const MonologueDetails = [
       "G ::= a h R' h^n <Return> h^(n-2) h a",
       "R' ::= a h^m R' h a^2 h h^(m-2) a | R",
       "This gradual addition of branches forms a recursive and branching architecture of stacking components.",
-      "This hierarchical and recursive framework mirrors L-systems, where 'push and pop' operations allow for extending and retracting branches. Each branch functions as a sub-cluster within the system, contributing to a greater hierarchical structure. When visualized as a tree graph, the branches and nodes resemble the aggregation of architectural elements.",
-      "This approach suggests that, despite the inherent complexity of architectural design, a structured path can be identified for expanding and organizing components. Recursive rules and hierarchical aggregations allow architectural systems to grow coherently, resulting in a well-defined grammar that governs the entire architectural structure.",
+      "This hierarchical and recursive framework mirrors L-systems, where 'push and pop' operations allow for extending and retracting branches. Each branch functions as a sub-cluster within the system, contributing to a greater hierarchical structure. When visualised as a tree graph, the branches and nodes resemble the aggregation of architectural elements.",
+      "This approach suggests that, despite the inherent complexity of architectural design, a structured path can be identified for expanding and organising components. Recursive rules and hierarchical aggregations allow architectural systems to grow coherently, resulting in a well-defined grammar that governs the entire architectural structure.",
       " Refer to Godel, Escher, Bach an Enternal Golden Braid, Shih, S.G.(2020) Grammar of Interlocking SL block ",
     ],
     OtherImages: [
@@ -499,14 +499,84 @@ export const MonologueDetails = [
     ],
   },
   {
-    title: "Exploring SL block permutation.",
+    title: "Tokens in LLM v.s Components in Architectural Languages",
     RepImage: projectImage1,
     abstract:
-      "This section delves into the grammar formed by SL blocks and how they relate to programming languages...",
-    date: "24/10/2024",
+      "ChatGPT, powered by a Large Language Model (LLM), processes text by treating words as tokens" +
+      " within a high-dimensional vector space. It predicts the next token by analyzing semantic" +
+      " similarity and vector proximity, resolving ambiguity in meaning. This approach resembles" +
+      " design thinking, where navigating ambiguity is key. Thus, a comparison between LLM tokens" +
+      " and components in architectural languages can provide insights into both fields.",
+    date: "26/10/2024",
     description: [
-      "Alphabet segmentation helps visualize the stacking.",
-      "Using SL blocks offers a unique perspective on the construction of linguistic hierarchies.",
+      "ChatGPT is increasingly recognised not only as a powerful tool in AI research but also as a valuable" +
+        " asset in architectural studies. At its core is the Large Language Model (LLM), which specialises in" +
+        " processing human language. Unlike Convolutional Neural Networks (CNNs), which are adept at image-related" +
+        " tasks, LLMs operate by tokenising text—breaking sentences into discrete tokens, such as words or sub-words," +
+        " which are mapped into a high-dimensional vector space. The relationships between these tokens are" +
+        " shaped by their semantic proximity to one another, with neighboring tokens influencing the interpretation.",
+      "The primary task of an LLM is to predict the next token in a sequence by calculating the vector" +
+        " distance between tokens and finding the most semantically probable outcome based on patterns within the" +
+        " data. This method allows the model to manage ambiguities and interpret words with multiple meanings by" +
+        " considering the context, much like humans do in language processing.",
+      "This approach parallels design thinking in architecture, where architects break down a project into" +
+        " individual components and explore how these elements relate within a broader framework. Both processes" +
+        " require contextual interpretation and the ability to navigate through ambiguous information, drawing" +
+        " out meaning from complex structures.",
+      "Back to the 1960s, Noam Chomsky proposed the Chomsky Hierarchy to explain the structure and semantics" +
+        " of languages. This framework became a cornerstone of computer science, particularly in the development" +
+        " of programming languages. For computers to parse text, the input must be unambiguous and grammatically" +
+        " correct, or the compiler will fail. Yeap, we all agree with it. This strict requirement for context-free" +
+        " grammar (CFG) ensures consistency in computer languages but also reveals limitations when dealing with" +
+        " more complex inputs, such as floating-point numbers or strings like AⁿBⁿCⁿ.",
+      "Design processes often face similar challenges, where context semantic is essential for correct" +
+        " interpretation. Computational linguists introduced attribute grammars to handle more advanced language" +
+        " parsing, enabling computers to attach meaning to tokens based on contextual rules. What about architectural" +
+        " design? the context in the space can be more complex.",
+      "Let's talk about Human languages first. Human languages are inherently more complex than computer" +
+        " languages, as their semantics rely heavily on context and background knowledge. While grammars help" +
+        " deconstruct sentences, the meaning of words can shift depending on their use. For example, the phrase" +
+        " 'I saw you with a telescope' can be interpreted in multiple ways:",
+      "[I saw [you [with a telescope]]] (You were using the telescope)",
+      "[I saw [you] with a telescope] (I used the telescope to see you)",
+      "Without further context, the true meaning remains unclear. Adding more information—such as 'When I went" +
+        " hiking and brought my telescope, I saw you with it'—guides interpretation toward one specific meaning." +
+        " Similarly, architectural components need contextual input to determine how they fit within a design.",
+      "While grammar governs the structure of sentences, topology plays a key role in architectural design. In" +
+        " design, the focus is not solely on the shapes or forms of components but on their topological" +
+        " relationships—how elements interact and connect within a system. These configurations are influenced" +
+        " by site conditions, environmental factors, and design intent, making them highly contextual.",
+      "Although there are rational patterns within architecture, the arrangement of components exceeds what" +
+        " can be explained by simple grammatical rules. Concepts like figure-ground relationships provide a" +
+        " framework for understanding how spaces are defined, but designers must also search for solutions" +
+        " within physical constraints, which limits their choices. Each design decision represents a narrowing" +
+        "of options, with the final outcome reflecting a process of elimination and refinement.",
+      "Given these parallels between tokens in LLMs and components in architectural design, it is possible" +
+        " to develop predictive models for design. Just as LLMs predict the most likely next token, design models" +
+        " could predict the next component based on design patterns and constraints. These models could help" +
+        " architects build personalised design libraries, reflecting their design preferences and facilitating" +
+        " the exploration of new ideas.",
+      "Predictive models could also assist in error detection, identifying design flaws early by cross-referencing" +
+        " with large databases. These systems would provide architects with recommendations based on initial design" +
+        " inputs, enabling more efficient workflows. By integrating these tools into the design process, architects" +
+        " can reduce costs and make more informed decisions.",
+      "In the field of AI, understanding space and geometry remains a challenge. AI models process data as numerical" +
+        " inputs, but translating those numbers into spatial configurations is non-trivial. While AI systems can" +
+        " generate outputs based on input vectors, spatial relationships and topologies require deeper understanding." +
+        " For instance, collision detection and geometric arrangements are complex tasks for AI.",
+      "To address this, a Large Architectural Component model library could be developed. In such a system," +
+        " matrices would represent topological relationships, allowing transformations and placements of components" +
+        " to be treated as basic operations—analogous to vocabulary tokens in LLMs. The model would predict the most" +
+        " probable transformation for a block’s location, helping architects optimise designs. Future research could" +
+        " also explore geometric symmetries within these models to enhance design precision.",
+      "In summary, the parallels between LLMs and architectural design offer exciting opportunities for AI-aided" +
+        " design. By applying predictive models similar to those used in language processing, architects can streamline" +
+        " their workflows, reduce design errors, and explore creative possibilities. AI-aided tools can nurture design" +
+        " ideas, enabling architects to produce more thoughtful and efficient designs.",
+      "Although AI still faces challenges in understanding spatial relationships, using topological models and" +
+        " predictive design libraries can bridge the gap. As these technologies advance, they will provide architects" +
+        " with better tools to integrate ideas, improve processes, and reduce costs, ultimately resulting in more" +
+        " innovative and practical architectural solutions.",
     ],
     OtherImages: [
       projectImage1,
