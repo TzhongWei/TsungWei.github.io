@@ -8,12 +8,12 @@ function Projects() {
 
   const handleProjectClick = (project) => {
     setIsFading(true); // Start fade-out animation
-    setTimeout(() => setSelectedProject(project), 500); // Switch project after fade-out
+    setTimeout(() => setSelectedProject(project), 300); // Switch project after fade-out
   };
 
   const handleBackClick = () => {
     setIsFading(true); // Start fade-out animation
-    setTimeout(() => setSelectedProject(null), 500); // Return to all projects after fade-out
+    setTimeout(() => setSelectedProject(null), 300); // Return to all projects after fade-out
   };
 
   // useEffect for fade-in animation on change of selectedProject
