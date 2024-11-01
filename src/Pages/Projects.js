@@ -81,6 +81,13 @@ function Projects() {
               </div>
 
               <div className="mb-4">
+                <p className="text-content py-8 lg:max-w-3xl text-justify leading-relaxed">
+                  {selectedProject.links === undefined ? (
+                    <p></p>
+                  ) : (
+                    <p>Links:</p>
+                  )}
+                </p>
                 {selectedProject.links?.map((link, index) => (
                   <a
                     key={index}

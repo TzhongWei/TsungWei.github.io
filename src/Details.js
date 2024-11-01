@@ -29,6 +29,11 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
+import ProjectFig_1_1 from "./ProjectFolder/Project_1/alley_1.png";
+import ProjectFig_1_2 from "./ProjectFolder/Project_1/alley_3.png";
+import ProjectFig_1_3 from "./ProjectFolder/Project_1/C.png";
+import ProjectFig_1_4 from "./ProjectFolder/Project_1/C_art.png";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -283,7 +288,7 @@ export const LecDetails = [
         " magnet decorations. In advanced courses, students learned how to debug and fix printer" +
         " issues, gaining hands-on experience in operating and maintaining 3D printing equipment.",
       materialLink: false,
-      classMaterial: "123",
+      classMaterial: "None",
     },
   },
 ];
@@ -406,18 +411,33 @@ export const PublicationsDetails = {
 export const projectDetails = [
   {
     title: "My Personal Website",
-    image: projectImage1,
+    image: logo,
     description: [
-      `This is the first project for setting up my personal website, which emcompasses several pages;"+
-      " About is related to my personal experience, eduction and lectures. Publication showing myfriend"+
-      " with me and my history published papers. Project lists all the undergoing or complete schemes."+
-      " Monologue places my ideas or concepts. Then, the resume (undergoning) will put my CV.`,
-      "The project was a template downloaded from github. Thanks to Paven MG, whose link is located below" +
-        " this description. Based on his template, I did some adjustments especially focus on the Publications," +
-        " Projects, and a novel page Monologue. I applied a similar format from 'work' to list my papers.",
+      <p key="1">
+        This is my first project to establish a personal website, featuring
+        several pages: \n
+        <strong>About:</strong> Covers my background, education, and lectures.
+        \n
+        <strong>Publications:</strong> Showcases published papers, including
+        those co-authored with friends.
+        <strong>Projects:</strong> Lists all ongoing and completed projects. \n
+        <strong>Monologue:</strong> A space for my personal ideas and concepts.
+        <strong>Resume</strong>(in progress): Will contain my CV. \n
+      </p>,
+      "The website began with a template from GitHub, thanks to Paven MG, whose link is provided below." +
+        " Building on his template, I made various adjustments, particularly focusing on the Publications," +
+        " Projects, and the new Monologue page. For Publications, I adapted a similar format from the 'work'" +
+        " section to list my papers. However, Projects and Monologue required considerable reconfiguration," +
+        " including animations for fading components and expanding content. Throughout this project, I learned" +
+        " a lot about using modules like npm and React.js.",
+      "Lastly, I've included some images that I plan to incorporate.",
     ],
-    links: ["https://google.com"],
-    imgs: [projectImage1, projectImage2],
+    links: [
+      "https://github.com/pavanmg007/react-developer-portfolio-template",
+      "https://tsung-wei-github-io.vercel.app",
+      "https://github.com/TzhongWei/TsungWei.github.io",
+    ],
+    imgs: [profile, ProjectFig_1_2, ProjectFig_1_3, ProjectFig_1_4],
     appendix: [
       <p key="1">
         <strong>Tech</strong> <br /> Javascript, HTML, CSS, npm, Node.js
