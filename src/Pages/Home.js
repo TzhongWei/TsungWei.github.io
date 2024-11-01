@@ -1,9 +1,26 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
 
 function Home() {
-  const { name, tagline, img } = personalDetails;
+  const [isOpen, setIsOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  // Detect dark mode from system preferences
+  useEffect(() => {
+    const darkMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    setIsDarkMode(darkMediaQuery.matches);
+
+    const handleThemeChange = (e) => setIsDarkMode(e.matches);
+    darkMediaQuery.addListener(handleThemeChange);
+    return () => darkMediaQuery.removeListener(handleThemeChange);
+  }, []);
+
+  const toggleClass = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const { name, tagline, img, InvertImg } = personalDetails;
   const h11 = useRef();
   const h12 = useRef();
   const h13 = useRef();
@@ -81,7 +98,7 @@ function Home() {
         <img
           ref={myimageref}
           className="w-1/2 md:ml-auto"
-          src={img}
+          src={isDarkMode ? InvertImg : img}
           alt="Pavan MG"
         />
       </div>

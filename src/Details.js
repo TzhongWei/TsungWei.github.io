@@ -5,6 +5,7 @@ import logo from "./assets/SmallC.png";
 import logoInvert from "./assets/SmallCInvert.png";
 // Profile Image
 import profile from "./assets/TestC(2).gif";
+import InvertProfile from "./assets/TestCInvert.gif";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -48,6 +49,7 @@ export const personalDetails = {
   name: "TsungWei Cheng Mike",
   tagline: "I'm a researcher | programmer | designer",
   img: profile,
+  InvertImg: InvertProfile,
   about: [
     "TsungWei Cheng Mike is a passionate researcher and designer specialising in digital architecture." +
       " He holds a Master’s in Architecture from National Taiwan University of Science and Technology (NTUST)" +
