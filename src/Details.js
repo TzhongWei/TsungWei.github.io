@@ -46,7 +46,7 @@ import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
 import LectureImage4 from "./assets/LectureImage/Grasshopper_Lecture_1.jpg";
 import LectureImage5 from "./assets/LectureImage/3D_Printing.jpg";
 
-import LLMvsArch from "./assets/Monologue/LLMvsArchitecture.jpg";
+import LLMvsArch from "./assets/Monologue/LLMvsArchitecture/LLMvsArchitecture.jpg";
 
 import RepImage_1 from "./assets/TestC(2).gif";
 
