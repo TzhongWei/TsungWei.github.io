@@ -403,50 +403,86 @@ export const projectDetails = [
   {
     title: "Project title 1",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
+    description: [
+      `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    ],
+    links: ["https://google.com"],
+    imgs: [projectImage1, projectImage2],
+    Appendix: [
+      "Kevin Harson \n National Taiwan University of Science and Technology",
+      "Ye Yint \n National Taiwan University of Science and Technology",
+    ],
   },
   {
     title: "Project title 2",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
+    description: [
+      `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    ],
+    links: ["https://google.com"],
+    imgs: [projectImage1, projectImage2],
+    Appendix: [
+      "Kevin Harson \n National Taiwan University of Science and Technology",
+      "Ye Yint \n National Taiwan University of Science and Technology",
+    ],
   },
   {
     title: "Project title 3",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
+    description: [
+      `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    ],
+    links: ["https://google.com"],
+    imgs: [projectImage1, projectImage2],
+    Appendix: [
+      "Kevin Harson \n National Taiwan University of Science and Technology",
+      "Ye Yint \n National Taiwan University of Science and Technology",
+    ],
   },
   {
     title: "Project title 4",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
+    description: [
+      `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    ],
+    links: ["https://google.com"],
+    imgs: [projectImage1, projectImage2],
+    Appendix: [
+      "Kevin Harson \n National Taiwan University of Science and Technology",
+      "Ye Yint \n National Taiwan University of Science and Technology",
+    ],
   },
   {
     title: "Project title 5",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
+    description: [
+      `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    ],
+    links: ["https://google.com"],
+    imgs: [projectImage1, projectImage2],
+    Appendix: [
+      "Kevin Harson \n National Taiwan University of Science and Technology",
+      "Ye Yint \n National Taiwan University of Science and Technology",
+    ],
   },
   {
     title: "Project title 6",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
+    description: [
+      `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    ],
+    links: ["https://google.com"],
+    imgs: [projectImage1, projectImage2],
+    Appendix: [
+      "Kevin Harson \n National Taiwan University of Science and Technology",
+      "Ye Yint \n National Taiwan University of Science and Technology",
+    ],
   },
 ];
 
