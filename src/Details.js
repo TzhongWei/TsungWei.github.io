@@ -2,6 +2,7 @@
 // Logo images
 import logogradient from "./assets/SmallC.png";
 import logo from "./assets/SmallC.png";
+import logoInvert from "./assets/SmallCInvert.png";
 // Profile Image
 import profile from "./assets/TestC(2).gif";
 // Tech stack images
@@ -39,6 +40,7 @@ import RepImage_1 from "./assets/TestC(2).gif";
 export const logos = {
   logogradient: logogradient,
   logo: logo,
+  darkgradient: logoInvert,
 };
 
 // Enter your Personal Details here
