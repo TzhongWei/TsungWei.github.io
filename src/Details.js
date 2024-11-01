@@ -29,10 +29,16 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
-import ProjectFig_1_1 from "./ProjectFolder/Project_1/alley_1.png";
+//import ProjectFig_1_1 from "./ProjectFolder/Project_1/alley_1.png";
 import ProjectFig_1_2 from "./ProjectFolder/Project_1/alley_3.png";
 import ProjectFig_1_3 from "./ProjectFolder/Project_1/C.png";
 import ProjectFig_1_4 from "./ProjectFolder/Project_1/C_art.png";
+
+import ProjectFig_2_1 from "./ProjectFolder/Project_2_re/Combine.png";
+import ProjectFig_2_2 from "./ProjectFolder/Project_2_re/ParameterAdjustment.png";
+import ProjectFig_2_3 from "./ProjectFolder/Project_2_re/ParameterAdjustment_2.png";
+import ProjectFig_2_4 from "./ProjectFolder/Project_2_re/TicoBase.png";
+import ProjectFig_2_5 from "./ProjectFolder/Project_2_re/Ticojoint.png";
 
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
@@ -415,14 +421,22 @@ export const projectDetails = [
     description: [
       <p key="1">
         This is my first project to establish a personal website, featuring
-        several pages: \n
+        several pages: <br />
+        <br />
         <strong>About:</strong> Covers my background, education, and lectures.
-        \n
+        <br />
+        <br />
         <strong>Publications:</strong> Showcases published papers, including
-        those co-authored with friends.
-        <strong>Projects:</strong> Lists all ongoing and completed projects. \n
+        those co-authored with friends. <br />
+        <br />
+        <strong>Projects:</strong> Lists all ongoing and completed projects.
+        <br />
+        <br />
         <strong>Monologue:</strong> A space for my personal ideas and concepts.
-        <strong>Resume</strong>(in progress): Will contain my CV. \n
+        <br />
+        <br />
+        <strong>Resume</strong>(in progress): Will contain my CV. <br />
+        <br />
       </p>,
       "The website began with a template from GitHub, thanks to Paven MG, whose link is provided below." +
         " Building on his template, I made various adjustments, particularly focusing on the Publications," +
@@ -445,8 +459,8 @@ export const projectDetails = [
     ],
   },
   {
-    title: "Project title 2",
-    image: projectImage2,
+    title: "Project title 3",
+    image: projectImage3,
     description: [
       `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
@@ -465,22 +479,44 @@ project lorem ipsum generator for dummy content`,
     ],
   },
   {
-    title: "Project title 3",
-    image: projectImage3,
+    title: "Tico_Block",
+    image: ProjectFig_2_1,
     description: [
-      `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+      <p>
+        <strong>Reusable component design</strong> continues to be a critical
+        research area in both <strong>the AEC industry</strong> and
+        architectural education. Tico blocks, a type of small building block
+        system developed in Taiwan, are used as an educational tool to help
+        students practice component-based design. However, due to the limited
+        types of Tico components, my labmate, Sprout, and I were asked by Prof.
+        Shih to assist in developing a small Grasshopper 'GH' program to
+        generate Tico joints on custom blocks. By using this shared interface
+        between components, customized Tico blocks could be created with GH
+        modeling and then 3D printed to complete student projects.
+      </p>,
+      <p>
+        The main challenge of this project was aligning shared interfaces on
+        target planar surfaces and adjusting joint positions, allowing students
+        to attach Tico joints in various orientations. This flexibility enabled
+        the
+        <strong>blocks to be stacked in multiple directions</strong>.
+        Additionally, after the studio session, these Tico-based components
+        could be easily reassembled, as they utilize dry joints and a shared
+        interface system, supporting the concept of design for reuse within a
+        circular economy. This project provided an engaging way to explore
+        sustainable design principles through reusable components.
+      </p>,
     ],
-    links: ["https://google.com"],
-    imgs: [projectImage1, projectImage2],
+    links: undefined,
+    imgs: [ProjectFig_2_2, ProjectFig_2_3, ProjectFig_2_4, ProjectFig_2_5],
     appendix: [
       <p key="1">
-        <strong>123</strong> <br /> National Taiwan University of Science and
-        Technology
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
       </p>,
       <p key="2">
-        <strong>456</strong> <br /> National Taiwan University of Science and
-        Technology
+        <strong>MuKuan Lu Sprout</strong> <br /> Postgraduated student <br />{" "}
+        National Taiwan University of Science and Technology
       </p>,
     ],
   },
