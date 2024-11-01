@@ -1,7 +1,7 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/SmallC.svg";
-import logo from "./assets/SmallC.svg";
+import logogradient from "./assets/SmallC.png";
+import logo from "./assets/SmallC.png";
 // Profile Image
 import profile from "./assets/TestC(2).gif";
 // Tech stack images
@@ -401,17 +401,15 @@ export const PublicationsDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "My Personal Website",
     image: projectImage1,
-    description: [
-      `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    ],
+    description: [`This is a project for setting up my personal website. `],
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
     appendix: [
-      "Kevin Harson \n National Taiwan University of Science and Technology",
-      "Ye Yint \n National Taiwan University of Science and Technology",
+      <p key="1">
+        <strong>Tech</strong> <br /> Javascript, HTML, CSS, npm, Node.js
+      </p>,
     ],
   },
   {
@@ -424,8 +422,14 @@ project lorem ipsum generator for dummy content`,
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
     appendix: [
-      "Kevin Harson \n National Taiwan University of Science and Technology",
-      "Ye Yint \n National Taiwan University of Science and Technology",
+      <p key="1">
+        <strong>Kevin Harson</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Ye Yint</strong> <br /> National Taiwan University of Science
+        and Technology
+      </p>,
     ],
   },
   {
@@ -438,8 +442,14 @@ project lorem ipsum generator for dummy content`,
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
     appendix: [
-      "Kevin Harson \n National Taiwan University of Science and Technology",
-      "Ye Yint \n National Taiwan University of Science and Technology",
+      <p key="1">
+        <strong>Kevin Harson</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Ye Yint</strong> <br /> National Taiwan University of Science
+        and Technology
+      </p>,
     ],
   },
   {
@@ -452,8 +462,14 @@ project lorem ipsum generator for dummy content`,
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
     appendix: [
-      "Kevin Harson \n National Taiwan University of Science and Technology",
-      "Ye Yint \n National Taiwan University of Science and Technology",
+      <p key="1">
+        <strong>Kevin Harson</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Ye Yint</strong> <br /> National Taiwan University of Science
+        and Technology
+      </p>,
     ],
   },
   {
@@ -466,8 +482,14 @@ project lorem ipsum generator for dummy content`,
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
     appendix: [
-      "Kevin Harson \n National Taiwan University of Science and Technology",
-      "Ye Yint \n National Taiwan University of Science and Technology",
+      <p key="1">
+        <strong>Kevin Harson</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Ye Yint</strong> <br /> National Taiwan University of Science
+        and Technology
+      </p>,
     ],
   },
   {
@@ -480,8 +502,14 @@ project lorem ipsum generator for dummy content`,
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
     appendix: [
-      "Kevin Harson \n National Taiwan University of Science and Technology",
-      "Ye Yint \n National Taiwan University of Science and Technology",
+      <p key="1">
+        <strong>Kevin Harson</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Ye Yint</strong> <br /> National Taiwan University of Science
+        and Technology
+      </p>,
     ],
   },
 ];
