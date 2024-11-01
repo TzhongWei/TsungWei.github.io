@@ -409,7 +409,7 @@ project lorem ipsum generator for dummy content`,
     ],
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
-    Appendix: [
+    appendix: [
       "Kevin Harson \n National Taiwan University of Science and Technology",
       "Ye Yint \n National Taiwan University of Science and Technology",
     ],
@@ -423,7 +423,7 @@ project lorem ipsum generator for dummy content`,
     ],
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
-    Appendix: [
+    appendix: [
       "Kevin Harson \n National Taiwan University of Science and Technology",
       "Ye Yint \n National Taiwan University of Science and Technology",
     ],
@@ -437,7 +437,7 @@ project lorem ipsum generator for dummy content`,
     ],
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
-    Appendix: [
+    appendix: [
       "Kevin Harson \n National Taiwan University of Science and Technology",
       "Ye Yint \n National Taiwan University of Science and Technology",
     ],
@@ -451,7 +451,7 @@ project lorem ipsum generator for dummy content`,
     ],
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
-    Appendix: [
+    appendix: [
       "Kevin Harson \n National Taiwan University of Science and Technology",
       "Ye Yint \n National Taiwan University of Science and Technology",
     ],
@@ -465,7 +465,7 @@ project lorem ipsum generator for dummy content`,
     ],
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
-    Appendix: [
+    appendix: [
       "Kevin Harson \n National Taiwan University of Science and Technology",
       "Ye Yint \n National Taiwan University of Science and Technology",
     ],
@@ -479,7 +479,7 @@ project lorem ipsum generator for dummy content`,
     ],
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
-    Appendix: [
+    appendix: [
       "Kevin Harson \n National Taiwan University of Science and Technology",
       "Ye Yint \n National Taiwan University of Science and Technology",
     ],
