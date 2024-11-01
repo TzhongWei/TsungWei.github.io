@@ -77,7 +77,7 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://linkedin.com/in/宗偉-鄭-b76a45251",
+  linkedin: "https://linkedin.com/in/宗偉-鄭-b76a45251",
   github: "https://www.github.com/",
   email: "https://mike861104@gmail.com",
   ResearchGate: "https://www.researchgate.net/profile/Tsung-Wei-Cheng/research",
@@ -407,7 +407,15 @@ export const projectDetails = [
   {
     title: "My Personal Website",
     image: projectImage1,
-    description: [`This is a project for setting up my personal website. `],
+    description: [
+      `This is the first project for setting up my personal website, which emcompasses several pages;"+
+      " About is related to my personal experience, eduction and lectures. Publication showing myfriend"+
+      " with me and my history published papers. Project lists all the undergoing or complete schemes."+
+      " Monologue places my ideas or concepts. Then, the resume (undergoning) will put my CV.`,
+      "The project was a template downloaded from github. Thanks to Paven MG, whose link is located below" +
+        " this description. Based on his template, I did some adjustments especially focus on the Publications," +
+        " Projects, and a novel page Monologue. I applied a similar format from 'work' to list my papers.",
+    ],
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],
     appendix: [
@@ -427,12 +435,12 @@ project lorem ipsum generator for dummy content`,
     imgs: [projectImage1, projectImage2],
     appendix: [
       <p key="1">
-        <strong>Kevin Harson</strong> <br /> National Taiwan University of
-        Science and Technology
+        <strong>123</strong> <br /> National Taiwan University of Science and
+        Technology
       </p>,
       <p key="2">
-        <strong>Ye Yint</strong> <br /> National Taiwan University of Science
-        and Technology
+        <strong>456</strong> <br /> National Taiwan University of Science and
+        Technology
       </p>,
     ],
   },
@@ -447,12 +455,12 @@ project lorem ipsum generator for dummy content`,
     imgs: [projectImage1, projectImage2],
     appendix: [
       <p key="1">
-        <strong>Kevin Harson</strong> <br /> National Taiwan University of
-        Science and Technology
+        <strong>123</strong> <br /> National Taiwan University of Science and
+        Technology
       </p>,
       <p key="2">
-        <strong>Ye Yint</strong> <br /> National Taiwan University of Science
-        and Technology
+        <strong>456</strong> <br /> National Taiwan University of Science and
+        Technology
       </p>,
     ],
   },
@@ -467,12 +475,12 @@ project lorem ipsum generator for dummy content`,
     imgs: [projectImage1, projectImage2],
     appendix: [
       <p key="1">
-        <strong>Kevin Harson</strong> <br /> National Taiwan University of
-        Science and Technology
+        <strong>123</strong> <br /> National Taiwan University of Science and
+        Technology
       </p>,
       <p key="2">
-        <strong>Ye Yint</strong> <br /> National Taiwan University of Science
-        and Technology
+        <strong>456</strong> <br /> National Taiwan University of Science and
+        Technology
       </p>,
     ],
   },
@@ -487,12 +495,12 @@ project lorem ipsum generator for dummy content`,
     imgs: [projectImage1, projectImage2],
     appendix: [
       <p key="1">
-        <strong>Kevin Harson</strong> <br /> National Taiwan University of
-        Science and Technology
+        <strong>123</strong> <br /> National Taiwan University of Science and
+        Technology
       </p>,
       <p key="2">
-        <strong>Ye Yint</strong> <br /> National Taiwan University of Science
-        and Technology
+        <strong>456</strong> <br /> National Taiwan University of Science and
+        Technology
       </p>,
     ],
   },
@@ -507,12 +515,12 @@ project lorem ipsum generator for dummy content`,
     imgs: [projectImage1, projectImage2],
     appendix: [
       <p key="1">
-        <strong>Kevin Harson</strong> <br /> National Taiwan University of
-        Science and Technology
+        <strong>123</strong> <br /> National Taiwan University of Science and
+        Technology
       </p>,
       <p key="2">
-        <strong>Ye Yint</strong> <br /> National Taiwan University of Science
-        and Technology
+        <strong>456</strong> <br /> National Taiwan University of Science and
+        Technology
       </p>,
     ],
   },
