@@ -10,6 +10,7 @@ module.exports = {
         "dark-heading": "#1f2428",
         "dark-content": "#666666",
         "light-heading": "#CCCCCC",
+        "white-heading": "#FFFFFF",
         "dark-mode": "#191919",
         "dark-card": "#363636",
         "green-text": "#018C0F",

@@ -72,19 +72,28 @@ function Header() {
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>
-            <a href={email} target="_blank" rel="noreferrer noopener">
+            <a
+              href={`mailto:${email}`}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="w-8 h-8" // Adjust size if needed
                 width="32"
                 height="32"
                 viewBox="0 0 177 177"
-                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="88.5" cy="88.5" r="88.5" fill="#292929" />
+                <circle
+                  cx="88.5"
+                  cy="88.5"
+                  r="88.5"
+                  className="fill-dark-heading dark:fill-light-heading"
+                />
+
                 <path
                   d="M44 122 L44 55 L88.5 90 L133 55 L133 122 L111 122 L111 85 L88.5 105 L66 85 L66 122 Z"
-                  fill="#FFFFFF"
+                  className="fill-white-heading dark:fill-dark-heading"
                 />
               </svg>
             </a>
@@ -92,33 +101,39 @@ function Header() {
           <li>
             <a href={ResearchGate} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="w-8 h-8"
                 width="32"
                 height="32"
                 viewBox="0 0 177 177"
-                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="88.5" cy="88.5" r="88.5" fill="#292929" />
+                <circle
+                  cx="88.5"
+                  cy="88.5"
+                  r="88.5"
+                  className="fill-dark-heading dark:fill-light-heading"
+                />
+
                 <text
-                  x="80.5"
+                  x="88.5"
                   y="100"
                   font-size="100"
-                  fill="#FFFFFF"
                   text-anchor="middle"
                   dominant-baseline="middle"
+                  className="fill-white-heading dark:fill-dark-heading"
                   font-family="Arial"
                   font-weight="bold"
                 >
                   R
                 </text>
+
                 <text
                   x="125.5"
                   y="50"
                   font-size="50"
-                  fill="#FFFFFF"
                   text-anchor="middle"
                   dominant-baseline="middle"
+                  className="fill-white-heading dark:fill-dark-heading"
                   font-family="Arial"
                 >
                   G
