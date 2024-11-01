@@ -1,10 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { logos, socialMediaUrl } from "../Details";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { linkdein, github, email, ResearchGate } = socialMediaUrl;
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  const { linkedin, github, email, ResearchGate } = socialMediaUrl;
+
+  // Detect dark mode from system preferences
+  useEffect(() => {
+    const darkMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    setIsDarkMode(darkMediaQuery.matches);
+
+    const handleThemeChange = (e) => setIsDarkMode(e.matches);
+    darkMediaQuery.addListener(handleThemeChange);
+    return () => darkMediaQuery.removeListener(handleThemeChange);
+  }, []);
+
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
@@ -13,7 +25,11 @@ function Header() {
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
-          <img className="w-14" src={logos.logogradient} alt="logo" />
+          <img
+            className="w-14"
+            src={isDarkMode ? logos.darkgradient : logos.logogradient}
+            alt="logo"
+          />
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
@@ -35,7 +51,7 @@ function Header() {
       </div>
       <nav
         className={` ${
-          !isOpen ? "hidden" : null
+          !isOpen ? "hidden" : ""
         } text-center md:flex justify-between`}
       >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
@@ -78,7 +94,7 @@ function Header() {
               rel="noreferrer noopener"
             >
               <svg
-                className="w-8 h-8" // Adjust size if needed
+                className="w-8 h-8"
                 width="32"
                 height="32"
                 viewBox="0 0 177 177"
@@ -90,7 +106,6 @@ function Header() {
                   r="88.5"
                   className="fill-dark-heading dark:fill-light-heading"
                 />
-
                 <path
                   d="M44 122 L44 55 L88.5 90 L133 55 L133 122 L111 122 L111 85 L88.5 105 L66 85 L66 122 Z"
                   className="fill-white-heading dark:fill-dark-heading"
@@ -113,28 +128,26 @@ function Header() {
                   r="88.5"
                   className="fill-dark-heading dark:fill-light-heading"
                 />
-
                 <text
                   x="88.5"
                   y="100"
-                  font-size="100"
-                  text-anchor="middle"
-                  dominant-baseline="middle"
+                  fontSize="100"
+                  textAnchor="middle"
+                  dominantBaseline="middle"
                   className="fill-white-heading dark:fill-dark-heading"
-                  font-family="Arial"
-                  font-weight="bold"
+                  fontFamily="Arial"
+                  fontWeight="bold"
                 >
                   R
                 </text>
-
                 <text
                   x="125.5"
                   y="50"
-                  font-size="50"
-                  text-anchor="middle"
-                  dominant-baseline="middle"
+                  fontSize="50"
+                  textAnchor="middle"
+                  dominantBaseline="middle"
                   className="fill-white-heading dark:fill-dark-heading"
-                  font-family="Arial"
+                  fontFamily="Arial"
                 >
                   G
                 </text>
@@ -142,7 +155,7 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href={linkdein} target="_blank" rel="noreferrer noopener">
+            <a href={linkedin} target="_blank" rel="noreferrer noopener">
               <svg
                 className="dark:fill-light-heading fill-dark-heading"
                 width="30"
@@ -151,7 +164,7 @@ function Header() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M15 0.599976C7.04701 0.599976 0.600006 7.04698 0.600006 15C0.600006 22.953 7.04701 29.4 15 29.4C22.953 29.4 29.4 22.953 29.4 15C29.4 7.04698 22.953 0.599976 15 0.599976ZM11.475 20.9685H8.55901V11.5845H11.475V20.9685ZM9.99901 10.4325C9.07801 10.4325 8.48251 9.77997 8.48251 8.97297C8.48251 8.14948 9.09601 7.51648 10.0365 7.51648C10.977 7.51648 11.553 8.14948 11.571 8.97297C11.571 9.77997 10.977 10.4325 9.99901 10.4325ZM22.125 20.9685H19.209V15.768C19.209 14.5575 18.786 13.7355 17.7315 13.7355C16.926 13.7355 16.4475 14.292 16.236 14.8275C16.158 15.018 16.1385 15.288 16.1385 15.5565V20.967H13.221V14.577C13.221 13.4055 13.1835 12.426 13.1445 11.583H15.678L15.8115 12.8865H15.87C16.254 12.2745 17.1945 11.3715 18.768 11.3715C20.6865 11.3715 22.125 12.657 22.125 15.42V20.9685Z" />
+                <path d="M15 0.6C7.05 0.6 0.6 7.05 0.6 15c0 7.95 6.45 14.4 14.4 14.4 7.95 0 14.4-6.45 14.4-14.4C29.4 7.05 22.95 0.6 15 0.6ZM11.475 20.97h-2.92V11.585h2.92V20.97ZM10 10.4325c-0.92 0-1.5165-0.6525-1.5165-1.46 0-0.8235 0.6135-1.4565 1.554-1.4565 0.94 0 1.516 0.633 1.534 1.4565 0 0.8075-0.594 1.46-1.572 1.46ZM22.125 20.97h-2.916v-5.202c0-1.21-0.423-2.032-1.4775-2.032-0.8055 0-1.284 0.5565-1.495 1.092 0 0.158-0.02 0.427-0.02 0.696v5.196h-2.9175v-6.391c0-1.172-0.0375-2.151-0.0765-2.994h2.5335l0.1345 1.3035h0.058c0.384-0.6125 1.325-1.5155 2.899-1.5155 1.9195 0 3.358 1.2855 3.358 4.0495V20.97Z" />
               </svg>
             </a>
           </li>
