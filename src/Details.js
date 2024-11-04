@@ -73,6 +73,13 @@ import ProjectFig_5_5 from "./ProjectFolder/Project_5/Drawing.png";
 import ProjectFig_5_6 from "./ProjectFolder/Project_5/Final_com.jpg";
 import ProjectFig_5_8 from "./ProjectFolder/Project_5/Process_1.png";
 
+import ProjectFig_6_1 from "./ProjectFolder/Project_6/WORD blocks_2.jpg";
+import ProjectFig_6_2 from "./ProjectFolder/Project_6/e.jpg";
+import ProjectFig_6_3 from "./ProjectFolder/Project_6/WORD blocks_3.jpg";
+import ProjectFig_6_4 from "./ProjectFolder/Project_6/WORD blocks_C.jpg";
+import ProjectFig_6_5 from "./ProjectFolder/Project_6/WORD blocks_E.jpg";
+import ProjectFig_6_6 from "./ProjectFolder/Project_6/WORD blocks_S.jpg";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -80,8 +87,6 @@ import LectureImage4 from "./assets/LectureImage/Grasshopper_Lecture_1.jpg";
 import LectureImage5 from "./assets/LectureImage/3D_Printing.jpg";
 
 import LLMvsArch from "./assets/Monologue/LLMvsArchitecture/LLMvsArchitecture.jpg";
-
-import RepImage_1 from "./assets/TestC(2).gif";
 
 // Logos
 export const logos = {
@@ -562,6 +567,51 @@ export const projectDetails = [
     ],
   },
   {
+    title: "CUBE CSE",
+    image: ProjectFig_6_1,
+    description: [
+      <p>
+        This project was initiated by <string>Iuan Kai Fang </string>, a PhD
+        student in our lab and design director at <string>KEA CREATIVE.</string>{" "}
+        The concept involved creating a cube matrix that would illustrate the
+        letters S, C, and E, representing the College of Electrical Engineering
+        and Computer Science at National Tsing Hua University. We aimed to
+        feature these three letters from different orientations along the X, Y,
+        and Z axes.
+      </p>,
+      <p>
+        To achieve this, we first modelled the letters S, E, and C on three
+        separate planes, performing a solid union to identify the shared
+        sections among the letters. Next, we set up a grid-based cubic model
+        that encompassed both the solid and grid, increasing the grid density
+        around the intersecting parts to emphasize the letters from each
+        perspective.
+      </p>,
+    ],
+    links: [
+      "https://www.youtube.com/watch?v=AlT5K5mD_MM&t=311s",
+      "https://www.youtube.com/watch?v=257ROuq5XYs",
+    ],
+    imgs: [
+      ProjectFig_6_2,
+      ProjectFig_6_3,
+      ProjectFig_6_4,
+      ProjectFig_6_5,
+      ProjectFig_6_6,
+    ],
+    appendix: [
+      <p key="1">
+        <strong>Design Director and PhD Iuan Kai Fang</strong> <br /> KEA
+        CREATIVE
+        <br /> National Taiwan University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+    ],
+  },
+  {
     title: "Topological Interlocking Block Curtain Design",
     image: ProjectFig_3_1,
     description: [
@@ -744,34 +794,6 @@ export const projectDetails = [
       <p key="2">
         <strong>Postgraduated student Kevin Harsono</strong> <br /> National
         Taiwan University of Science and Technology
-      </p>,
-    ],
-  },
-  {
-    title: "CUBE CSE",
-    image: projectImage6,
-    description: [
-      <p>
-        This project was initiated by <strong> Iuan Kai Fang</strong>, a PhD
-        student in our lab and design director at <strong>KEA CREATIVE.</strong>{" "}
-        The design concept was a cube matrix illustrating S, C, E represented
-        with the College of Electrical Engineering and Computer Science at
-        National Tsing Hua University. We therefore came out with an idea to
-        feature the cube with three letters from three different orientaions, X,
-        Y, and Z axis.
-      </p>,
-      <p></p>,
-    ],
-    links: ["https://google.com"],
-    imgs: [projectImage1, projectImage2],
-    appendix: [
-      <p key="1">
-        <strong>123</strong> <br /> National Taiwan University of Science and
-        Technology
-      </p>,
-      <p key="2">
-        <strong>456</strong> <br /> National Taiwan University of Science and
-        Technology
       </p>,
     ],
   },
