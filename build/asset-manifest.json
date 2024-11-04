@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.092f2679.css",
-    "main.js": "/static/js/main.1d648e38.js",
+    "main.js": "/static/js/main.42eb6cf2.js",
     "static/media/-innerFront3.0_3.jpg": "/static/media/-innerFront3.0_3.52bd4d750d7f9c4c78b3.jpg",
     "static/media/alley3.0.jpg": "/static/media/alley3.0.76301c6e6bb327ad9969.jpg",
     "static/media/TDL2.jpg": "/static/media/TDL2.ac2f5d2fefeb42c35213.jpg",
@@ -59,6 +59,7 @@
     "static/media/TI locking component concept.jpg": "/static/media/TI locking component concept.2c67aa54226a4f55f9af.jpg",
     "static/media/LINE_ALBUM_2024.3.28_241104_3.jpg": "/static/media/LINE_ALBUM_2024.3.28_241104_3.bd58a91648343d514f46.jpg",
     "static/media/Minecraft.jpg": "/static/media/Minecraft.6aa273fbe17b9896e341.jpg",
+    "static/media/P2.png": "/static/media/P2.d252605345bad2186441.png",
     "static/media/5-FULL HD_2.jpg": "/static/media/5-FULL HD_2.f0942d03487d75466522.jpg",
     "static/media/S__2482212_0.jpg": "/static/media/S__2482212_0.7883faaebd56401c76a3.jpg",
     "static/media/S__2482204_0.jpg": "/static/media/S__2482204_0.47356d571ee34f649ee6.jpg",
@@ -81,6 +82,7 @@
     "static/media/a4092ff.jpg": "/static/media/33b58224326f85d515042e0b36085aa6a4092ff.79d8d68114ba88df43c3.jpg",
     "static/media/3D_Printing.jpg": "/static/media/3D_Printing.a75b9745daa892f88817.jpg",
     "static/media/Grasshopper_Lecture_1.jpg": "/static/media/Grasshopper_Lecture_1.291ac05f2256dfa9c427.jpg",
+    "static/media/ViewCapture20241104_223014.png": "/static/media/ViewCapture20241104_223014.269bd3d8790e4a75f878.png",
     "static/media/project2.jpg": "/static/media/project2.5fae296d371cc56cd98a.jpg",
     "static/media/project4.jpg": "/static/media/project4.a7b7ed11daa072b234eb.jpg",
     "static/media/project3.jpg": "/static/media/project3.03535c34c110b7ea292b.jpg",
@@ -90,10 +92,10 @@
     "static/media/project6.jpg": "/static/media/project6.a22c939898d6c4613b65.jpg",
     "index.html": "/index.html",
     "main.092f2679.css.map": "/static/css/main.092f2679.css.map",
-    "main.1d648e38.js.map": "/static/js/main.1d648e38.js.map"
+    "main.42eb6cf2.js.map": "/static/js/main.42eb6cf2.js.map"
   },
   "entrypoints": [
     "static/css/main.092f2679.css",
-    "static/js/main.1d648e38.js"
+    "static/js/main.42eb6cf2.js"
   ]
 }

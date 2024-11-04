@@ -98,6 +98,9 @@ import ProjectFig_11_3 from "./ProjectFolder/Project_11/LINE_ALBUM_2024.3.28_241
 import ProjectFig_11_4 from "./ProjectFolder/Project_11/LINE_ALBUM_2024.3.28_241104_3.jpg";
 import ProjectFig_11_5 from "./ProjectFolder/Project_11/Setting.png";
 
+import ProjectFig_12_1 from "./ProjectFolder/Project_12/ViewCapture20241104_223014.png";
+import ProjectFig_12_2 from "./ProjectFolder/Project_12/P2.png";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -1078,6 +1081,55 @@ export const projectDetails = [
       </p>,
       <p key="5">
         <strong>Postgraduated TingWan Huang</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "Principal Curvature algorithm for concrete shells molds",
+    image: ProjectFig_12_1,
+    description: [
+      <p>
+        This project was part of the fabric-forming shells research led by my
+        PhD labmate, <strong>Felicia Wagiri</strong>. My role was to help
+        develop a program to determine <strong>principal curvatures</strong> on
+        a surface, which would then subdivide the surface into grids to
+        facilitate shell structure formation.
+      </p>,
+      <p>
+        Traditionally, principal curvature algorithms approximate orientation by
+        calculating the largest and smallest curvature directions from the
+        previous point. If the distance between points is sufficient, a curve
+        can be derived. However, our lab explored an alternative algorithm.
+        Since points on a principal curvature curve share the same normal
+        vector, we refined the approximation by comparing a set of options at
+        each step, rather than directly relying on the preceding step’s
+        direction. Users could adjust sample numbers and ranges, selecting the
+        smallest normal vector difference through a dot product with the
+        original point.This new approach produced results that more accurately
+        followed the principal curvature curve.
+      </p>,
+    ],
+    links: [
+      "https://github.com/TzhongWei/Principal_Curvature",
+      "https://www.researchgate.net/publication/384291461_Bending-active_molds_for_pre-fabricated_concrete_shells",
+    ],
+    imgs: [ProjectFig_12_2],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Assistant Professor YuChuan Kao</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="3">
+        <strong>PhD Felicia Wagiri</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="3">
+        <strong>Postgraduated student MuKuan Lu</strong> <br /> National Taiwan
         University of Science and Technology
       </p>,
     ],
