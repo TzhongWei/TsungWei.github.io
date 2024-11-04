@@ -81,6 +81,15 @@ import ProjectFig_8_4 from "./ProjectFolder/Project_8/Mold Analysis.png";
 import ProjectFig_8_5 from "./ProjectFolder/Project_8/Mold Analysis_2.png";
 import ProjectFig_8_6 from "./ProjectFolder/Project_8/Optimised.png";
 
+import ProjectFig_9_1 from "./ProjectFolder/Project_9/33b58224326f85d515042e0b36085aa6a4092ff.jpg";
+import ProjectFig_9_2 from "./ProjectFolder/Project_9/S__34103358.jpg";
+import ProjectFig_9_3 from "./ProjectFolder/Project_9/S__34103359.jpg";
+import ProjectFig_9_4 from "./ProjectFolder/Project_9/S__34103360.jpg";
+import ProjectFig_9_5 from "./ProjectFolder/Project_9/Zodaic.png";
+import ProjectFig_9_6 from "./ProjectFolder/Project_9/messageImage_1730712893841.jpg";
+import ProjectFig_9_7 from "./ProjectFolder/Project_9/D687D645-0DBF-477D-9B78-0CD16B586738.jpg";
+import ProjectFig_9_8 from "./ProjectFolder/Project_9/4D763ED6-615C-4674-A9E3-0399E6E139BC.jpg";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -887,6 +896,64 @@ export const projectDetails = [
       <p key="2">
         <strong>Postgraduated student Kevin Harsono</strong> <br /> National
         Taiwan University of Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "UHPC Chinese Zodiac panels",
+    image: ProjectFig_9_4,
+    description: [
+      <p>
+        Since <strong>Ultra High Performance Concrete (UHPC)</strong> offers
+        superior fluidity compared to other concrete types, it allows for
+        detailed casting patterns. Additionally, its exceptional durability and
+        strength increase the reusability of components. With these qualities in
+        mind, Professor ShenGuan Shih aimed to promote UHPC within Taiwan's AEC
+        industry, where concrete remains the primary construction material.
+      </p>,
+      <p>
+        One effective way to showcase UHPC’s benefits is through creating
+        <strong> handcrafted or small items</strong> that people can easily
+        display on their desks. This led to the concept for the project: using a
+        regular triangle as the foundational shape, allowing it to be assembled
+        into various platonic forms and solids. We designed the 12 animals of
+        the Chinese Zodiac onto these pieces, encouraging people to collect the
+        full set. Each panel connects with the others using magnetic joints,
+        forming a cohesive display when fully assembled.
+      </p>,
+      <p>
+        In this project, YuChun and I were responsible for fabricating the
+        panels. We used an SLA 3D printer to create the female mold and then
+        made the final mold out of silicone. Afterward, we sent the molds to
+        Global Reengineering Co. Ltd. for casting in UHPC. Once the pieces were
+        cast, we attached magnets to the joints, completing the product.
+      </p>,
+    ],
+    links: [],
+    imgs: [
+      ProjectFig_9_1,
+      ProjectFig_9_2,
+      ProjectFig_9_3,
+      ProjectFig_9_5,
+      ProjectFig_9_6,
+      ProjectFig_9_7,
+      ProjectFig_9_8,
+    ],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Global Reengineering Co. Lt.</strong>
+      </p>,
+      <p key="3">
+        <strong>Postgraduated student YuChun Chen</strong> <br /> National
+        Taiwan University of Science and Technology
+      </p>,
+      <p key="4">
+        <strong>Postgraduated student MuKuan Lu</strong> <br /> National Taiwan
+        University of Science and Technology
       </p>,
     ],
   },

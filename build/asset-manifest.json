@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.092f2679.css",
-    "main.js": "/static/js/main.5ee84cdd.js",
+    "main.js": "/static/js/main.ebfabf7b.js",
     "static/media/-innerFront3.0_3.jpg": "/static/media/-innerFront3.0_3.52bd4d750d7f9c4c78b3.jpg",
     "static/media/alley3.0.jpg": "/static/media/alley3.0.76301c6e6bb327ad9969.jpg",
     "static/media/TDL2.jpg": "/static/media/TDL2.ac2f5d2fefeb42c35213.jpg",
@@ -9,7 +9,9 @@
     "static/media/entrance3.02.jpg": "/static/media/entrance3.02.5d5ba637fc8deb3fd1f1.jpg",
     "static/media/7983CA98-8F2D-4B5B-BB96-EEF9C37A87B1.jpg": "/static/media/7983CA98-8F2D-4B5B-BB96-EEF9C37A87B1.993214e1b523a9de0abd.jpg",
     "static/media/Rendering.png": "/static/media/Rendering.445861b379e135900a09.png",
+    "static/media/4D763ED6-615C-4674-A9E3-0399E6E139BC.jpg": "/static/media/4D763ED6-615C-4674-A9E3-0399E6E139BC.a88b4a128d5642fb32dc.jpg",
     "static/media/27A05CB9-3097-45E1-8D84-6E9FECF06C26.jpg": "/static/media/27A05CB9-3097-45E1-8D84-6E9FECF06C26.ca14aa32465752f6e256.jpg",
+    "static/media/D687D645-0DBF-477D-9B78-0CD16B586738.jpg": "/static/media/D687D645-0DBF-477D-9B78-0CD16B586738.713b8b8ed79ad04fe896.jpg",
     "static/media/F9A3FD17-E50C-4B3B-9626-BA9F45434A9A.jpg": "/static/media/F9A3FD17-E50C-4B3B-9626-BA9F45434A9A.dea8fb47d76a111b8f17.jpg",
     "static/media/BDBB3D17-BD7F-4B3B-BB8D-54C37245AD51.jpg": "/static/media/BDBB3D17-BD7F-4B3B-BB8D-54C37245AD51.dbab264e693e76e2088a.jpg",
     "static/media/A8C0F30F-D0D9-4B38-8B53-5A86703C3FEB.jpg": "/static/media/A8C0F30F-D0D9-4B38-8B53-5A86703C3FEB.004ff247c5974c1f713c.jpg",
@@ -26,12 +28,15 @@
     "static/media/WORD blocks_E.jpg": "/static/media/WORD blocks_E.73927fa754d47ae9acfd.jpg",
     "static/media/-entrance IN_low3.0.jpg": "/static/media/-entrance IN_low3.0.fa1510f040ea32b2de7e.jpg",
     "static/media/WORD blocks_C.jpg": "/static/media/WORD blocks_C.b1719cdcbe34caf2773f.jpg",
+    "static/media/S__34103358.jpg": "/static/media/S__34103358.f44bb1c45b793c2b3ca3.jpg",
     "static/media/TestCInvert.gif": "/static/media/TestCInvert.cb169ff8c1aafbb747b0.gif",
     "static/media/Process_1.png": "/static/media/Process_1.ef595e38f5054b9e7c3e.png",
     "static/media/K truchet tililng.jpg": "/static/media/K truchet tililng.09137aa3e289a35387d6.jpg",
     "static/media/Combine.png": "/static/media/Combine.9ecc821a36150d043b7b.png",
     "static/media/Ticojoint.png": "/static/media/Ticojoint.8fb62996f2cb7ecbbfc5.png",
     "static/media/TestC(2).gif": "/static/media/TestC(2).4bac850e382b4d4abed6.gif",
+    "static/media/S__34103360.jpg": "/static/media/S__34103360.2e20c51e9fd2b36c5f44.jpg",
+    "static/media/S__34103359.jpg": "/static/media/S__34103359.19f379ab4d23326aef31.jpg",
     "static/media/KPF.jpg": "/static/media/KPF.284359ffd43e1c42095b.jpg",
     "static/media/S__2482210_0.jpg": "/static/media/S__2482210_0.3f73032c709cec015ebb.jpg",
     "static/media/C.png": "/static/media/C.2a0f8d0c0de348b84ac3.png",
@@ -59,12 +64,15 @@
     "static/media/S__2482208_0.jpg": "/static/media/S__2482208_0.6162f896380a6654130f.jpg",
     "static/media/border element 02.jpg": "/static/media/border element 02.ecb4cfba541cd1da4f34.jpg",
     "static/media/C_art.png": "/static/media/C_art.66313f76d92921feedd8.png",
+    "static/media/messageImage_1730712893841.jpg": "/static/media/messageImage_1730712893841.f4ee3c8c4dfc60d5e6b7.jpg",
     "static/media/alley_3.png": "/static/media/alley_3.241d0ec0115013a582df.png",
     "static/media/post tension border element06.jpg": "/static/media/post tension border element06.537b1b0e1a6d645597b7.jpg",
     "static/media/Mold Analysis_2.png": "/static/media/Mold Analysis_2.2252c75e5798d89ff99f.png",
     "static/media/WORD blocks_2.jpg": "/static/media/WORD blocks_2.dcd45d4bfd8d0c762884.jpg",
+    "static/media/Zodaic.png": "/static/media/Zodaic.5f74fbe3ed8afde3cdc3.png",
     "static/media/Compared_1.png": "/static/media/Compared_1.f5446b2e5786d7d71eed.png",
     "static/media/Final_com.jpg": "/static/media/Final_com.e7eeaaf151381cf87fa3.jpg",
+    "static/media/a4092ff.jpg": "/static/media/33b58224326f85d515042e0b36085aa6a4092ff.79d8d68114ba88df43c3.jpg",
     "static/media/3D_Printing.jpg": "/static/media/3D_Printing.a75b9745daa892f88817.jpg",
     "static/media/Grasshopper_Lecture_1.jpg": "/static/media/Grasshopper_Lecture_1.291ac05f2256dfa9c427.jpg",
     "static/media/project2.jpg": "/static/media/project2.5fae296d371cc56cd98a.jpg",
@@ -76,10 +84,10 @@
     "static/media/project6.jpg": "/static/media/project6.a22c939898d6c4613b65.jpg",
     "index.html": "/index.html",
     "main.092f2679.css.map": "/static/css/main.092f2679.css.map",
-    "main.5ee84cdd.js.map": "/static/js/main.5ee84cdd.js.map"
+    "main.ebfabf7b.js.map": "/static/js/main.ebfabf7b.js.map"
   },
   "entrypoints": [
     "static/css/main.092f2679.css",
-    "static/js/main.5ee84cdd.js"
+    "static/js/main.ebfabf7b.js"
   ]
 }
