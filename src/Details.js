@@ -90,6 +90,11 @@ import ProjectFig_9_6 from "./ProjectFolder/Project_9/messageImage_1730712893841
 import ProjectFig_9_7 from "./ProjectFolder/Project_9/D687D645-0DBF-477D-9B78-0CD16B586738.jpg";
 import ProjectFig_9_8 from "./ProjectFolder/Project_9/4D763ED6-615C-4674-A9E3-0399E6E139BC.jpg";
 
+import ProjectFig_10_1 from "./ProjectFolder/Project_10/PolyVox.png";
+import ProjectFig_10_2 from "./ProjectFolder/Project_10/4F7FABC2-8FD5-4704-8F16-9832EDE20897.jpg";
+import ProjectFig_10_3 from "./ProjectFolder/Project_10/C78A94CC-2530-4177-9CDE-123CEAF1129F.jpg";
+import ProjectFig_10_4 from "./ProjectFolder/Project_10/EEB97F04-FA6C-4903-9DF5-1FF227F7D930.jpg";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -954,6 +959,45 @@ export const projectDetails = [
       <p key="4">
         <strong>Postgraduated student MuKuan Lu</strong> <br /> National Taiwan
         University of Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "PolyVox",
+    image: ProjectFig_10_1,
+    description: [
+      <p>
+        One of the concept of Truchet Tiling is used regular tiling to create
+        various patterns through the rotations. The key factors of this effect
+        are the tiles shared the connection positions. The links of components,
+        therefore, seems to be continued. Conversionally, this tile tricks can
+        be only used for regular triangle, square, and hexagon, since only they
+        can map the plane infinitely.
+      </p>,
+      <p>
+        PolyVox, instead, was an art worked base on the afore-said concept and
+        furtherly applied cube into a voxel art, which can be arranged in
+        three-dimensional space. we create joints at the centre of each face.
+        Moreover, we created different size of spheres and the pipe between them
+        to create intricate patterns.
+      </p>,
+    ],
+    links: [
+      "https://gallery.bridgesmathart.org/exhibitions/2023-bridges-conference/kevin-harsono-shen-guan-shih-felicia-wagiri-tsungwei-cheng",
+    ],
+    imgs: [],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="3">
+        <strong>PhD Felicia Wagiri</strong> <br /> National Taiwan University of
+        Science and Technology
       </p>,
     ],
   },
