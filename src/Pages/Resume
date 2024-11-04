@@ -1,0 +1,17 @@
+import { useEffect } from "react";
+
+function Resume() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    window.open(
+      "https://drive.google.com/file/d/1XGDdCBa5oqLPYjQjp6YUnzwt84PJ4SYu/view?usp=drive_link",
+      "_blank"
+    );
+    setTimeout(() => navigate("/"), 10); // Delay of 500ms before navigating
+  }, [navigate]);
+
+  return null;
+}
+
+export default Resume;

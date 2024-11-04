@@ -91,9 +91,12 @@ import ProjectFig_9_7 from "./ProjectFolder/Project_9/D687D645-0DBF-477D-9B78-0C
 import ProjectFig_9_8 from "./ProjectFolder/Project_9/4D763ED6-615C-4674-A9E3-0399E6E139BC.jpg";
 
 import ProjectFig_10_1 from "./ProjectFolder/Project_10/PolyVox.png";
-import ProjectFig_10_2 from "./ProjectFolder/Project_10/4F7FABC2-8FD5-4704-8F16-9832EDE20897.jpg";
-import ProjectFig_10_3 from "./ProjectFolder/Project_10/C78A94CC-2530-4177-9CDE-123CEAF1129F.jpg";
-import ProjectFig_10_4 from "./ProjectFolder/Project_10/EEB97F04-FA6C-4903-9DF5-1FF227F7D930.jpg";
+
+import ProjectFig_11_1 from "./ProjectFolder/Project_11/LINE_ALBUM_0518 W2紀錄_241104_1.jpg";
+import ProjectFig_11_2 from "./ProjectFolder/Project_11/LINE_ALBUM_2024.3.28_241104_1.jpg";
+import ProjectFig_11_3 from "./ProjectFolder/Project_11/LINE_ALBUM_2024.3.28_241104_2.jpg";
+import ProjectFig_11_4 from "./ProjectFolder/Project_11/LINE_ALBUM_2024.3.28_241104_3.jpg";
+import ProjectFig_11_5 from "./ProjectFolder/Project_11/Setting.png";
 
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
@@ -998,6 +1001,84 @@ export const projectDetails = [
       <p key="3">
         <strong>PhD Felicia Wagiri</strong> <br /> National Taiwan University of
         Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "Small Architectural Business Model Game with Tico Blocks",
+    image: ProjectFig_11_2,
+    description: [
+      <p>
+        This game was developed as part of{" "}
+        <strong>Professor ShenGuan Shih’s BIM classes</strong>
+        to teach students about the business model in{" "}
+        <strong>
+          the Architecture, Engineering, and Construction (AEC) industry
+        </strong>
+        . To further test its effectiveness, this module was also applied in one
+        of my lectures at the National University of Kaohsiung. The primary goal
+        of this game-based business model was to help students understand how
+        gathering information early in the design process leads to more informed
+        design decisions.
+      </p>,
+      <p>
+        Professor Shih often likens architectural decision-making to a path
+        connecting starting points with target goals, such as budget,
+        environmental control, and overall building performance. Designers often
+        aim for a direct path to achieve these goals, yet following a
+        straightforward route can sometimes be too tedious. As a result,
+        designers create more complex paths to explore different design options.
+        However, this approach has its risks; if designers make decisions
+        without evaluating each step thoroughly, they may encounter costly
+        issues, needing additional resources, time, and budget to adjust and
+        correct the design trajectory.
+      </p>,
+      <p>
+        This game focuses on teaching students to identify and analyse essential
+        information early in the design phase. For instance, students assessed
+        heat insulation and building costs initially, prompting them to consider
+        adjustments early on. They also plannned material usage, which impacted
+        insulation and cost, and participate in simplified site bidding
+        exercises to simulate real-world conditions. These choices affected the
+        income generated from their designs, with closer alignment to optimal
+        choices yielding better results. Various factors were integrated to
+        challenge students’ decision-making.
+      </p>,
+      <p>
+        Ultimately, this game-based exercise showed that students not only
+        grasped the AEC business model but also produced better design outputs
+        from the initial stages.
+      </p>,
+    ],
+    links: [
+      "https://github.com/TzhongWei/BIM-Game.git",
+      "https://www.researchgate.net/publication/376721500_Exploration_of_Building_Information\n_Modeling_and_Integrated_Project_Cloud_Service_in_early_architectural_design_stages",
+    ],
+    imgs: [ProjectFig_11_1, ProjectFig_11_3, ProjectFig_11_4, ProjectFig_11_5],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="1">
+        <strong>Associate Professor YuPin Ma</strong> <br /> National University
+        of Kaohsiung
+      </p>,
+      <p key="2">
+        <strong>PhD GuiLin Zhuang</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="3">
+        <strong>PhD Felicia Wagiri</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="4">
+        <strong>Postgraduated TsungHuan Li Bus</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="5">
+        <strong>Postgraduated TingWan Huang</strong> <br /> National Taiwan
+        University of Science and Technology
       </p>,
     ],
   },

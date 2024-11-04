@@ -85,7 +85,7 @@ function Projects() {
                   {selectedProject.links === undefined ? (
                     <p></p>
                   ) : (
-                    <p>Links:</p>
+                    <p className="\n">Links:</p>
                   )}
                 </p>
                 {selectedProject.links?.map((link, index) => (
