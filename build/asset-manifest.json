@@ -1,31 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.b26d6973.css",
-    "main.js": "/static/js/main.6e03ed86.js",
+    "main.css": "/static/css/main.19b1cdaa.css",
+    "main.js": "/static/js/main.0a824d15.js",
     "static/media/Lego.jpg": "/static/media/Lego.afea14a614653bc8dfc9.jpg",
-    "static/media/TestCInvert.gif": "/static/media/TestCInvert.cb169ff8c1aafbb747b0.gif",
     "static/media/TestC(2).gif": "/static/media/TestC(2).4bac850e382b4d4abed6.gif",
-    "static/media/C.png": "/static/media/C.2a0f8d0c0de348b84ac3.png",
     "static/media/RhinoAdvance_1.png": "/static/media/RhinoAdvance_1.917fe43841e6631bb3db.png",
     "static/media/Minecraft.jpg": "/static/media/Minecraft.6aa273fbe17b9896e341.jpg",
-    "static/media/C_art.png": "/static/media/C_art.66313f76d92921feedd8.png",
-    "static/media/alley_3.png": "/static/media/alley_3.241d0ec0115013a582df.png",
-    "static/media/alley_1.png": "/static/media/alley_1.677ced28c176f67d713d.png",
     "static/media/3D_Printing.jpg": "/static/media/3D_Printing.a75b9745daa892f88817.jpg",
     "static/media/Grasshopper_Lecture_1.jpg": "/static/media/Grasshopper_Lecture_1.291ac05f2256dfa9c427.jpg",
     "static/media/project2.jpg": "/static/media/project2.5fae296d371cc56cd98a.jpg",
     "static/media/project4.jpg": "/static/media/project4.a7b7ed11daa072b234eb.jpg",
     "static/media/project3.jpg": "/static/media/project3.03535c34c110b7ea292b.jpg",
-    "static/media/SmallCInvert.png": "/static/media/SmallCInvert.4fda74549b627e6257c3.png",
-    "static/media/SmallC.png": "/static/media/SmallC.30efd5f6e163f27f0bfb.png",
+    "static/media/SmallC.svg": "/static/media/SmallC.8e5049d0b5b5218f772adb449f9c8461.svg",
     "static/media/project5.jpg": "/static/media/project5.f78aa3fd070fc4dd0bd1.jpg",
     "static/media/project6.jpg": "/static/media/project6.a22c939898d6c4613b65.jpg",
     "index.html": "/index.html",
-    "main.b26d6973.css.map": "/static/css/main.b26d6973.css.map",
-    "main.6e03ed86.js.map": "/static/js/main.6e03ed86.js.map"
+    "main.19b1cdaa.css.map": "/static/css/main.19b1cdaa.css.map",
+    "main.0a824d15.js.map": "/static/js/main.0a824d15.js.map"
   },
   "entrypoints": [
-    "static/css/main.b26d6973.css",
-    "static/js/main.6e03ed86.js"
+    "static/css/main.19b1cdaa.css",
+    "static/js/main.0a824d15.js"
   ]
 }

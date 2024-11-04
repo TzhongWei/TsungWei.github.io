@@ -40,6 +40,39 @@ import ProjectFig_2_3 from "./ProjectFolder/Project_2_re/ParameterAdjustment_2.p
 import ProjectFig_2_4 from "./ProjectFolder/Project_2_re/TicoBase.png";
 import ProjectFig_2_5 from "./ProjectFolder/Project_2_re/Ticojoint.png";
 
+import ProjectFig_3_1 from "./ProjectFolder/Project_3/Rendering.png";
+import ProjectFig_3_2 from "./ProjectFolder/Project_3/TI locking component concept.jpg";
+import ProjectFig_3_3 from "./ProjectFolder/Project_3/animation#2.gif";
+import ProjectFig_3_4 from "./ProjectFolder/Project_3/border element 02.jpg";
+import ProjectFig_3_5 from "./ProjectFolder/Project_3/K truchet tililng.jpg";
+import ProjectFig_3_6 from "./ProjectFolder/Project_3/post tension border element06.jpg";
+import ProjectFig_3_7 from "./ProjectFolder/Project_3/S__2482202_0.jpg";
+import ProjectFig_3_8 from "./ProjectFolder/Project_3/S__2482204_0.jpg";
+import ProjectFig_3_9 from "./ProjectFolder/Project_3/S__2482205_0.jpg";
+import ProjectFig_3_10 from "./ProjectFolder/Project_3/S__2482208_0.jpg";
+import ProjectFig_3_11 from "./ProjectFolder/Project_3/S__2482209_0.jpg";
+import ProjectFig_3_12 from "./ProjectFolder/Project_3/S__2482210_0.jpg";
+import ProjectFig_3_13 from "./ProjectFolder/Project_3/S__2482211_0.jpg";
+import ProjectFig_3_14 from "./ProjectFolder/Project_3/S__2482212_0.jpg";
+
+import ProjectFig_4_1 from "./ProjectFolder/Project_4/E3B19C4F-5FC0-484D-A3FA-8B78217DE2D7.jpg";
+import ProjectFig_4_2 from "./ProjectFolder/Project_4/282795B5-1692-4E07-AB62-F2BDCD9FCBED.jpg";
+import ProjectFig_4_3 from "./ProjectFolder/Project_4/2594408D-29B6-4D50-BD43-FA994D2A547D.jpg";
+import ProjectFig_4_4 from "./ProjectFolder/Project_4/BDBB3D17-BD7F-4B3B-BB8D-54C37245AD51.jpg";
+import ProjectFig_4_5 from "./ProjectFolder/Project_4/788863B7-064B-4727-9913-B968539F5C2A.jpg";
+import ProjectFig_4_6 from "./ProjectFolder/Project_4/7983CA98-8F2D-4B5B-BB96-EEF9C37A87B1.jpg";
+import ProjectFig_4_7 from "./ProjectFolder/Project_4/27A05CB9-3097-45E1-8D84-6E9FECF06C26.jpg";
+import ProjectFig_4_8 from "./ProjectFolder/Project_4/F9A3FD17-E50C-4B3B-9626-BA9F45434A9A.jpg";
+import ProjectFig_4_9 from "./ProjectFolder/Project_4/A8C0F30F-D0D9-4B38-8B53-5A86703C3FEB.jpg";
+import ProjectFig_4_10 from "./ProjectFolder/Project_4/026F9485-75CD-4278-86F7-D9514B3BF251.jpg";
+
+import ProjectFig_5_1 from "./ProjectFolder/Project_5/1-FU HD_2.jpg";
+import ProjectFig_5_2 from "./ProjectFolder/Project_5/5-FULL HD_2.jpg";
+import ProjectFig_5_3 from "./ProjectFolder/Project_5/Analysis.png";
+import ProjectFig_5_5 from "./ProjectFolder/Project_5/Drawing.png";
+import ProjectFig_5_6 from "./ProjectFolder/Project_5/Final_com.jpg";
+import ProjectFig_5_8 from "./ProjectFolder/Project_5/Process_1.png";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -461,22 +494,157 @@ export const projectDetails = [
     ],
   },
   {
-    title: "Project title 3",
-    image: projectImage3,
+    title: "Dual Images Wall",
+    image: ProjectFig_5_3,
     description: [
-      `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+      <p>
+        This project was initiated by <strong> Iuan Kai Fang</strong>, a PhD
+        student in our lab and design director at <strong>KEA CREATIVE.</strong>{" "}
+        The objective was to design a <strong>feature wall</strong> for the
+        College of Electrical Engineering and Computer Science at National Tsing
+        Hua University. The college wanted a tribute wall to honor their former
+        president, displaying both his portrait and his well-known theory.
+        Inspired by <strong>water jet cutting techniques</strong> on Ultra High
+        Performance Concrete (UHPC) and light grating, we created a design with
+        engravings and triangular protrusions to reveal two distinct images from
+        different viewing angles.
+      </p>,
+      <p>
+        In the initial design phase, we used Grasshopper to analyze each pixel’s
+        color code, translating this data into depth variations for the
+        engraving slots on the wall's surface. We experimented with different
+        engraving shapes, like trapezoids and triangles, to determine the most
+        effective profiles. The <strong>angle of the triangular faces </strong>
+        on the protrusions was carefully analyzed to optimize the viewing
+        perspective, enhancing the visibility of each image based on inclination
+        ratios. In the final design phase, we fine-tuned parameters and rotated
+        the engraving patterns to ensure the images would appear clearly from
+        specific angles.
+      </p>,
+      <p>
+        With support from <strong>Gobel Reengineering Co. Ltd.</strong>, we
+        developed a mold and successfully cast the concrete wall. The
+        engravings, ranging from one to five millimeters in width, presented
+        challenges in retaining the fine details after the concrete solidified.
+        We used a wooden female mold to capture the image patterns, assembling
+        the triangular faces to create an integrated mold that displayed the
+        final images as intended.
+      </p>,
     ],
-    links: ["https://google.com"],
-    imgs: [projectImage1, projectImage2],
+    links: [
+      "https://www.youtube.com/watch?v=AlT5K5mD_MM&t=311s",
+      "https://www.youtube.com/watch?v=257ROuq5XYs",
+    ],
+    imgs: [
+      ProjectFig_5_1,
+      ProjectFig_5_2,
+      ProjectFig_5_5,
+      ProjectFig_5_6,
+      ProjectFig_5_8,
+    ],
     appendix: [
       <p key="1">
-        <strong>123</strong> <br /> National Taiwan University of Science and
-        Technology
+        <strong>Design Director and PhD Iuan Kai Fang</strong> <br /> KEA
+        CREATIVE
+        <br /> National Taiwan University of Science and Technology
       </p>,
       <p key="2">
-        <strong>456</strong> <br /> National Taiwan University of Science and
-        Technology
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Gobel Reengineering Co. Lt.</strong>
+      </p>,
+      <p key="2">
+        <strong>Postgraduated student YuChun Chen</strong> <br /> National
+        Taiwan University of Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "Topological Interlocking Block Curtain Design",
+    image: ProjectFig_3_1,
+    description: [
+      <p>
+        This was an <strong>industrial collaboration project </strong>with
+        ZhenXi Construction Company in Taiwan. Our task was to design curtain
+        walls on the balcony of the company’s rooftop.{" "}
+        <strong>UHPC (Ultra-High Performance Concrete)</strong> was chosen for
+        its excellent flexibility, durability, and strength to create a hollow
+        effect for the panels. The developer desired a Japanese
+        landscape-inspired design, with an emphasis on a simple, grid-based
+        pattern. Additionally, our professor aimed to integrate modular
+        component design and reusable masonry concepts. A full cast grid wall
+        was not used; instead, we implemented the{" "}
+        <strong>Topological Interlocking (TI) system</strong>.
+      </p>,
+      <p>
+        The Topological Interlocking Assembly (TIA) is a dry-stacking masonry
+        structure where each element is kinematically constrained by its
+        neighboring components up to the system's edge. This makes{" "}
+        <strong>border strength </strong>critical for stability. TIA also allows
+        for self-alignment of individual elements, minimising errors without
+        adhesives. Even with cracks or missing pieces, up to a quarter of the
+        elements, the system remains functional and prevents collapse, making it
+        ideal for this project.
+      </p>,
+      <p>
+        We developed several prototypes. To enhance tensile strength between
+        components and the border, we applied post-tensioning techniques,
+        inspired by “The Flat Vault” method. We also added interlocking keys at
+        the borders to reduce shear forces and experimented with Truchet tiling
+        for rotational patterns. Additionally, we proposed block shapes like the
+        '井' design. We printed them out with 3D printers to Test the feasbility
+        of the designed components, and even cast it with full scale model.
+        Overall, this was my first project during my master’s program and an
+        exciting opportunity to realize design concepts through a dry-stacking
+        structural system and UHPC.
+      </p>,
+    ],
+    links: ["https://www.platformarchitecture.it/en/the-flat-vault/"],
+    imgs: [
+      ProjectFig_3_2,
+      ProjectFig_3_3,
+      ProjectFig_3_4,
+      ProjectFig_3_5,
+      ProjectFig_3_6,
+      ProjectFig_3_7,
+      ProjectFig_3_8,
+      ProjectFig_3_9,
+      ProjectFig_3_10,
+      ProjectFig_3_11,
+      ProjectFig_3_12,
+      ProjectFig_3_13,
+      ProjectFig_3_14,
+    ],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Postgraduated student Kevin Harsono</strong> <br /> National
+        Taiwan University of Science and Technology
+      </p>,
+      <p key="3">
+        <strong>Postgraduated student TsungHuan Li Bus</strong> <br /> National
+        Taiwan University of Science and Technology
+      </p>,
+      <p key="3">
+        <strong>Postgraduated student ZhengTing Huang Tim</strong> <br />{" "}
+        National Taiwan University of Science and Technology
+      </p>,
+      <p key="4">
+        <strong>Gobel Reengineering Co. Lt.</strong>
+      </p>,
+      <p key="4">
+        <strong>鎮囍建設</strong>
+      </p>,
+      <p key="4">
+        <strong>蘇博特新材料</strong>
+      </p>,
+      <p key="4">
+        <strong>Wei&Wei InAternational Architectsand Planners</strong>
       </p>,
     ],
   },
@@ -517,57 +685,82 @@ project lorem ipsum generator for dummy content`,
         University of Science and Technology
       </p>,
       <p key="2">
-        <strong>MuKuan Lu Sprout</strong> <br /> Postgraduated student <br />{" "}
-        National Taiwan University of Science and Technology
+        <strong>Postgraduated student MuKuan Lu Sprout</strong> <br />{" "}
+        Postgraduated student <br /> National Taiwan University of Science and
+        Technology
       </p>,
     ],
   },
   {
-    title: "Project title 4",
-    image: projectImage4,
+    title: "Wavy Module Design From Osteomorphic Interlocking Block",
+    image: ProjectFig_4_4,
     description: [
-      `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+      <p>
+        Inspired by modular design principles and test concrete modules from our
+        university's Department of Civil and Construction Engineering, this
+        project seeks to develop a{" "}
+        <strong>
+          modular casting system for Osteomorphic Interlocking (OI) Blocks using
+          Ultra High Performance Concrete (UHPC).
+        </strong>{" "}
+        We employed 3D printing (FDM) and CNC machining to fabricate the molds
+        for this exercise.
+      </p>,
+      <p>
+        To optimize the casting process for the OI blocks, we planned to cast
+        them in batches. Reusability of the mold was also a primary objective,
+        leading us to select a decomposable mold. However, because the OI block
+        belongs to the topological interlocking block category, conventional
+        removal methods were unsuitable. The challenge was in safely removing
+        the mold along the interlocking faces. To address this, we designed a
+        mold that disassembles from its interlocking surfaces. We further
+        incorporated slots to secure the mold and minimize concrete leakage
+        during casting. Additionally, we embedded 3D-printed pipes within the
+        mold to create channels, allowing for easy post-casting assembly of the
+        components.
+      </p>,
     ],
-    links: ["https://google.com"],
-    imgs: [projectImage1, projectImage2],
+    imgs: [
+      ProjectFig_4_1,
+      ProjectFig_4_2,
+      ProjectFig_4_3,
+      ProjectFig_4_5,
+      ProjectFig_4_6,
+      ProjectFig_4_7,
+      ProjectFig_4_8,
+      ProjectFig_4_9,
+      ProjectFig_4_10,
+    ],
     appendix: [
       <p key="1">
-        <strong>123</strong> <br /> National Taiwan University of Science and
-        Technology
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
       </p>,
       <p key="2">
-        <strong>456</strong> <br /> National Taiwan University of Science and
-        Technology
+        <strong>Assistant Professor YuCyuan Gao</strong> <br /> National Taiwan
+        University of Science and Technology <br /> The department of Civil and
+        Construction Engineering
+      </p>,
+      <p key="2">
+        <strong>Postgraduated student Kevin Harsono</strong> <br /> National
+        Taiwan University of Science and Technology
       </p>,
     ],
   },
   {
-    title: "Project title 5",
-    image: projectImage5,
-    description: [
-      `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    ],
-    links: ["https://google.com"],
-    imgs: [projectImage1, projectImage2],
-    appendix: [
-      <p key="1">
-        <strong>123</strong> <br /> National Taiwan University of Science and
-        Technology
-      </p>,
-      <p key="2">
-        <strong>456</strong> <br /> National Taiwan University of Science and
-        Technology
-      </p>,
-    ],
-  },
-  {
-    title: "Project title 6",
+    title: "CUBE CSE",
     image: projectImage6,
     description: [
-      `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+      <p>
+        This project was initiated by <strong> Iuan Kai Fang</strong>, a PhD
+        student in our lab and design director at <strong>KEA CREATIVE.</strong>{" "}
+        The design concept was a cube matrix illustrating S, C, E represented
+        with the College of Electrical Engineering and Computer Science at
+        National Tsing Hua University. We therefore came out with an idea to
+        feature the cube with three letters from three different orientaions, X,
+        Y, and Z axis.
+      </p>,
+      <p></p>,
     ],
     links: ["https://google.com"],
     imgs: [projectImage1, projectImage2],

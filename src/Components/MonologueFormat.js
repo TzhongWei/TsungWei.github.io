@@ -34,7 +34,8 @@ function Monologue({
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
       <div className="flex flex-col md:flex-row">
-        <div className="w-full md:w-1/3">
+        {/* Image Section */}
+        <div className="w-full md:w-1/3 sticky top-4 self-start">
           <img
             src={RepImage}
             alt={title}
@@ -42,6 +43,8 @@ function Monologue({
             className="w-full h-auto object-cover rounded-lg"
           />
         </div>
+
+        {/* Content Section */}
         <div className="w-full md:w-2/3 dark:bg-dark-card p-4">
           <h1 className="dark:text-light-heading font-semibold text-lg pt-1">
             {title}
@@ -58,6 +61,7 @@ function Monologue({
             {isExpanded ? "Show Less" : "Show More"}
           </button>
 
+          {/* Expandable Content */}
           <div
             ref={contentRef}
             style={{
@@ -87,7 +91,7 @@ function Monologue({
               ))}
             </div>
 
-            {/* Comment Section inside the Expansion */}
+            {/* Comment Section */}
             <div className="mt-6">
               <h2 className="text-lg font-semibold dark:text-light-heading">
                 Leave a Comment:
