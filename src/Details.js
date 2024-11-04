@@ -1055,7 +1055,7 @@ export const projectDetails = [
     ],
     links: [
       "https://github.com/TzhongWei/BIM-Game.git",
-      "https://www.researchgate.net/publication/376721500_Exploration_of_Building_Information\n_Modeling_and_Integrated_Project_Cloud_Service_in_early_architectural_design_stages",
+      "https://www.researchgate.net/publication/376721500_Exploration_of_Building_Information_Modeling_and_Integrated_Project_Cloud_Service_in_early_architectural_design_stages",
     ],
     imgs: [ProjectFig_11_1, ProjectFig_11_3, ProjectFig_11_4, ProjectFig_11_5],
     appendix: [
