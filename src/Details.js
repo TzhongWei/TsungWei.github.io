@@ -80,6 +80,14 @@ import ProjectFig_6_4 from "./ProjectFolder/Project_6/WORD blocks_C.jpg";
 import ProjectFig_6_5 from "./ProjectFolder/Project_6/WORD blocks_E.jpg";
 import ProjectFig_6_6 from "./ProjectFolder/Project_6/WORD blocks_S.jpg";
 
+import ProjectFig_7_1 from "./ProjectFolder/Project_7/-entrance IN_low3.0.jpg";
+import ProjectFig_7_2 from "./ProjectFolder/Project_7/-innerFront3.0_3.jpg";
+import ProjectFig_7_3 from "./ProjectFolder/Project_7/alley3.0.jpg";
+import ProjectFig_7_4 from "./ProjectFolder/Project_7/Board_1_3.0.jpg";
+import ProjectFig_7_5 from "./ProjectFolder/Project_7/entrance3.02.jpg";
+import ProjectFig_7_6 from "./ProjectFolder/Project_7/TDL2.jpg";
+import ProjectFig_7_7 from "./ProjectFolder/Project_7/TV3.02.jpg";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -520,7 +528,7 @@ export const projectDetails = [
         engraving slots on the wall's surface. We experimented with different
         engraving shapes, like trapezoids and triangles, to determine the most
         effective profiles. The <strong>angle of the triangular faces </strong>
-        on the protrusions was carefully analyzed to optimize the viewing
+        on the protrusions was carefully analyzed to optimise the viewing
         perspective, enhancing the visibility of each image based on inclination
         ratios. In the final design phase, we fine-tuned parameters and rotated
         the engraving patterns to ensure the images would appear clearly from
@@ -584,7 +592,7 @@ export const projectDetails = [
         separate planes, performing a solid union to identify the shared
         sections among the letters. Next, we set up a grid-based cubic model
         that encompassed both the solid and grid, increasing the grid density
-        around the intersecting parts to emphasize the letters from each
+        around the intersecting parts to emphasise the letters from each
         perspective.
       </p>,
     ],
@@ -647,7 +655,7 @@ export const projectDetails = [
         '井' design. We printed them out with 3D printers to Test the feasbility
         of the designed components, and even cast it with full scale model.
         Overall, this was my first project during my master’s program and an
-        exciting opportunity to realize design concepts through a dry-stacking
+        exciting opportunity to realise design concepts through a dry-stacking
         structural system and UHPC.
       </p>,
     ],
@@ -711,7 +719,7 @@ export const projectDetails = [
         types of Tico components, my labmate, Sprout, and I were asked by Prof.
         Shih to assist in developing a small Grasshopper 'GH' program to
         generate Tico joints on custom blocks. By using this shared interface
-        between components, customized Tico blocks could be created with GH
+        between components, customised Tico blocks could be created with GH
         modeling and then 3D printed to complete student projects.
       </p>,
       <p>
@@ -721,7 +729,7 @@ export const projectDetails = [
         the
         <strong>blocks to be stacked in multiple directions</strong>.
         Additionally, after the studio session, these Tico-based components
-        could be easily reassembled, as they utilize dry joints and a shared
+        could be easily reassembled, as they utilise dry joints and a shared
         interface system, supporting the concept of design for reuse within a
         circular economy. This project provided an engaging way to explore
         sustainable design principles through reusable components.
@@ -757,14 +765,14 @@ export const projectDetails = [
         for this exercise.
       </p>,
       <p>
-        To optimize the casting process for the OI blocks, we planned to cast
+        To optimise the casting process for the OI blocks, we planned to cast
         them in batches. Reusability of the mold was also a primary objective,
         leading us to select a decomposable mold. However, because the OI block
         belongs to the topological interlocking block category, conventional
         removal methods were unsuitable. The challenge was in safely removing
         the mold along the interlocking faces. To address this, we designed a
         mold that disassembles from its interlocking surfaces. We further
-        incorporated slots to secure the mold and minimize concrete leakage
+        incorporated slots to secure the mold and minimise concrete leakage
         during casting. Additionally, we embedded 3D-printed pipes within the
         mold to create channels, allowing for easy post-casting assembly of the
         components.
@@ -794,6 +802,43 @@ export const projectDetails = [
       <p key="2">
         <strong>Postgraduated student Kevin Harsono</strong> <br /> National
         Taiwan University of Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "Rotary exhibition",
+    image: ProjectFig_7_5,
+    description: [
+      <p>
+        This design project was initiated by <strong>Iuan Kai Fang</strong>, a
+        PhD student in our lab and design director at{" "}
+        <strong>KEA CREATIVE</strong>. Due to the pandemic, most exhibitions had
+        to transition online, and he approached me to design a virtual
+        exhibition for Rotary, a global organisation.
+      </p>,
+      <p>
+        The design concept featured{" "}
+        <strong>layers of ellipses and gears </strong> forming the top of the
+        exhibition space. Between these layers, we incorporated a space frame
+        and lighting to enhance the structure’s depth. The final model was
+        prepared for online display, utilising VR technology. We worked through
+        various discussions to refine the visual effects and details of the
+        model to ensure an immersive virtual experience.
+      </p>,
+    ],
+    imgs: [
+      ProjectFig_7_1,
+      ProjectFig_7_2,
+      ProjectFig_7_3,
+      ProjectFig_7_4,
+      ProjectFig_7_6,
+      ProjectFig_7_7,
+    ],
+    appendix: [
+      <p key="1">
+        <strong>Design Director and PhD Iuan Kai Fang</strong> <br /> KEA
+        CREATIVE
+        <br /> National Taiwan University of Science and Technology
       </p>,
     ],
   },
@@ -838,14 +883,7 @@ export const MonologueDetails = [
       "This approach suggests that, despite the inherent complexity of architectural design, a structured path can be identified for expanding and organising components. Recursive rules and hierarchical aggregations allow architectural systems to grow coherently, resulting in a well-defined grammar that governs the entire architectural structure.",
       " Refer to Godel, Escher, Bach an Enternal Golden Braid, Shih, S.G.(2020) Grammar of Interlocking SL block ",
     ],
-    OtherImages: [
-      projectImage1,
-      projectImage2,
-      projectImage3,
-      projectImage4,
-      projectImage1,
-      projectImage2,
-    ],
+    OtherImages: [],
   },
   {
     title: "Tokens in LLM v.s Components in Architectural Languages",
