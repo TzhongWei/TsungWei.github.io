@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.092f2679.css",
-    "main.js": "/static/js/main.6a4f3689.js",
+    "main.js": "/static/js/main.5ee84cdd.js",
     "static/media/-innerFront3.0_3.jpg": "/static/media/-innerFront3.0_3.52bd4d750d7f9c4c78b3.jpg",
     "static/media/alley3.0.jpg": "/static/media/alley3.0.76301c6e6bb327ad9969.jpg",
     "static/media/TDL2.jpg": "/static/media/TDL2.ac2f5d2fefeb42c35213.jpg",
@@ -32,6 +32,7 @@
     "static/media/Combine.png": "/static/media/Combine.9ecc821a36150d043b7b.png",
     "static/media/Ticojoint.png": "/static/media/Ticojoint.8fb62996f2cb7ecbbfc5.png",
     "static/media/TestC(2).gif": "/static/media/TestC(2).4bac850e382b4d4abed6.gif",
+    "static/media/KPF.jpg": "/static/media/KPF.284359ffd43e1c42095b.jpg",
     "static/media/S__2482210_0.jpg": "/static/media/S__2482210_0.3f73032c709cec015ebb.jpg",
     "static/media/C.png": "/static/media/C.2a0f8d0c0de348b84ac3.png",
     "static/media/S__2482211_0.jpg": "/static/media/S__2482211_0.06f2b864706509ca563c.jpg",
@@ -39,11 +40,14 @@
     "static/media/ParameterAdjustment_2.png": "/static/media/ParameterAdjustment_2.5a6e9c3451903866c1dd.png",
     "static/media/ParameterAdjustment.png": "/static/media/ParameterAdjustment.dc95c4ca18984170ecfd.png",
     "static/media/RhinoAdvance_1.png": "/static/media/RhinoAdvance_1.917fe43841e6631bb3db.png",
+    "static/media/parameters.png": "/static/media/parameters.82185c7872dd99bd8911.png",
+    "static/media/Mold Analysis.png": "/static/media/Mold Analysis.7bcced5f0d584bbadc31.png",
     "static/media/S__2482209_0.jpg": "/static/media/S__2482209_0.0a7bd6081a3448ccdfcb.jpg",
     "static/media/LLMvsArchitecture.jpg": "/static/media/LLMvsArchitecture.a36614edd2a704ea7220.jpg",
     "static/media/1-FU HD_2.jpg": "/static/media/1-FU HD_2.294acb94dad0a6bf0111.jpg",
     "static/media/TicoBase.png": "/static/media/TicoBase.8a97bc8402744649759c.png",
     "static/media/S__2482202_0.jpg": "/static/media/S__2482202_0.c0e8bb9dc044158aaac6.jpg",
+    "static/media/Optimised.png": "/static/media/Optimised.c39eda01e616e5f217c6.png",
     "static/media/S__2482205_0.jpg": "/static/media/S__2482205_0.2f2375cd5589cc1cfa48.jpg",
     "static/media/TI locking component concept.jpg": "/static/media/TI locking component concept.2c67aa54226a4f55f9af.jpg",
     "static/media/Minecraft.jpg": "/static/media/Minecraft.6aa273fbe17b9896e341.jpg",
@@ -57,7 +61,9 @@
     "static/media/C_art.png": "/static/media/C_art.66313f76d92921feedd8.png",
     "static/media/alley_3.png": "/static/media/alley_3.241d0ec0115013a582df.png",
     "static/media/post tension border element06.jpg": "/static/media/post tension border element06.537b1b0e1a6d645597b7.jpg",
+    "static/media/Mold Analysis_2.png": "/static/media/Mold Analysis_2.2252c75e5798d89ff99f.png",
     "static/media/WORD blocks_2.jpg": "/static/media/WORD blocks_2.dcd45d4bfd8d0c762884.jpg",
+    "static/media/Compared_1.png": "/static/media/Compared_1.f5446b2e5786d7d71eed.png",
     "static/media/Final_com.jpg": "/static/media/Final_com.e7eeaaf151381cf87fa3.jpg",
     "static/media/3D_Printing.jpg": "/static/media/3D_Printing.a75b9745daa892f88817.jpg",
     "static/media/Grasshopper_Lecture_1.jpg": "/static/media/Grasshopper_Lecture_1.291ac05f2256dfa9c427.jpg",
@@ -70,10 +76,10 @@
     "static/media/project6.jpg": "/static/media/project6.a22c939898d6c4613b65.jpg",
     "index.html": "/index.html",
     "main.092f2679.css.map": "/static/css/main.092f2679.css.map",
-    "main.6a4f3689.js.map": "/static/js/main.6a4f3689.js.map"
+    "main.5ee84cdd.js.map": "/static/js/main.5ee84cdd.js.map"
   },
   "entrypoints": [
     "static/css/main.092f2679.css",
-    "static/js/main.6a4f3689.js"
+    "static/js/main.5ee84cdd.js"
   ]
 }

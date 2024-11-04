@@ -74,6 +74,13 @@ import ProjectFig_7_5 from "./ProjectFolder/Project_7/entrance3.02.jpg";
 import ProjectFig_7_6 from "./ProjectFolder/Project_7/TDL2.jpg";
 import ProjectFig_7_7 from "./ProjectFolder/Project_7/TV3.02.jpg";
 
+import ProjectFig_8_1 from "./ProjectFolder/Project_8/KPF.jpg";
+import ProjectFig_8_2 from "./ProjectFolder/Project_8/parameters.png";
+import ProjectFig_8_3 from "./ProjectFolder/Project_8/Compared_1.png";
+import ProjectFig_8_4 from "./ProjectFolder/Project_8/Mold Analysis.png";
+import ProjectFig_8_5 from "./ProjectFolder/Project_8/Mold Analysis_2.png";
+import ProjectFig_8_6 from "./ProjectFolder/Project_8/Optimised.png";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -99,7 +106,7 @@ export const personalDetails = {
     "TsungWei Cheng Mike is a passionate researcher and designer specialising in digital architecture." +
       " He holds a Master’s in Architecture from National Taiwan University of Science and Technology (NTUST)" +
       " and participated in exchange programs with TU Berlin and the Digital Design Unit (DDU) at TU Darmstadt." +
-      " He also interned at Gobel Reengineering Company for three years, focusing on optimising UHPC facade panels" +
+      " He also interned at Global Reengineering Company for three years, focusing on optimising UHPC facade panels" +
       " with Grasshopper.",
 
     "Currently, TsungWei works as a Ph.D. student and research assistant at the GAS lab at NTUST and lectures " +
@@ -140,7 +147,7 @@ export const workDetails = [
   },
   {
     Position: "Internship",
-    Company: `Gobel Reengineering Company Ltd.`,
+    Company: `Global Reengineering Company Ltd.`,
     Location: "Yilan, Taiwan",
     Type: "Internship",
     Duration: "Jul 2021 - Jul 2024",
@@ -492,19 +499,19 @@ export const projectDetails = [
         different viewing angles.
       </p>,
       <p>
-        In the initial design phase, we used Grasshopper to analyze each pixel’s
+        In the initial design phase, we used Grasshopper to analyse each pixel’s
         color code, translating this data into depth variations for the
         engraving slots on the wall's surface. We experimented with different
         engraving shapes, like trapezoids and triangles, to determine the most
         effective profiles. The <strong>angle of the triangular faces </strong>
-        on the protrusions was carefully analyzed to optimise the viewing
+        on the protrusions was carefully analysed to optimise the viewing
         perspective, enhancing the visibility of each image based on inclination
         ratios. In the final design phase, we fine-tuned parameters and rotated
         the engraving patterns to ensure the images would appear clearly from
         specific angles.
       </p>,
       <p>
-        With support from <strong>Gobel Reengineering Co. Ltd.</strong>, we
+        With support from <strong>Global Reengineering Co. Ltd.</strong>, we
         developed a mold and successfully cast the concrete wall. The
         engravings, ranging from one to five millimeters in width, presented
         challenges in retaining the fine details after the concrete solidified.
@@ -535,7 +542,7 @@ export const projectDetails = [
         University of Science and Technology
       </p>,
       <p key="2">
-        <strong>Gobel Reengineering Co. Lt.</strong>
+        <strong>Global Reengineering Co. Lt.</strong>
       </p>,
       <p key="2">
         <strong>Postgraduated student YuChun Chen</strong> <br /> National
@@ -662,7 +669,7 @@ export const projectDetails = [
         National Taiwan University of Science and Technology
       </p>,
       <p key="4">
-        <strong>Gobel Reengineering Co. Lt.</strong>
+        <strong>Global Reengineering Co. Lt.</strong>
       </p>,
       <p key="4">
         <strong>鎮囍建設</strong>
@@ -811,6 +818,78 @@ export const projectDetails = [
       </p>,
     ],
   },
+  {
+    title: "DAKA",
+    image: ProjectFig_8_1,
+    description: [
+      <p>
+        This was an internship project with{" "}
+        <strong>Global Reengineering Company Limited</strong> , where we
+        assisted in optimizing the{" "}
+        <strong>Ultra High Performance Concrete (UHPC)</strong>
+        curtain panel design for DAKA, a development on Taiwan's east coast. The
+        project was developed by <strong>Taiwan Cement Corporation</strong>, one
+        of Taiwan's largest cement companies, with the building designed by
+        <strong> Kohn Pedersen Fox Associates (KPF)</strong>, an international
+        architectural firm based in the U.S.
+      </p>,
+      <p>
+        Due to the curved surface of the building and stair arrangements, the
+        project required<strong> over 200 unique panel types</strong>, which
+        significantly increased construction costs and resulted in substantial
+        mold waste. Our objective was to optimize the panel shapes and reduce
+        the number of unique UHPC components to enhance mold reusability,
+        thereby minimizing waste and reducing costs.
+      </p>,
+      <p>
+        We analysed the KPF model, designed as a column trimmed by the building
+        and stairs. The surface was divided into three nearly equal sections
+        from top to bottom and further split into 142 rows. By vectorizing the
+        shapes based on properties like angle and area, we grouped them using
+        <strong>K-means clustering</strong> within a tolerance of two
+        centimeters, as specified by KPF. The panels were replaced with central
+        vectors, and each component was reformed according to its design
+        concept. To reduce panel weight, we maintained a thickness of three
+        centimeters and added ribs to increase strength.
+      </p>,
+      <p>
+        In the mold design phase, we used <strong>Euler Angles</strong> to
+        determine the optimal casting orientation, ensuring a clean surface
+        finish. We aligned the panels consistently for casting by orienting them
+        onto a shared base mold using the calculated angles to create outer
+        molds.
+      </p>,
+      <p>
+        The project spanned two years, involving extensive communication among
+        the developer, architects, and construction teams, with information
+        flowing between the U.S. and Taiwan. Various algorithms were used to
+        analyse panel shapes, structural similarities, and configurations. The
+        experience was highly valuable, providing meaningful insights into
+        practical design optimisation.
+      </p>,
+    ],
+    links: ["https://www.grca.com.tw/album/4/1"],
+    imgs: [
+      ProjectFig_8_2,
+      ProjectFig_8_6,
+      ProjectFig_8_3,
+      ProjectFig_8_4,
+      ProjectFig_8_5,
+    ],
+    appendix: [
+      <p key="2">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Global Reengineering Co. Lt.</strong>
+      </p>,
+      <p key="2">
+        <strong>Postgraduated student Kevin Harsono</strong> <br /> National
+        Taiwan University of Science and Technology
+      </p>,
+    ],
+  },
 ];
 
 // Enter your Contact Details here
@@ -859,7 +938,7 @@ export const MonologueDetails = [
     RepImage: LLMvsArch,
     abstract:
       "ChatGPT, powered by a Large Language Model (LLM), processes text by treating words as tokens" +
-      " within a high-dimensional vector space. It predicts the next token by analyzing semantic" +
+      " within a high-dimensional vector space. It predicts the next token by analysing semantic" +
       " similarity and vector proximity, resolving ambiguity in meaning. This approach resembles" +
       " design thinking, where navigating ambiguity is key. Thus, a comparison between LLM tokens" +
       " and components in architectural languages can provide insights into both fields.",
