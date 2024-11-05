@@ -91,6 +91,12 @@ import ProjectFig_9_7 from "./ProjectFolder/Project_9/D687D645-0DBF-477D-9B78-0C
 import ProjectFig_9_8 from "./ProjectFolder/Project_9/4D763ED6-615C-4674-A9E3-0399E6E139BC.jpg";
 
 import ProjectFig_10_1 from "./ProjectFolder/Project_10/PolyVox.png";
+import ProjectFig_10_2 from "./ProjectFolder/Project_10/1.jpg";
+import ProjectFig_10_3 from "./ProjectFolder/Project_10/2.jpg";
+import ProjectFig_10_4 from "./ProjectFolder/Project_10/fig 2a.jpg";
+import ProjectFig_10_5 from "./ProjectFolder/Project_10/fig 4.jpg";
+import ProjectFig_10_6 from "./ProjectFolder/Project_10/0502D3D5-3961-4C77-8C78-C1AB754C4636.jpg";
+import ProjectFig_10_7 from "./ProjectFolder/Project_10/033234E1-1F85-48FC-967B-1F2F187A479B.jpg";
 
 import ProjectFig_11_1 from "./ProjectFolder/Project_11/LINE_ALBUM_0518 W2紀錄_241104_1.jpg";
 import ProjectFig_11_2 from "./ProjectFolder/Project_11/LINE_ALBUM_2024.3.28_241104_1.jpg";
@@ -999,7 +1005,14 @@ export const projectDetails = [
     links: [
       "https://gallery.bridgesmathart.org/exhibitions/2023-bridges-conference/kevin-harsono-shen-guan-shih-felicia-wagiri-tsungwei-cheng",
     ],
-    imgs: [],
+    imgs: [
+      ProjectFig_10_2,
+      ProjectFig_10_3,
+      ProjectFig_10_4,
+      ProjectFig_10_5,
+      ProjectFig_10_6,
+      ProjectFig_10_7,
+    ],
     appendix: [
       <p key="1">
         <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
