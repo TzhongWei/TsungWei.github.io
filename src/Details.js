@@ -101,6 +101,14 @@ import ProjectFig_11_5 from "./ProjectFolder/Project_11/Setting.png";
 import ProjectFig_12_1 from "./ProjectFolder/Project_12/ViewCapture20241104_223014.png";
 import ProjectFig_12_2 from "./ProjectFolder/Project_12/P2.png";
 
+import ProjectFig_13_1 from "./ProjectFolder/Project_13/H1.png";
+import ProjectFig_13_2 from "./ProjectFolder/Project_13/H2.png";
+import ProjectFig_13_3 from "./ProjectFolder/Project_13/Map.png";
+import ProjectFig_13_4 from "./ProjectFolder/Project_13/Dimension.png";
+import ProjectFig_13_5 from "./ProjectFolder/Project_13/Hat2.png";
+import ProjectFig_13_6 from "./ProjectFolder/Project_13/HatFrist.png";
+import ProjectFig_13_7 from "./ProjectFolder/Project_13/HatStructure.png";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -1131,6 +1139,94 @@ export const projectDetails = [
       <p key="3">
         <strong>Postgraduated student MuKuan Lu</strong> <br /> National Taiwan
         University of Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "MonoTiles: Hat Tiles design",
+    image: ProjectFig_13_6,
+    description: [
+      <p>
+        The <strong>MonoTile: Hat</strong> is a unique tile shape within the
+        realm of geometric tiling, introduced as part of a groundbreaking
+        discovery in mathematical tiling theory. Known as an
+        <strong> "aperiodic monotile"</strong> or "einstein tile," the Hat is a
+        single tile shape that can cover a plane without creating a repeating
+        pattern. This property makes it a notable discovery because, unlike
+        traditional tiling patterns, the Hat's arrangement is
+        <strong>non-repeating and aperiodic</strong>, meaning that while it
+        fills the plane, it never repeats the same configuration across the
+        entire surface.
+      </p>,
+      <p>
+        Developed in recent years by a team of mathematicians, including
+        <strong>
+          David Smith, Joseph Samuel Myers, Craig S. Kaplan, and Chaim
+          Goodman-Strauss,
+        </strong>
+        the Hat tile has captivated both researchers and enthusiasts. It
+        challenges longstanding assumptions about tiling, offering insights into
+        both <strong>mathematics and materials science</strong> due to its
+        implications for quasicrystals and non-repeating patterns. The Hat
+        tile's shape, resembling a hat, can be arranged in numerous
+        configurations while maintaining a distinct lack of periodicity, making
+        it a fascinating subject in{" "}
+        <strong>mathematics, design, and architecture.</strong>
+      </p>,
+      <p>
+        This unique property of the Hat tile has implications for various
+        fields, especially in <strong>design applications</strong> where
+        non-repetitive patterns are desirable, as well as in material sciences
+        where understanding aperiodic tiling can inform the creation of novel
+        materials and structures.
+      </p>,
+      <p>
+        In response, our lab developed a Grasshopper plugin to streamline design
+        with the Hat tile. This plugin allows designers to create patterns and
+        geometries within the Hat tile’s framework, with options to set specific
+        arrangement types—<strong>H, T, P, and F</strong>—which can be tailored
+        to user requirements.
+      </p>,
+      <p>
+        Using the plugin, <strong>Fatmat</strong> designed a variety of
+        patterns, including
+        <strong>curved and Islamic-inspired styles.</strong> She also applied it
+        to configure a global map, where the tiles represented{" "}
+        <strong>mountains and valleys</strong> arranged according to altitude.
+        Additionally, <strong>Kevin Harsono</strong> used the plugin to design{" "}
+        <strong>curtain walls</strong>, developing a structural framework to
+        support the unique tile arrangements.
+      </p>,
+    ],
+    links: [
+      "https://github.com/TzhongWei/EinsteinHat_GH",
+      "https://github.com/isohedral/hatviz",
+      "https://www.researchgate.net/publication/383039499_Hat_Monotiles_Driving_Innovation_in_Aperiodic_Pattern_Generation_and_Application",
+    ],
+    imgs: [
+      ProjectFig_13_1,
+      ProjectFig_13_2,
+      ProjectFig_13_3,
+      ProjectFig_13_4,
+      ProjectFig_13_5,
+    ],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Postgraduated student Fatma Kayatekin</strong> <br />{" "}
+        Postgraduated student <br /> National Taiwan University of Science and
+        Technology
+      </p>,
+      <p key="3">
+        <strong>PhD Kevin Harsono</strong> <br /> Postgraduated student <br />{" "}
+        National Taiwan University of Science and Technology
+      </p>,
+      <p key="4">
+        <strong>PhD Felicia Wagiri</strong> <br /> Postgraduated student <br />{" "}
+        National Taiwan University of Science and Technology
       </p>,
     ],
   },

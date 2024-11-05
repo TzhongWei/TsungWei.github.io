@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.092f2679.css",
-    "main.js": "/static/js/main.42eb6cf2.js",
+    "main.js": "/static/js/main.37cf6129.js",
     "static/media/-innerFront3.0_3.jpg": "/static/media/-innerFront3.0_3.52bd4d750d7f9c4c78b3.jpg",
     "static/media/alley3.0.jpg": "/static/media/alley3.0.76301c6e6bb327ad9969.jpg",
     "static/media/TDL2.jpg": "/static/media/TDL2.ac2f5d2fefeb42c35213.jpg",
@@ -39,6 +39,7 @@
     "static/media/S__34103360.jpg": "/static/media/S__34103360.2e20c51e9fd2b36c5f44.jpg",
     "static/media/S__34103359.jpg": "/static/media/S__34103359.19f379ab4d23326aef31.jpg",
     "static/media/KPF.jpg": "/static/media/KPF.284359ffd43e1c42095b.jpg",
+    "static/media/Map.png": "/static/media/Map.4f892a8480c331911176.png",
     "static/media/S__2482210_0.jpg": "/static/media/S__2482210_0.3f73032c709cec015ebb.jpg",
     "static/media/C.png": "/static/media/C.2a0f8d0c0de348b84ac3.png",
     "static/media/S__2482211_0.jpg": "/static/media/S__2482211_0.06f2b864706509ca563c.jpg",
@@ -46,6 +47,7 @@
     "static/media/ParameterAdjustment_2.png": "/static/media/ParameterAdjustment_2.5a6e9c3451903866c1dd.png",
     "static/media/ParameterAdjustment.png": "/static/media/ParameterAdjustment.dc95c4ca18984170ecfd.png",
     "static/media/RhinoAdvance_1.png": "/static/media/RhinoAdvance_1.917fe43841e6631bb3db.png",
+    "static/media/H1.png": "/static/media/H1.2ac7e8167519ea0e33b5.png",
     "static/media/parameters.png": "/static/media/parameters.82185c7872dd99bd8911.png",
     "static/media/Mold Analysis.png": "/static/media/Mold Analysis.7bcced5f0d584bbadc31.png",
     "static/media/S__2482209_0.jpg": "/static/media/S__2482209_0.0a7bd6081a3448ccdfcb.jpg",
@@ -67,7 +69,9 @@
     "static/media/Analysis.png": "/static/media/Analysis.49a68eb65daa33e05f68.png",
     "static/media/S__2482208_0.jpg": "/static/media/S__2482208_0.6162f896380a6654130f.jpg",
     "static/media/LINE_ALBUM_2024.3.28_241104_2.jpg": "/static/media/LINE_ALBUM_2024.3.28_241104_2.888c0662f2139b8c6685.jpg",
+    "static/media/H2.png": "/static/media/H2.63322fbee2c81caf94fc.png",
     "static/media/border element 02.jpg": "/static/media/border element 02.ecb4cfba541cd1da4f34.jpg",
+    "static/media/HatStructure.png": "/static/media/HatStructure.27597da4126c912169cf.png",
     "static/media/C_art.png": "/static/media/C_art.66313f76d92921feedd8.png",
     "static/media/messageImage_1730712893841.jpg": "/static/media/messageImage_1730712893841.f4ee3c8c4dfc60d5e6b7.jpg",
     "static/media/alley_3.png": "/static/media/alley_3.241d0ec0115013a582df.png",
@@ -77,11 +81,14 @@
     "static/media/WORD blocks_2.jpg": "/static/media/WORD blocks_2.dcd45d4bfd8d0c762884.jpg",
     "static/media/Zodaic.png": "/static/media/Zodaic.5f74fbe3ed8afde3cdc3.png",
     "static/media/Compared_1.png": "/static/media/Compared_1.f5446b2e5786d7d71eed.png",
+    "static/media/HatFrist.png": "/static/media/HatFrist.388b97d2499509a7759e.png",
     "static/media/PolyVox.png": "/static/media/PolyVox.2dfc1dd67a3956f5418b.png",
     "static/media/Final_com.jpg": "/static/media/Final_com.e7eeaaf151381cf87fa3.jpg",
     "static/media/a4092ff.jpg": "/static/media/33b58224326f85d515042e0b36085aa6a4092ff.79d8d68114ba88df43c3.jpg",
     "static/media/3D_Printing.jpg": "/static/media/3D_Printing.a75b9745daa892f88817.jpg",
+    "static/media/Hat2.png": "/static/media/Hat2.c1f48e6b011c554c0d94.png",
     "static/media/Grasshopper_Lecture_1.jpg": "/static/media/Grasshopper_Lecture_1.291ac05f2256dfa9c427.jpg",
+    "static/media/Dimension.png": "/static/media/Dimension.a6785236d386a5f8fc7c.png",
     "static/media/ViewCapture20241104_223014.png": "/static/media/ViewCapture20241104_223014.269bd3d8790e4a75f878.png",
     "static/media/project2.jpg": "/static/media/project2.5fae296d371cc56cd98a.jpg",
     "static/media/project4.jpg": "/static/media/project4.a7b7ed11daa072b234eb.jpg",
@@ -92,10 +99,10 @@
     "static/media/project6.jpg": "/static/media/project6.a22c939898d6c4613b65.jpg",
     "index.html": "/index.html",
     "main.092f2679.css.map": "/static/css/main.092f2679.css.map",
-    "main.42eb6cf2.js.map": "/static/js/main.42eb6cf2.js.map"
+    "main.37cf6129.js.map": "/static/js/main.37cf6129.js.map"
   },
   "entrypoints": [
     "static/css/main.092f2679.css",
-    "static/js/main.42eb6cf2.js"
+    "static/js/main.37cf6129.js"
   ]
 }
