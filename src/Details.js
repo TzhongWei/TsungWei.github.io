@@ -115,6 +115,10 @@ import ProjectFig_13_5 from "./ProjectFolder/Project_13/Hat2.png";
 import ProjectFig_13_6 from "./ProjectFolder/Project_13/HatFrist.png";
 
 import ProjectFig_14_1 from "./ProjectFolder/Project_14/Running.gif";
+import ProjectFig_14_2 from "./ProjectFolder/Project_14/Dist_1.png";
+import ProjectFig_14_3 from "./ProjectFolder/Project_14/Dist_2.png";
+import ProjectFig_14_4 from "./ProjectFolder/Project_14/Dist_3.png";
+import ProjectFig_14_5 from "./ProjectFolder/Project_14/Dist_4.png";
 
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
@@ -1245,61 +1249,90 @@ export const projectDetails = [
     ],
   },
   {
-    title: "Information Complexity with Stacking Behavious by ABM",
+    title: "Information Scape : Agent-Based Model",
     image: ProjectFig_14_1,
     description: [
       <p>
-        This project was initiated by <strong> Iuan Kai Fang</strong>, a PhD
-        student in our lab and design director at <strong>KEA CREATIVE.</strong>{" "}
-        The objective was to design a <strong>feature wall</strong> for the
-        College of Electrical Engineering and Computer Science at National Tsing
-        Hua University. The college wanted a tribute wall to honor their former
-        president, displaying both his portrait and his well-known theory.
-        Inspired by <strong>water jet cutting techniques</strong> on Ultra High
-        Performance Concrete (UHPC) and light grating, we created a design with
-        engravings and triangular protrusions to reveal two distinct images from
-        different viewing angles.
+        Access to information greatly influences individual decision-making. The
+        concept of <strong>information scape</strong>, introduced by our lab’s
+        PhD student <strong>Ye Yint Aung</strong>, examines how people behave in
+        response to different information scenarios. This research focuses on
+        the visual domain and how individuals gather information in a space to
+        decide on destinations, using{" "}
+        <strong>Agent-Based Modeling (ABM)</strong> to simulate behaviors within
+        complex systems.
       </p>,
       <p>
-        In the initial design phase, we used Grasshopper to analyse each pixel’s
-        color code, translating this data into depth variations for the
-        engraving slots on the wall's surface. We experimented with different
-        engraving shapes, like trapezoids and triangles, to determine the most
-        effective profiles. The <strong>angle of the triangular faces </strong>
-        on the protrusions was carefully analysed to optimise the viewing
-        perspective, enhancing the visibility of each image based on inclination
-        ratios. In the final design phase, we fine-tuned parameters and rotated
-        the engraving patterns to ensure the images would appear clearly from
-        specific angles.
+        Imagine navigating to a location within a space: typically, we look for
+        the closest path to our destination. However, the path is often
+        indirect, potentially obstructed by walls or other dynamic elements.
+        Without an internal map, we rely on signs and cues along the way, all
+        within the limitations of our visual range. Additionally, we may have
+        other tasks to accomplish before reaching our main destination. Given
+        these variables, our daily navigation is influenced by multiple factors
+        and pieces of information that lead to different outcomes. Observing and
+        categorizing each person’s actions would be overwhelming due to the
+        complexity, so we simplify these behaviors, applying theoretical
+        frameworks to study how agents would likely act in such settings.
       </p>,
       <p>
-        With support from <strong>Global Reengineering Co. Ltd.</strong>, we
-        developed a mold and successfully cast the concrete wall. The
-        engravings, ranging from one to five millimeters in width, presented
-        challenges in retaining the fine details after the concrete solidified.
-        We used a wooden female mold to capture the image patterns, assembling
-        the triangular faces to create an integrated mold that displayed the
-        final images as intended.
+        For example, we often manage tasks using a{" "}
+        <strong>stacking approach</strong>: when a new task appears, it’s added
+        to the stack (pushed), and we only move to another task once the current
+        one is completed (popped). Our goal-oriented behaviors are also
+        well-represented by a <strong>discrete probability model</strong>. To
+        simulate individual decision-making across multiple tasks, we employ
+        Markov Chains. A key aspect of this study is the
+        <strong> propagation of information</strong> to various targets within
+        the space, requiring agents to gather information dynamically as they
+        move. To facilitate this, we apply the{" "}
+        <strong>Dijkstra algorithm</strong> to calculate and distribute target
+        distances for each individual agent.
       </p>,
     ],
-    links: ["https://github.com/TzhongWei/ABxMAddon.git"],
-    imgs: [],
+    links: [
+      "https://github.com/TzhongWei/ABxMAddon.git",
+      "https://www.food4rhino.com/en/app/abxmcore",
+      "https://www.researchgate.net/publication/379977834_ON_THE_INFORMATION_SCAPE_OF_SPACES",
+    ],
+    imgs: [ProjectFig_14_2, ProjectFig_14_3, ProjectFig_14_4, ProjectFig_14_5],
     appendix: [
       <p key="1">
-        <strong>Design Director and PhD Iuan Kai Fang</strong> <br /> KEA
-        CREATIVE
-        <br /> National Taiwan University of Science and Technology
-      </p>,
-      <p key="2">
         <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
         University of Science and Technology
       </p>,
       <p key="2">
-        <strong>Global Reengineering Co. Lt.</strong>
+        <strong>PhD Ye Yint Aung</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="3">
+        <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "Not Yet",
+    image: projectImage1,
+    description: [<p>Nothing yet...</p>],
+    links: [
+      "https://github.com/TzhongWei/ABxMAddon.git",
+      "https://www.food4rhino.com/en/app/abxmcore",
+      "https://www.researchgate.net/publication/379977834_ON_THE_INFORMATION_SCAPE_OF_SPACES",
+    ],
+    imgs: [],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
       </p>,
       <p key="2">
-        <strong>Postgraduated student YuChun Chen</strong> <br /> National
-        Taiwan University of Science and Technology
+        <strong>PhD Ye Yint Aung</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="3">
+        <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
+        Science and Technology
       </p>,
     ],
   },
