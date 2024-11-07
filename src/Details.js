@@ -113,7 +113,8 @@ import ProjectFig_13_3 from "./ProjectFolder/Project_13/Map.png";
 import ProjectFig_13_4 from "./ProjectFolder/Project_13/Dimension.png";
 import ProjectFig_13_5 from "./ProjectFolder/Project_13/Hat2.png";
 import ProjectFig_13_6 from "./ProjectFolder/Project_13/HatFrist.png";
-import ProjectFig_13_7 from "./ProjectFolder/Project_13/HatStructure.png";
+
+import ProjectFig_14_1 from "./ProjectFolder/Project_14/Running.gif";
 
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
@@ -1240,6 +1241,65 @@ export const projectDetails = [
       <p key="4">
         <strong>PhD Felicia Wagiri</strong> <br /> Postgraduated student <br />{" "}
         National Taiwan University of Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "Information Complexity with Stacking Behavious by ABM",
+    image: ProjectFig_14_1,
+    description: [
+      <p>
+        This project was initiated by <strong> Iuan Kai Fang</strong>, a PhD
+        student in our lab and design director at <strong>KEA CREATIVE.</strong>{" "}
+        The objective was to design a <strong>feature wall</strong> for the
+        College of Electrical Engineering and Computer Science at National Tsing
+        Hua University. The college wanted a tribute wall to honor their former
+        president, displaying both his portrait and his well-known theory.
+        Inspired by <strong>water jet cutting techniques</strong> on Ultra High
+        Performance Concrete (UHPC) and light grating, we created a design with
+        engravings and triangular protrusions to reveal two distinct images from
+        different viewing angles.
+      </p>,
+      <p>
+        In the initial design phase, we used Grasshopper to analyse each pixel’s
+        color code, translating this data into depth variations for the
+        engraving slots on the wall's surface. We experimented with different
+        engraving shapes, like trapezoids and triangles, to determine the most
+        effective profiles. The <strong>angle of the triangular faces </strong>
+        on the protrusions was carefully analysed to optimise the viewing
+        perspective, enhancing the visibility of each image based on inclination
+        ratios. In the final design phase, we fine-tuned parameters and rotated
+        the engraving patterns to ensure the images would appear clearly from
+        specific angles.
+      </p>,
+      <p>
+        With support from <strong>Global Reengineering Co. Ltd.</strong>, we
+        developed a mold and successfully cast the concrete wall. The
+        engravings, ranging from one to five millimeters in width, presented
+        challenges in retaining the fine details after the concrete solidified.
+        We used a wooden female mold to capture the image patterns, assembling
+        the triangular faces to create an integrated mold that displayed the
+        final images as intended.
+      </p>,
+    ],
+    links: ["https://github.com/TzhongWei/ABxMAddon.git"],
+    imgs: [],
+    appendix: [
+      <p key="1">
+        <strong>Design Director and PhD Iuan Kai Fang</strong> <br /> KEA
+        CREATIVE
+        <br /> National Taiwan University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>Global Reengineering Co. Lt.</strong>
+      </p>,
+      <p key="2">
+        <strong>Postgraduated student YuChun Chen</strong> <br /> National
+        Taiwan University of Science and Technology
       </p>,
     ],
   },
