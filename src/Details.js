@@ -1323,7 +1323,7 @@ export const projectDetails = [
   {
     title: "Interwoven Instructure Grammar",
     image: ProjectFig_15_6,
-    description: [<p>Nothing yet...</p>],
+    description: [<p>This was a research about using a shape parser to transform polylines into a sentence as a hint to reorient target geometries into desired results.</p>],
     links: [
       "https://www.researchgate.net/publication/379961011_RULE-BASED_GENERATION_OF_INTERWOVEN_ASSEMBLIES_IN_ARCHITECTURAL_DESIGN_A_COMPUTATIONAL_APPROACH_INTEGRATING_ATTRIBUTE_GRAMMAR",
       "https://github.com/TzhongWei/SGSFramework"
