@@ -1323,12 +1323,46 @@ export const projectDetails = [
   {
     title: "Interwoven Instructure Grammar",
     image: ProjectFig_15_6,
-    description: [<p>This was a research about using a shape parser to transform polylines into a sentence as a hint to reorient target geometries into desired results.</p>],
+    description: [
+      <p>
+        This research explores the potential of{" "}
+        <strong>procedural modeling</strong> to create design and assembly
+        sequences for interwoven panel systems. The primary objective is to
+        develop a computational framework enabling architects and designers to
+        conceptualize and construct interwoven assemblies through{" "}
+        <strong>rule-based generation with attribute grammar</strong>. This
+        study investigates how procedural modeling can effectively generate
+        design and assembly sequences for interwoven panels in architectural
+        applications.
+      </p>,
+      <p>
+        The methodology unfolds in two stages. First, the interwoven module was
+        developed, with each component kinematically constrained based on its
+        geometrical characteristics. Three types of interwoven components were
+        created—straight and two types of turnings—sharing a common connection
+        system. Second, production rules for assemblies were defined with
+        practical applications of attribute grammar. The results indicate that
+        attribute grammar is effective in managing rule-based generated
+        assemblies, using attributes as semantics to control transformations and
+        block placements. This approach offers architects and designers a robust
+        computational toolkit for rule-based generation and assembly of
+        interwoven panels, advancing complex geometric design within
+        architectural practice.
+      </p>,
+    ],
     links: [
       "https://www.researchgate.net/publication/379961011_RULE-BASED_GENERATION_OF_INTERWOVEN_ASSEMBLIES_IN_ARCHITECTURAL_DESIGN_A_COMPUTATIONAL_APPROACH_INTEGRATING_ATTRIBUTE_GRAMMAR",
-      "https://github.com/TzhongWei/SGSFramework"
+      "https://github.com/TzhongWei/SGSFramework",
     ],
-    imgs: [ProjectFig_15_1, ProjectFig_15_2,ProjectFig_15_3,ProjectFig_15_4,ProjectFig_15_5,ProjectFig_15_7,ProjectFig_15_8],
+    imgs: [
+      ProjectFig_15_1,
+      ProjectFig_15_2,
+      ProjectFig_15_3,
+      ProjectFig_15_4,
+      ProjectFig_15_5,
+      ProjectFig_15_7,
+      ProjectFig_15_8,
+    ],
     appendix: [
       <p key="1">
         <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
