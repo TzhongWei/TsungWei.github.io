@@ -128,6 +128,7 @@ import ProjectFig_15_5 from "./ProjectFolder/Project_15/Path.png";
 import ProjectFig_15_6 from "./ProjectFolder/Project_15/Result.png";
 import ProjectFig_15_7 from "./ProjectFolder/Project_15/Transformation.png";
 import ProjectFig_15_8 from "./ProjectFolder/Project_15/UnitDesign.png";
+import ProjectFig_15_9 from "./ProjectFolder/Project_15/Result_2.png";
 
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
@@ -1322,7 +1323,7 @@ export const projectDetails = [
   },
   {
     title: "Interwoven Instructure Grammar",
-    image: ProjectFig_15_6,
+    image: ProjectFig_15_9,
     description: [
       <p>
         This research explores the potential of{" "}
@@ -1360,6 +1361,7 @@ export const projectDetails = [
       ProjectFig_15_3,
       ProjectFig_15_4,
       ProjectFig_15_5,
+      ProjectFig_15_6,
       ProjectFig_15_7,
       ProjectFig_15_8,
     ],
@@ -1369,11 +1371,15 @@ export const projectDetails = [
         University of Science and Technology
       </p>,
       <p key="2">
-        <strong>PhD Ye Yint Aung</strong> <br /> National Taiwan University of
+        <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
         Science and Technology
       </p>,
       <p key="3">
-        <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
+        <strong>PhD Ye Yint Aung</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="5">
+        <strong>PhD Felicia Wagiri</strong> <br /> National Taiwan University of
         Science and Technology
       </p>,
     ],
