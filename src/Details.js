@@ -120,6 +120,15 @@ import ProjectFig_14_3 from "./ProjectFolder/Project_14/Dist_2.png";
 import ProjectFig_14_4 from "./ProjectFolder/Project_14/Dist_3.png";
 import ProjectFig_14_5 from "./ProjectFolder/Project_14/Dist_4.png";
 
+import ProjectFig_15_1 from "./ProjectFolder/Project_15/Component.png";
+import ProjectFig_15_2 from "./ProjectFolder/Project_15/Models.png";
+import ProjectFig_15_3 from "./ProjectFolder/Project_15/ParseTree.png";
+import ProjectFig_15_4 from "./ProjectFolder/Project_15/ParserDiagram.png";
+import ProjectFig_15_5 from "./ProjectFolder/Project_15/Path.png";
+import ProjectFig_15_6 from "./ProjectFolder/Project_15/Result.png";
+import ProjectFig_15_7 from "./ProjectFolder/Project_15/Transformation.png";
+import ProjectFig_15_8 from "./ProjectFolder/Project_15/UnitDesign.png";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -1312,15 +1321,14 @@ export const projectDetails = [
     ],
   },
   {
-    title: "Not Yet",
-    image: projectImage1,
+    title: "Interwoven Instructure Grammar",
+    image: ProjectFig_15_6,
     description: [<p>Nothing yet...</p>],
     links: [
-      "https://github.com/TzhongWei/ABxMAddon.git",
-      "https://www.food4rhino.com/en/app/abxmcore",
-      "https://www.researchgate.net/publication/379977834_ON_THE_INFORMATION_SCAPE_OF_SPACES",
+      "https://www.researchgate.net/publication/379961011_RULE-BASED_GENERATION_OF_INTERWOVEN_ASSEMBLIES_IN_ARCHITECTURAL_DESIGN_A_COMPUTATIONAL_APPROACH_INTEGRATING_ATTRIBUTE_GRAMMAR",
+      "https://github.com/TzhongWei/SGSFramework"
     ],
-    imgs: [],
+    imgs: [ProjectFig_15_1, ProjectFig_15_2,ProjectFig_15_3,ProjectFig_15_4,ProjectFig_15_5,ProjectFig_15_7,ProjectFig_15_8],
     appendix: [
       <p key="1">
         <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
