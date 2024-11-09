@@ -1229,7 +1229,7 @@ export const projectDetails = [
     links: [
       "https://github.com/TzhongWei/EinsteinHat_GH",
       "https://github.com/isohedral/hatviz",
-      "https://www.researchgate.net/publication/383039499_Hat_Monotiles_Driving_Innovation_in_Aperiodic_Pattern_Generation_and_Application",
+      "https://www.researchgate.net/publication/383039499_Hat_Monotiles_Driving_Innovation_in_Aperiodic_\nPattern_Generation_and_Application",
     ],
     imgs: [
       ProjectFig_13_1,
@@ -1352,7 +1352,7 @@ export const projectDetails = [
       </p>,
     ],
     links: [
-      "https://www.researchgate.net/publication/379961011_RULE-BASED_GENERATION_OF_INTERWOVEN_ASSEMBLIES_IN_ARCHITECTURAL_DESIGN_A_COMPUTATIONAL_APPROACH_INTEGRATING_ATTRIBUTE_GRAMMAR",
+      "https://www.researchgate.net/publication/379961011_RULE-BASED_GENERATION_OF_INTERWOVEN_\nASSEMBLIES_IN_ARCHITECTURAL_DESIGN_A_COMPUTATIONAL_APPROACH_INTEGRATING_ATTRIBUTE_\nGRAMMAR",
       "https://github.com/TzhongWei/SGSFramework",
     ],
     imgs: [
