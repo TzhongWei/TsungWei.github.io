@@ -130,6 +130,15 @@ import ProjectFig_15_7 from "./ProjectFolder/Project_15/Transformation.png";
 import ProjectFig_15_8 from "./ProjectFolder/Project_15/UnitDesign.png";
 import ProjectFig_15_9 from "./ProjectFolder/Project_15/Result_2.png";
 
+import ProjectFig_18_1 from "./ProjectFolder/Project_18/1730951233608.jpg";
+import ProjectFig_18_2 from "./ProjectFolder/Project_18/1730951763199.jpg";
+import ProjectFig_18_3 from "./ProjectFolder/Project_18/GrammarAndParser.png";
+import ProjectFig_18_4 from "./ProjectFolder/Project_18/messageImage_1730816947140.jpg";
+import ProjectFig_18_5 from "./ProjectFolder/Project_18/messageImage_1730816960561.jpg";
+import ProjectFig_18_6 from "./ProjectFolder/Project_18/messageImage_1730816987484.jpg";
+import ProjectFig_18_7 from "./ProjectFolder/Project_18/ParseTree.png";
+import ProjectFig_18_8 from "./ProjectFolder/Project_18/InterwovenParserAnimation.gif";
+
 import LectureImage1 from "./assets/LectureImage/Minecraft.jpg";
 import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
@@ -969,7 +978,7 @@ export const projectDetails = [
         cast, we attached magnets to the joints, completing the product.
       </p>,
     ],
-    links: [],
+    links: undefined,
     imgs: [
       ProjectFig_9_1,
       ProjectFig_9_2,
@@ -1322,7 +1331,7 @@ export const projectDetails = [
     ],
   },
   {
-    title: "Interwoven Instructure Grammar",
+    title: "Interwoven structure Grammar",
     image: ProjectFig_15_9,
     description: [
       <p>
@@ -1381,6 +1390,121 @@ export const projectDetails = [
       <p key="5">
         <strong>PhD Felicia Wagiri</strong> <br /> National Taiwan University of
         Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "SL Block Wedding Tower: Hierarchical Assembly",
+    image: projectImage1,
+    description: [<p>No yet..</p>],
+    links: [],
+    imgs: [],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="3">
+        <strong>Postgraduated JingYan Chen Neil</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "SL Block Babel Tower: Towering with Minimal Information",
+    image: projectImage1,
+    description: [<p>No yet..</p>],
+    links: [
+      "https://www.researchgate.net/publication/383818429_Beyond_Babel_Towering_With_Minimal_Communication",
+    ],
+    imgs: [],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="3">
+        <strong>Postgraduated JingYan Chen Neil</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title: "SL Block Interwoven Structure: Procedural Design and Shape Parser",
+    image: ProjectFig_18_2,
+    description: [
+      <p>
+        Sustainable and efficient building solutions in architectural design are
+        essential, particularly as{" "}
+        <strong>modular and reconfigurable approaches</strong> support
+        cradle-to-cradle principles and help reduce waste. Interwoven
+        structures, which have roots in traditional craftsmanship, are a proven
+        method for enhancing{" "}
+        <strong>system integrity and structural stability</strong> through
+        topological interlocking between components. <strong>SL Blocks</strong>,
+        serving as the fundamental building units with six possible assembly
+        configurations, can form various structural components across
+        hierarchical levels. This approach aligns with modular design, as
+        rule-based generation determines the configuration and relationships
+        between components.
+      </p>,
+      <p>
+        This research presents a novel <strong>computational framework</strong>{" "}
+        for designing interwoven structures using SL Blocks. Leveraging the six
+        transformations and grammatical approaches, this method allows for
+        self-supporting, complex assemblies without adhesives or mechanical
+        fasteners. In the <strong>rule-based generation</strong> phase, a base
+        surface—characterised by height variations and weaving patterns—serves
+        as the input. This surface is transformed into interwoven structures,
+        divided into voxels and paths to guide the SL Block configuration. To
+        streamline the generation of interwoven assemblies, a Rhino
+        <strong>Grasshopper-compatible parser</strong> was developed, which
+        verifies syntax, tokenises values into a hierarchical model using an LL
+        parser, and creates seamless interwoven panels that match the designated
+        surface area.
+      </p>,
+      <p>
+        The <strong>assembly strategy phase</strong> involves segmenting
+        components into smaller units and establishing an ordered sequence for
+        their assembly. The <strong>versatility and scalability</strong> of SL
+        Blocks in creating interwoven structures are demonstrated through
+        various design hierarchies formed by aggregating SL Blocks. These
+        hierarchies and recursive stacking reveal the potential to scale up to
+        larger building elements, enabling the construction of substantial
+        structures from numerous smaller elements and advancing the efficiency
+        and innovation of modular architecture.
+      </p>,
+    ],
+    links: [],
+    imgs: [
+      ProjectFig_18_1,
+      ProjectFig_18_4,
+      ProjectFig_18_5,
+      ProjectFig_18_6,
+      ProjectFig_18_7,
+      ProjectFig_18_3,
+      ProjectFig_18_8,
+    ],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="3">
+        <strong>Postgraduated JingYan Chen Neil</strong> <br /> National Taiwan
+        University of Science and Technology
       </p>,
     ],
   },
