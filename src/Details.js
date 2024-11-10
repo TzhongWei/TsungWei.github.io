@@ -130,6 +130,16 @@ import ProjectFig_15_7 from "./ProjectFolder/Project_15/Transformation.png";
 import ProjectFig_15_8 from "./ProjectFolder/Project_15/UnitDesign.png";
 import ProjectFig_15_9 from "./ProjectFolder/Project_15/Result_2.png";
 
+import ProjectFig_17_1 from "./ProjectFolder/Project_17/AssembleTest.png";
+import ProjectFig_17_2 from "./ProjectFolder/Project_17/Diagram.png";
+import ProjectFig_17_3 from "./ProjectFolder/Project_17/Issues.png";
+import ProjectFig_17_4 from "./ProjectFolder/Project_17/S__2507117_0.jpg";
+import ProjectFig_17_5 from "./ProjectFolder/Project_17/S__2507119_0.jpg";
+import ProjectFig_17_6 from "./ProjectFolder/Project_17/S__2507120_0.jpg";
+import ProjectFig_17_7 from "./ProjectFolder/Project_17/S__2507121_0.jpg";
+import ProjectFig_17_8 from "./ProjectFolder/Project_17/S__2507122_0.jpg";
+import ProjectFig_17_9 from "./ProjectFolder/Project_17/Towering.jpg";
+
 import ProjectFig_18_1 from "./ProjectFolder/Project_18/1730951233608.jpg";
 import ProjectFig_18_2 from "./ProjectFolder/Project_18/1730951763199.jpg";
 import ProjectFig_18_3 from "./ProjectFolder/Project_18/GrammarAndParser.png";
@@ -1424,7 +1434,7 @@ export const projectDetails = [
   },
   {
     title: "SL Block Babel Tower: Towering with Minimal Information",
-    image: projectImage1,
+    image: ProjectFig_17_9,
     description: [
       <p>
         This research focuses on enhancing the efficiency and sustainability of
@@ -1474,7 +1484,16 @@ export const projectDetails = [
     links: [
       "https://www.researchgate.net/publication/383818429_Beyond_Babel_Towering_With_Minimal_Communication",
     ],
-    imgs: [],
+    imgs: [
+      ProjectFig_17_1,
+      ProjectFig_17_2,
+      ProjectFig_17_3,
+      ProjectFig_17_4,
+      ProjectFig_17_5,
+      ProjectFig_17_6,
+      ProjectFig_17_7,
+      ProjectFig_17_8,
+    ],
     appendix: [
       <p key="1">
         <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
