@@ -1397,7 +1397,7 @@ export const projectDetails = [
     title: "SL Block Wedding Tower: Hierarchical Assembly",
     image: projectImage1,
     description: [<p>No yet..</p>],
-    links: [],
+    links: undefined,
     imgs: [],
     appendix: [
       <p key="1">
@@ -1405,10 +1405,18 @@ export const projectDetails = [
         University of Science and Technology
       </p>,
       <p key="2">
+        <strong>Professor Oliver Tessman</strong> <br /> DDU, Technische
+        Universitat Darmstadt
+      </p>,
+      <p key="3">
         <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
         Science and Technology
       </p>,
-      <p key="3">
+      <p key="4">
+        <strong>PhD YuXi Liu</strong> <br /> DDU, Technische Universitat
+        Darmstadt
+      </p>,
+      <p key="5">
         <strong>Postgraduated JingYan Chen Neil</strong> <br /> National Taiwan
         University of Science and Technology
       </p>,
@@ -1417,7 +1425,52 @@ export const projectDetails = [
   {
     title: "SL Block Babel Tower: Towering with Minimal Information",
     image: projectImage1,
-    description: [<p>No yet..</p>],
+    description: [
+      <p>
+        This research focuses on enhancing the efficiency and sustainability of
+        constructing <strong>dry-stacking structures</strong> using{" "}
+        <strong>SL blocks</strong> by developing a method for{" "}
+        <strong>parallel construction</strong>. Drawing inspiration from M.C.
+        Escher’s woodcut prints of the Tower of Babel and Filippo Brunelleschi’s
+        helical herringbone brickwork in the Duomo di Firenze, this study
+        presents tower structures designed for concurrent assembly by
+        independent working units. SL blocks, octo-cubes intended for
+        dry-stacking, create interlocking structures that require{" "}
+        <strong>minimal communication</strong> between units. The assembly
+        process involves precise sequencing of components, with temporary
+        support added as needed. A key challenge is enabling multiple
+        independent units to{" "}
+        <strong>build these interlocking structures simultaneously</strong>.
+      </p>,
+      <p>
+        To address this, the study introduces a{" "}
+        <strong>computational framework</strong> that uses{" "}
+        <strong>grammar</strong> to define interlocking relationships,
+        generating <strong>patterns for constructing tower structures</strong>.
+        This grammar serves as a{" "}
+        <strong>conceptual construction methodology</strong>, outlining
+        transformational relationships between structural features and the
+        strategic placement of SL blocks. The assembly framework allows each
+        working unit to interpret construction progress{" "}
+        <strong>independently and respond autonomously</strong>, fostering an
+        intuitive construction process. Additionally, an{" "}
+        <strong>
+          algorithm automates the selection of candidate blocks for parallel
+          assembly
+        </strong>
+        , ensuring collision avoidance and structural stability. Physical models
+        of SL block towers were assembled and tested, evaluating various tower
+        configurations to determine the feasibility and limitations of the
+        proposed parallel construction methods.
+      </p>,
+      <p>
+        Finally, we assembled physical models of SL block towers using
+        dry-stacking techniques. We tested various tower configurations to
+        evaluate their feasibility and limitations, which allowed us to refine
+        strategies for parallel construction that require minimal reliance on
+        direct communication.
+      </p>,
+    ],
     links: [
       "https://www.researchgate.net/publication/383818429_Beyond_Babel_Towering_With_Minimal_Communication",
     ],
@@ -1428,10 +1481,18 @@ export const projectDetails = [
         University of Science and Technology
       </p>,
       <p key="2">
+        <strong>Professor Oliver Tessman</strong> <br /> DDU, Technische
+        Universitat Darmstadt
+      </p>,
+      <p key="3">
         <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
         Science and Technology
       </p>,
-      <p key="3">
+      <p key="4">
+        <strong>PhD YuXi Liu</strong> <br /> DDU, Technische Universitat
+        Darmstadt
+      </p>,
+      <p key="5">
         <strong>Postgraduated JingYan Chen Neil</strong> <br /> National Taiwan
         University of Science and Technology
       </p>,
@@ -1503,6 +1564,14 @@ export const projectDetails = [
         Science and Technology
       </p>,
       <p key="3">
+        <strong>PhD Felicia Wagiri</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="4">
+        <strong>PhD Ye Yint Aung</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="5">
         <strong>Postgraduated JingYan Chen Neil</strong> <br /> National Taiwan
         University of Science and Technology
       </p>,
