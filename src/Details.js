@@ -135,6 +135,15 @@ import ProjectFig_16_2 from "./ProjectFolder/Project_16/S__59965456_0.jpg";
 import ProjectFig_16_3 from "./ProjectFolder/Project_16/S__59965463_0.jpg";
 import ProjectFig_16_4 from "./ProjectFolder/Project_16/S__59965464_0.jpg";
 import ProjectFig_16_5 from "./ProjectFolder/Project_16/S__59965466_0.jpg";
+import ProjectFig_16_6 from "./ProjectFolder/Project_16/Basilica.jpg";
+import ProjectFig_16_7 from "./ProjectFolder/Project_16/Compared.png";
+import ProjectFig_16_8 from "./ProjectFolder/Project_16/DeBasilica.png";
+import ProjectFig_16_9 from "./ProjectFolder/Project_16/Top.png";
+import ProjectFig_16_10 from "./ProjectFolder/Project_16/Mid.png";
+import ProjectFig_16_11 from "./ProjectFolder/Project_16/Bot.png";
+import ProjectFig_16_12 from "./ProjectFolder/Project_16/Door.png";
+import ProjectFig_16_13 from "./ProjectFolder/Project_16/System.png";
+import ProjectFig_16_14 from "./ProjectFolder/Project_16/Hierarchy.png";
 
 import ProjectFig_17_1 from "./ProjectFolder/Project_17/AssembleTest.png";
 import ProjectFig_17_2 from "./ProjectFolder/Project_17/Diagram.png";
@@ -642,10 +651,50 @@ export const projectDetails = [
   },
   {
     title: "SL Block Wedding Tower: Hierarchical Assembly",
-    image: ProjectFig_16_1,
-    description: [<p></p>],
+    image: ProjectFig_16_14,
+    description: [
+      <p>
+        To manage complexity, we aim to organise the system within a
+        <strong>hierarchical framework</strong>, aiding in the understanding and
+        classification of topological relationships between components.
+        Individual elements are systematically arranged to aggregate into
+        larger, more complex structures. In this research, the focus is on the{" "}
+        <strong>hierarchical assembly of SL blocks</strong>. The framework maps
+        out the configuration of block assemblies, demonstrating how assembly
+        structures can flexibly integrate multiple SL Block designs. This
+        approach not only presents an innovative method for constructing complex
+        forms using SL Blocks but also highlights the versatility of the design.
+      </p>,
+      <p>
+        Initially, SL blocks are considered as individual elements, which are
+        then combined to form a <strong>conjugated pair</strong>. This pair is
+        capable of producing various configurations according to transformation
+        code sequences processed by a shape interpreter. The grammar system
+        facilitates the representation of multiple levels of elements,
+        highlighting the{" "}
+        <strong>relationships between superclasses and subclasses</strong>.
+        Through literature review and form exploration using the grammar and
+        interpreter, a grammar framework was developed to describe architectural
+        components. Ultimately, this approach was applied to model{" "}
+        <strong>both the Wedding Tower in Darmstadt and a basilica</strong>.
+      </p>,
+    ],
     links: undefined,
-    imgs: [ProjectFig_16_2, ProjectFig_16_3, ProjectFig_16_4, ProjectFig_16_5],
+    imgs: [
+      ProjectFig_16_1,
+      ProjectFig_16_2,
+      ProjectFig_16_3,
+      ProjectFig_16_4,
+      ProjectFig_16_5,
+      ProjectFig_16_6,
+      ProjectFig_16_7,
+      ProjectFig_16_8,
+      ProjectFig_16_9,
+      ProjectFig_16_10,
+      ProjectFig_16_11,
+      ProjectFig_16_12,
+      ProjectFig_16_13,
+    ],
     appendix: [
       <p key="1">
         <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
