@@ -134,7 +134,6 @@ import ProjectFig_17_1 from "./ProjectFolder/Project_17/AssembleTest.png";
 import ProjectFig_17_2 from "./ProjectFolder/Project_17/Diagram.png";
 import ProjectFig_17_3 from "./ProjectFolder/Project_17/Issues.png";
 import ProjectFig_17_4 from "./ProjectFolder/Project_17/S__2507117_0.jpg";
-import ProjectFig_17_5 from "./ProjectFolder/Project_17/S__2507119_0.jpg";
 import ProjectFig_17_6 from "./ProjectFolder/Project_17/S__2507120_0.jpg";
 import ProjectFig_17_7 from "./ProjectFolder/Project_17/S__2507121_0.jpg";
 import ProjectFig_17_8 from "./ProjectFolder/Project_17/S__2507122_0.jpg";
@@ -1489,7 +1488,6 @@ export const projectDetails = [
       ProjectFig_17_2,
       ProjectFig_17_3,
       ProjectFig_17_4,
-      ProjectFig_17_5,
       ProjectFig_17_6,
       ProjectFig_17_7,
       ProjectFig_17_8,
