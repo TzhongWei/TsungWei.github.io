@@ -130,6 +130,12 @@ import ProjectFig_15_7 from "./ProjectFolder/Project_15/Transformation.png";
 import ProjectFig_15_8 from "./ProjectFolder/Project_15/UnitDesign.png";
 import ProjectFig_15_9 from "./ProjectFolder/Project_15/Result_2.png";
 
+import ProjectFig_16_1 from "./ProjectFolder/Project_16/S__59965455_0.jpg";
+import ProjectFig_16_2 from "./ProjectFolder/Project_16/S__59965456_0.jpg";
+import ProjectFig_16_3 from "./ProjectFolder/Project_16/S__59965463_0.jpg";
+import ProjectFig_16_4 from "./ProjectFolder/Project_16/S__59965464_0.jpg";
+import ProjectFig_16_5 from "./ProjectFolder/Project_16/S__59965466_0.jpg";
+
 import ProjectFig_17_1 from "./ProjectFolder/Project_17/AssembleTest.png";
 import ProjectFig_17_2 from "./ProjectFolder/Project_17/Diagram.png";
 import ProjectFig_17_3 from "./ProjectFolder/Project_17/Issues.png";
@@ -636,10 +642,10 @@ export const projectDetails = [
   },
   {
     title: "SL Block Wedding Tower: Hierarchical Assembly",
-    image: projectImage1,
+    image: ProjectFig_16_1,
     description: [<p></p>],
     links: undefined,
-    imgs: [],
+    imgs: [ProjectFig_16_2, ProjectFig_16_3, ProjectFig_16_4, ProjectFig_16_5],
     appendix: [
       <p key="1">
         <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
