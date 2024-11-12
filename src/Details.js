@@ -222,7 +222,7 @@ export const personalDetails = {
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkedin: "https://linkedin.com/in/宗偉-鄭-b76a45251",
-  github: "https://www.github.com/",
+  github: "https://www.github.com/TzhongWei",
   email: "https://mike861104@gmail.com",
   ResearchGate: "https://www.researchgate.net/profile/Tsung-Wei-Cheng/research",
   instagram: "https://www.instagram.com/__zhong_wei/",
