@@ -238,6 +238,13 @@ export const workDetails = [
     Duration: "Apr 2023 - present",
   },
   {
+    Position: "Lecturer",
+    Company: `Department of Architecture, NUK`,
+    Location: "Kaohsiung, Taiwan",
+    Type: "Part Time",
+    Duration: "Nov 2024 - present",
+  },
+  {
     Position: "Internship",
     Company: `Global Reengineering Company Ltd.`,
     Location: "Yilan, Taiwan",
