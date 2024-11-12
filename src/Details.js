@@ -306,6 +306,14 @@ export const eduDetails = [
     Duration: "Jan 2024 - July 2024",
   },
   {
+    Position: "Exchange Research",
+    Company:
+      "Digital Design Unit, Department of Architecture, Technische Universitat Darmstadt",
+    Location: "Darmstadt, Germany",
+    Type: "Full Time",
+    Duration: "April 2024",
+  },
+  {
     Position: "Exchange Student",
     Company: `Department of Civil Engineering, Technische Universitat Berlin`,
     Location: "Berlin, Germany",
