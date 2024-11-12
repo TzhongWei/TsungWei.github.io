@@ -256,13 +256,6 @@ export const workDetails = [
     Company: `GAS Lab, Department of Architecture, NTUST`,
     Location: "Taipei, Taiwan",
     Type: "Full Time",
-    Duration: "Jul 2021 - Jul 2022",
-  },
-  {
-    Position: "Project Assitant of Topological Interlocking System",
-    Company: `GAS Lab, Department of Architecture, NTUST`,
-    Location: "Taipei, Taiwan",
-    Type: "Full Time",
     Duration: "Sep 2021 - Jul 2022",
   },
   {
