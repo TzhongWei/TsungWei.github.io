@@ -522,7 +522,7 @@ export const PublicationsDetails = {
     },
     {
       Name:
-        "TsungWei Cheng, Shen-Guan Shih, Felicia Wagiri,Kevin Harsono, Ye Yint Aung." +
+        "Tsung-Wei Cheng, Felicia Wagiri, Kevin Harsono, Ching-Yen Cheng, Shen-Guan Shih." +
         " Procedural Design for Interwoven Structures using SL Blocks: A Computational Framework for Modular Architecture",
       Link: undefined,
     },
