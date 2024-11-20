@@ -181,6 +181,11 @@ import MC_Bacilica_7 from "./assets/Monologue/Minecraft_Basilica/far.png";
 import MC_Bacilica_8 from "./assets/Monologue/Minecraft_Basilica/Map1.png";
 import MC_Bacilica_9 from "./assets/Monologue/Minecraft_Basilica/Map2.png";
 
+import MinecraftST01 from "./assets/Monologue/Minecraft Story_1/01.png";
+import MinecraftST02 from "./assets/Monologue/Minecraft Story_1/02.png";
+import MinecraftST03 from "./assets/Monologue/Minecraft Story_1/03.png";
+import MinecraftST04 from "./assets/Monologue/Minecraft Story_1/04.png";
+
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -829,7 +834,7 @@ export const projectDetails = [
         <strong>procedural modeling</strong> to create design and assembly
         sequences for interwoven panel systems. The primary objective is to
         develop a computational framework enabling architects and designers to
-        conceptualize and construct interwoven assemblies through{" "}
+        conceptualise and construct interwoven assemblies through{" "}
         <strong>rule-based generation with attribute grammar</strong>. This
         study investigates how procedural modeling can effectively generate
         design and assembly sequences for interwoven panels in architectural
@@ -1620,7 +1625,7 @@ export const projectDetails = [
         Due to the curved surface of the building and stair arrangements, the
         project required<strong> over 200 unique panel types</strong>, which
         significantly increased construction costs and resulted in substantial
-        mold waste. Our objective was to optimize the panel shapes and reduce
+        mold waste. Our objective was to optimise the panel shapes and reduce
         the number of unique UHPC components to enhance mold reusability,
         thereby minimizing waste and reducing costs.
       </p>,
@@ -1868,12 +1873,12 @@ export const MonologueDetails = [
         Cathedrals: <br />
         Gothic cathedrals, for example, are known for their high, pointed
         arches, ribbed vaults, and flying buttresses, creating a vertical,
-        towering effect that symbolizes reaching toward the heavens. They often
+        towering effect that symbolises reaching toward the heavens. They often
         include large stained-glass windows and intricate sculptures. <br />
         Basilicas: <br />
         Basilicas typically have a simpler, more open interior, with columns
         dividing the nave from the aisles and rounded arches. Their design
-        prioritizes processional movement, creating a sense of grandeur without
+        prioritises processional movement, creating a sense of grandeur without
         as much vertical emphasis as cathedrals. <br />
         <br />
         Structural Features: <br />
@@ -1964,5 +1969,148 @@ export const MonologueDetails = [
       MC_Bacilica_8,
       MC_Bacilica_9,
     ],
+  },
+  {
+    title: "Minecraft: Story of our server",
+    RepImage: MinecraftST01,
+    abstract: (
+      <p>
+        This section aims to introduce the story behind our server, focusing on
+        the narrative of its buildings and urban planning. Minecraft, a globally
+        renowned game with over 15 years of history, has evolved through
+        numerous updates, each bringing new structures, adventures, and
+        materials into the game. While some players prefer to start fresh with a
+        new map after each update, others cherish the old buildings made with
+        earlier materials as a testament to the server's history. As updates
+        roll out and different players come and go, the server transforms. Some
+        structures are erected, while others fall into disrepair or are removed.
+        Each of these changes tells a story about the evolution of the server,
+        reflecting the contributions and creativity of its community over time.
+      </p>
+    ),
+    date: "20/11/2024",
+    description: [
+      <p>
+        This server was established around 2022 by three server operators in
+        survival mode set to the difficult difficulty level. Their initial
+        intent was simple—to create a server where they could relax and have fun
+        during their leisure time. They never anticipated that this map would
+        endure for so long. Over time, their continuous efforts to construct and
+        expand the world brought a variety of unique buildings and features into
+        existence. What started as a modest project evolved into a complex and
+        vibrant world as numerous small adjustments and contributions from
+        various players accumulated into a significant transformation.
+      </p>,
+      <p>
+        To capture the essence of this evolution, we will present a dialogue
+        featuring key players on the server, including Mike_Cheng,
+        DreadYapper7430 (one of the original server operators), and others.
+        Through their conversations, we will uncover the stories behind the
+        server's buildings, the motivations that inspired their construction,
+        and the progression of urban planning within the map. This dialogue
+        serves as a narrative snapshot, illustrating the journey of the server
+        and celebrating the shared legacy of its players.
+      </p>,
+      <p>Everything Starting at the night</p>,
+      <p>
+        The story begins on a quiet evening, as Mike and DreadYapper7430 play
+        together, reflecting on the history of their server. The two had just
+        completed an enormous project—the Basilica, an awe-inspiring religious
+        monument adorned with intricate decorations and fine details, standing
+        proudly at the heart of the central city. This magnificent structure,
+        the largest religious memorial on the server, symbolised not just their
+        architectural ambitions but also the collaboration and dedication of the
+        server’s players over time.{" "}
+      </p>,
+      <p>
+        As the night deepened, their conversation drifted toward the origins of
+        the server, the many projects that had shaped its landscape, and the
+        countless stories etched into its blocks. The Basilica, now a towering
+        testament to their creativity, sparked a sense of nostalgia for the
+        journey that had brought them to this moment. Through their dialogue,
+        the rich history of the server began to unfold, revealing the triumphs,
+        challenges, and friendships that had emerged along the way.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Hi, Meow (Nickname for DreadYapper7430). Congratulations on passing your
+        architectural license exam!
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Haha! Thanks, Mike. How’s your latest project, the Basilica, coming
+        along?
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Oh, it’s going brilliantly! Actually, I just finished it this morning. I
+        know I sent you some pictures of the exterior, but for me, a project
+        isn’t truly “complete” until every detail is finished—the interiors,
+        decorations, and clearing away all the leftover materials. Ha! Now, I
+        can finally say it’s officially done.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Haha, with your high standards, a lot of my mining projects would still
+        be considered “unfinished.” But you know me—I’m more focused on urban
+        planning and the exteriors of buildings rather than the interiors.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Yeah, I know that! By the way, I’ve introduced a couple of new players
+        to our server. They’re my students from the Minecraft lecture I
+        teach—one of them is even an architecture student.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        That’s fantastic! Where are they building? Have you given them the grand
+        tour of our server?
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Oh, absolutely. They were amazed by the sheer scale of the city. It took
+        them about two hours just to explore everything, including the Memorial
+        Hall (城市紀念館). They’ve chosen to build their site far to the north
+        of the city, as they didn’t want to disrupt your carefully planned urban
+        layout.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Well, it's fine. Everyone visits the server can leave any works here. I
+        don't such care about wether they distory my urban plan except for some
+        urban building regulations, you know right?
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Yes, yes, I know. Don’t worry—I’ve already explained the rules to them.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        By the way, would you like to know the story behind those urban
+        regulations and how the city developed?
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Yes, absolutely! I’d love to hear it.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Well, this server is actually the second one we’ve hosted using Aternos.
+        My friends and I, who’ve known each other since high school, started it
+        after our first server became far too chaotic. On the old server,
+        buildings were placed randomly, and the whole place turned into a mess.
+        It was exhausting to find resources or organise anything properly.
+        Everything we built or fought for was based on the game’s default
+        settings, but after a while, it all felt aimless and unfulfilling.{" "}
+        <br />
+        So, we decided to start fresh with this new world. This time, we wanted
+        to create something more organised—a neat, small town with thoughtfully
+        planned layouts. Our aim wasn’t just to play the game but to build
+        something meaningful—a server that represents our shared memories and
+        the collaborative effort we’ve put into creating a cohesive and
+        structured world.
+      </p>,
+    ],
+    OtherImages: [MinecraftST02, MinecraftST03, MinecraftST04],
   },
 ];
