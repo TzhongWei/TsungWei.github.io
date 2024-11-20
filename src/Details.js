@@ -185,6 +185,7 @@ import MinecraftST01 from "./assets/Monologue/Minecraft Story_1/01.png";
 import MinecraftST02 from "./assets/Monologue/Minecraft Story_1/02.png";
 import MinecraftST03 from "./assets/Monologue/Minecraft Story_1/03.png";
 import MinecraftST04 from "./assets/Monologue/Minecraft Story_1/04.png";
+import MinecraftST05 from "./assets/Monologue/Minecraft Story_1/05.png";
 
 // Logos
 export const logos = {
@@ -2163,6 +2164,6 @@ export const MonologueDetails = [
       </p>,
       <p></p>,
     ],
-    OtherImages: [MinecraftST02, MinecraftST03, MinecraftST04],
+    OtherImages: [MinecraftST02, MinecraftST03, MinecraftST04, MinecraftST05],
   },
 ];
