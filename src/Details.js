@@ -2110,6 +2110,58 @@ export const MonologueDetails = [
         the collaborative effort we’ve put into creating a cohesive and
         structured world.
       </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Oh, agree! Sandbox games can often feel aimless and lack focus,
+        particularly without well-planned urban layouts or captivating
+        architectural designs. Honestly, if this server didn’t have such a neat
+        layout and stunning buildings, I doubt I would have stayed this long.
+        But, compared to the other medieval-style buildings, museums, and the
+        city hall, it can sometimes feel a bit cramped in places. By the way,
+        why have you insisted on keeping that small, slightly out-of-place hut
+        near the city hall? (The represented figure of this Monologue section)
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Well, you see, when we first landed in this world, we had no resources
+        at all. We had to quickly build a shelter to protect ourselves from
+        mobs. That little hut holds a lot of sentimental value—it’s a reminder
+        of how everything began. It was actually our very first building on the
+        server! Back then, we even managed to capture a zombie villager and cure
+        it. Now, it’s still there, encased in cobblestones, waiting for the day
+        we start trading with it. Ha ha ha! (As you know, once cured, villagers
+        offer extremely cheap trades between players.)
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Haha, everyone’s done that kind of thing before! By the way, I remember
+        there used to be a cobblestone bridge on top of the hut, extending to my
+        sakura house. I noticed you deconstructed it a while ago, saying it was
+        no longer functional and disrupted the skyline of the city.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Oh, that bridge was actually built to transport villagers from the
+        northern village. We used it to create a trade hall, which ended up
+        being our third building. The second one was the sugar cane machine—if
+        you consider that a building, of course.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Really? I thought the farming machine came later than the others. If it
+        were me, I’d have probably prioritised building other types of farms
+        first. It’s ironic, though, that it took us so long to solve the food
+        issues. You know I’m an architect, not a farmer. I went through all our
+        food storage while working on the basilica and never collected any food
+        myself!
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Haha, well, hunger has always been a long-term issue for us. Honestly,
+        we were so determined to finish the second building that we didn’t even
+        bother addressing the food situation. It was absolute madness!
+      </p>,
+      <p></p>,
     ],
     OtherImages: [MinecraftST02, MinecraftST03, MinecraftST04],
   },
