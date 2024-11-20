@@ -1971,7 +1971,7 @@ export const MonologueDetails = [
     ],
   },
   {
-    title: "Minecraft: Story of our server",
+    title: "Minecraft: Story of our server 1, Everything Starting at the night",
     RepImage: MinecraftST01,
     abstract: (
       <p>
