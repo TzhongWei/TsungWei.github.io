@@ -1972,7 +1972,8 @@ export const MonologueDetails = [
     ],
   },
   {
-    title: "Minecraft: Story of our server 1, Everything Starting at the night",
+    title:
+      "Minecraft: Story of our server 1, Everything Starting at that night",
     RepImage: MinecraftST01,
     abstract: (
       <p>
@@ -2138,13 +2139,14 @@ export const MonologueDetails = [
         Haha, everyone’s done that kind of thing before! By the way, I remember
         there used to be a cobblestone bridge on top of the hut, extending to my
         sakura house. I noticed you deconstructed it a while ago, saying it was
-        no longer functional and disrupted the skyline of the city.
+        no longer functional and disrupted the skyline of the city. Now only the
+        pier is left.
       </p>,
       <p>
         <strong>DreadYapper7430 :</strong>
         Oh, that bridge was actually built to transport villagers from the
         northern village. We used it to create a trade hall, which ended up
-        being our third building. The second one was the sugar cane machine—if
+        being our fifth building. The second one was the sugarcane machine—if
         you consider that a building, of course.
       </p>,
       <p>
@@ -2158,11 +2160,93 @@ export const MonologueDetails = [
       </p>,
       <p>
         <strong>DreadYapper7430 :</strong>
-        Haha, well, hunger has always been a long-term issue for us. Honestly,
-        we were so determined to finish the second building that we didn’t even
-        bother addressing the food situation. It was absolute madness!
+        Haha, well, hunger has always been a recurring issue for us. Honestly,
+        the sugarcane machine I mentioned doesn’t even look like its original
+        version anymore.
       </p>,
-      <p></p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Oh! Really?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Well...the only reason we built the sugarcane machine was that it was
+        the only farming machine we knew how to construct at the time. The later
+        buildings, like the watermelon and pumpkin farms, were added as part of
+        our urban planning and façade integration efforts. These machines
+        weren’t intended to provide food; they were primarily for producing
+        resources to trade with villagers so we could enchant our armour and
+        weapons.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        So,... based on your sequence, the villager trading hall should’ve been
+        the third or fourth building, right?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        No, you’ve got that wrong. As I said, the sugarcane machine was built
+        because it was all we knew how to make. Besides, the history of the
+        trading hall is quite complex—I’ll explain that later.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Oh really! So, what were the third and fourth buildings?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        The third building was the material hut, built by Su (HollowSuMu,
+        another server operator). But it’s different from what you see now. Back
+        then, it was much smaller. It was the first building where Su used log
+        trapdoors on the roof and fence gates for decoration. This design
+        approach heavily influenced our future building styles, including the
+        farming and wool machines. Both of those were demolished to make way for
+        the current city hall, as you know.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Yes, I remember seeing those machines when I first joined the server.
+        But by then, neither of them worked anymore.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Exactly. Since they were broken and Su hadn’t fixed them for ages, I
+        repurposed them into something else. Moving on to the fourth building,
+        it’s the only contemporary-style structure on the server. We originally
+        tried incorporating modern architectural styles into this server, as all
+        the buildings in our previous server were medieval.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        And what happened next?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Well, we realised pretty quickly that Minecraft’s building materials
+        weren’t well-suited for modern architectural styles. So, we returned to
+        medieval-style buildings—what you currently see on the server.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Including the five-story apartment?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Yes, although the fourth building took a long time to complete. A major
+        event slowed progress—the iron farm machine.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        What? Didn’t you transport villagers with the bridge?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Not that quickly. We needed minecarts and rails for transportation. You
+        have to understand, before we even started building the iron farm
+        machine, we were still quite optimistic. That was until we encountered
+        the major challenges posed by the Caves & Cliffs update during that
+        time.
+      </p>,
     ],
     OtherImages: [MinecraftST02, MinecraftST03, MinecraftST04, MinecraftST05],
   },
