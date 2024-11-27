@@ -187,6 +187,15 @@ import MinecraftST03 from "./assets/Monologue/Minecraft Story_1/03.png";
 import MinecraftST04 from "./assets/Monologue/Minecraft Story_1/04.png";
 import MinecraftST05 from "./assets/Monologue/Minecraft Story_1/05.png";
 
+import MinecraftST11 from "./assets/Monologue/Minecraft Story_2/01.png";
+import MinecraftST12 from "./assets/Monologue/Minecraft Story_2/02.png";
+import MinecraftST13 from "./assets/Monologue/Minecraft Story_2/03.png";
+import MinecraftST14 from "./assets/Monologue/Minecraft Story_2/04.png";
+import MinecraftST15 from "./assets/Monologue/Minecraft Story_2/05.png";
+import MinecraftST16 from "./assets/Monologue/Minecraft Story_2/06.png";
+import MinecraftST17 from "./assets/Monologue/Minecraft Story_2/07.png";
+import MinecraftST18 from "./assets/Monologue/Minecraft Story_2/08.png";
+
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -2233,7 +2242,7 @@ export const MonologueDetails = [
       <p>
         <strong>DreadYapper7430 :</strong>
         Yes, although the fourth building took a long time to complete. A major
-        event slowed progress—the iron farm machine.
+        event slowed progress—the iron golem farm machine.
       </p>,
       <p>
         <strong>Mike_Cheng :</strong>
@@ -2242,12 +2251,155 @@ export const MonologueDetails = [
       <p>
         <strong>DreadYapper7430 :</strong>
         Not that quickly. We needed minecarts and rails for transportation. You
-        have to understand, before we even started building the iron farm
+        have to understand, before we even started building the iron golem farm
         machine, we were still quite optimistic. That was until we encountered
         the major challenges posed by the Caves & Cliffs update during that
         time.
       </p>,
     ],
     OtherImages: [MinecraftST02, MinecraftST03, MinecraftST04, MinecraftST05],
+  },
+  {
+    title: "Minecraft: Story of our server 2, Update and Challenge",
+    RepImage: MinecraftST11,
+    abstract: (
+      <p>
+        In 2022, Minecraft introduced a major Caves & Cliffs update, which
+        expanded the height of terrains, making natural landscapes even more
+        majestic. However, the distribution of ore veins became more widespread,
+        increasing the difficulty of obtaining certain types of minerals,
+        especially iron ore. Iron ore, in particular, is a crucial resource in
+        the early stages of the game, essential for crafting armour and weapons,
+        which are vital early-game supplies. The increased difficulty in
+        acquiring it has made the gameplay experience more challenging for
+        players. Fortunately, an iron golem farm can provide an unlimited supply
+        of iron ingots, effectively addressing this issue. As a result,
+        constructing an iron golem farm becomes a priority in the early stages
+        of the game.
+      </p>
+    ),
+    date: "20/11/2024",
+    description: [
+      <p>
+        In the evening, Mike_Cheng logged into the game. As he soared around the
+        basilica with his elytra, he noticed DreadYapper7430 working on the
+        construction of Victoria Harbour. Deciding to join in, he landed on the
+        roof of a medieval building and placed his shulker box. From it, he
+        retrieved a set of stone bricks and began building alongside the server
+        operator.
+      </p>,
+      <p>
+        As they continued constructing the town, their conversation began...
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Hello there. How's going?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Brilliant! And you?
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Not bad! By the way, it’s great to see that the eternally procrastinated
+        project, Victoria Harbour, is finally moving forward. Ever since I
+        joined the server, you’ve been mentioning plans to expand the town, and
+        now it’s actually happening. Fascinating.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Well, yes. After seeing your basilica, I thought it was time to erect
+        some buildings around it. Initially, we intended for the basilica to be
+        at the centre of the city.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>I see. Fair enough.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Oh, by the way, Su recently reminded me of something interesting—do you
+        remember Sakura Island? He had some concerns about your island. That’s
+        where we spent our first night when we entered this world. We slept
+        there in a cave. I almost forgot about it, but Su clearly remembers. We
+        were talking about writing the story of our server, and he brought it
+        up. That makes your house something of a "site of injustice preservation
+        (不義遺址)" now.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : (suddenly flies to Sakura Island) </strong>
+        Wait, what? Bloody hell! Why would you stay there? Didn’t you build the
+        first hut? I feel so uncomfortable now. What on earth is a "site of
+        injustice preservation"?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Haha, you can Google it! Anyway, on our first day in this world, we
+        stayed in a cave at about the same height as the cobblestone bridge.
+        Back then, we were just trying to find a good landscape and an ideal
+        spot for constructing our city.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : (flying back to the town)</strong>
+        OMG. You’ve ruined it for me—my house doesn’t feel like a "virgin" space
+        anymore! To be fair, I knew there was a cave above my cathedral, but
+        when I built it, only the crafting table remained, and the rest of the
+        cave was filled with stone. So, technically, it’s not the same place.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Well...okay, but we were definitely there first. I think we should put a
+        tag there to mark it.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : (flying back to the town)</strong>
+        What? Anyway, why did you move back?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        We wanted to build an iron golem farm near the world origin to boost
+        farming efficiency. That iron golem farm was probably the biggest
+        challenge we faced back when we first landed in this world.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>
+        Wait. What? It's merely an iron form though. If you found a nearby
+        village, transport to the city centre and build up a machine for it. I
+        know it would take a bit time for building that farm. Overall, you
+        hadn't had any resources to transport the villagers with rails which
+        might take times on mining initially. But based on my knowledge, it
+        couldn't crowned as a challenge. I also did it before, and I know the
+        difficulty. But once rails and minecarts are well-prepared, everything
+        can be done smoothly. Although, sending the stupid villagers on cart, it
+        might be annoy.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        No. Don't you know. since the update, the distribution of mines were
+        changed. The iron ore was no longer as the same level as it used to be.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>
+        What update? I've never sense that.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Don't you know it. The update of Caves & Cliffs.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>
+        Oh. I knew it. So the server was set up during that period. Everything
+        makea sense. Yeah, since Minecraft increase the scale of cave and the
+        deepened the underground level.
+      </p>,
+    ],
+    OtherImages: [
+      MinecraftST12,
+      MinecraftST13,
+      MinecraftST14,
+      MinecraftST15,
+      MinecraftST16,
+      MinecraftST17,
+      MinecraftST18,
+    ],
   },
 ];
