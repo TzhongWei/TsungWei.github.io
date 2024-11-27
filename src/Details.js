@@ -2362,34 +2362,114 @@ export const MonologueDetails = [
       </p>,
       <p>
         <strong>Mike_Cheng : </strong>
-        Wait. What? It's merely an iron form though. If you found a nearby
-        village, transport to the city centre and build up a machine for it. I
-        know it would take a bit time for building that farm. Overall, you
-        hadn't had any resources to transport the villagers with rails which
-        might take times on mining initially. But based on my knowledge, it
-        couldn't crowned as a challenge. I also did it before, and I know the
-        difficulty. But once rails and minecarts are well-prepared, everything
-        can be done smoothly. Although, sending the stupid villagers on cart, it
-        might be annoy.
+        Wait, what? It’s just an iron farm! If you found a nearby village, you
+        could transport the villagers to the city centre and build a farm there.
+        Sure, it takes some time to set up, especially early on when you don’t
+        have enough resources for rails. Mining for materials initially can be
+        time-consuming, but in my experience, it’s not that challenging once you
+        have rails and minecarts ready. Although, I agree, sending those
+        stubborn villagers can be annoying.
       </p>,
       <p>
         <strong>DreadYapper7430 :</strong>
-        No. Don't you know. since the update, the distribution of mines were
-        changed. The iron ore was no longer as the same level as it used to be.
+        No, you didn't get it. Since the update, the distribution of ores has
+        completely changed. Iron isn’t as easy to find as it used to be.
       </p>,
       <p>
         <strong>Mike_Cheng : </strong>
-        What update? I've never sense that.
+        What update? I haven’t noticed any changes.
       </p>,
       <p>
         <strong>DreadYapper7430 :</strong>
-        Don't you know it. The update of Caves & Cliffs.
+        You don’t know? The Caves & Cliffs update.
       </p>,
       <p>
         <strong>Mike_Cheng : </strong>
-        Oh. I knew it. So the server was set up during that period. Everything
-        makea sense. Yeah, since Minecraft increase the scale of cave and the
-        deepened the underground level.
+        Oh, right! Now it makes sense. So the server was set up after that
+        update. Yeah, I recall how Minecraft expanded the caves and deepened the
+        underground levels. That changed the ore distribution significantly. Did
+        it impact your progress?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        It definitely did. With the ore distribution spread across a wider
+        range, iron became much harder to mine. Back then, we even sacrificed
+        our armour to make rails. If we’d had an iron golem farm earlier, we
+        wouldn’t have struggled so much with iron shortages.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>I see. So that’s why you prioritised
+        building the iron farm before completing the villager trading hall.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Exactly. You have no idea how tragic it was. We spent all our resources
+        on rails and had none left for other projects. Even the fourth building,
+        which was supposed to be our second habitation, couldn’t be completed.
+        We had to move back and live in the first hut again.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>
+        Oh…wow. That sounds really rough.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        It gets worse. Due to server settings, we couldn’t even use a rail
+        duplicator. We had to mine every piece ourselves. It was bloody
+        exhausting.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>
+        Okay, but after gathering enough rails, you transported the villagers
+        and completed the farm, right?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Not quite. We didn’t have enough rails, so we had to keep shifting them
+        along the transport route.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>
+        Haha, seriously? That’s ridiculous.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        It gets even better—or worse, really. During the villager transport, we
+        were hit with a Bad Omen event.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>
+        Oh no! That sounds terrible.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Absolutely. It was a massacre. Half the villagers in the village were
+        killed. And since the server difficulty was set to Hard, zombies could
+        break doors. Only a few villagers survived our weak defences.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>
+        Haha, yeah, with your barely-there armour!
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Exactly. We laid about twenty chunks of rails, reaching near Sakura
+        Island, and realised we still didn’t have enough iron. So, we divided
+        tasks: one person protected the villagers, another mined iron to make up
+        the rail shortage, and the last one removed and reinstalled the rails
+        along the new path. Eventually, we completed the iron golem farm.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>
+        Wow, that’s quite an accomplishment.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Yeah... and the fourth hut still wasn’t finished during that time.
+      </p>,
+      <p>
+        <strong>Mike_Cheng : </strong>
+        What the hell!
       </p>,
     ],
     OtherImages: [
