@@ -2278,7 +2278,7 @@ export const MonologueDetails = [
         of the game.
       </p>
     ),
-    date: "20/11/2024",
+    date: "27/11/2024",
     description: [
       <p>
         In the evening, Mike_Cheng logged into the game. As he soared around the
