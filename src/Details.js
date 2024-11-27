@@ -2474,12 +2474,12 @@ export const MonologueDetails = [
     ],
     OtherImages: [
       MinecraftST12,
-      MinecraftST13,
-      MinecraftST14,
-      MinecraftST15,
       MinecraftST16,
+      MinecraftST14,
       MinecraftST17,
+      MinecraftST15,
       MinecraftST18,
+      MinecraftST13,
     ],
   },
 ];
