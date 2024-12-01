@@ -2468,8 +2468,115 @@ export const MonologueDetails = [
         Yeah... and the fourth hut still wasn’t finished during that time.
       </p>,
       <p>
-        <strong>Mike_Cheng : </strong>
-        What the hell!
+        <strong>Mike_Cheng :</strong>
+        What the hell! I can’t believe you went through all that! It sounds like
+        the entire server was in chaos just to get one iron farm running. Haha.
+        So, what happened after all that?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Well, once we finally got the iron farm running, things got a lot
+        smoother. Iron wasn’t a problem anymore, and we could actually start
+        focusing on other builds. But of course, the backlog of unfinished
+        projects started piling up. By the way, did you know the current iron
+        farm isn’t in the same location as the original one?
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Of course, I was the one who replaced it! I remember the first farm was
+        somewhere between the map and where the city hall is now. Back then, the
+        city hall didn’t exist—there were just other farms, like the wheat and
+        wool farms.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Exactly, and creating a better entrance for newcomers was the main
+        reason I decided to move it.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>I get it now. I thought it was because you
+        needed the space for the city hall. Plus, the iron farm didn’t really
+        match the aesthetic of the other buildings.
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        That’s partly true, but the main reason was to improve the spirit of the
+        field for new players.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Wasn’t the original iron farm built by Su?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        That’s right. He built it himself, and I think it was his third time
+        building one.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        His third time? Do you mean across different servers?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Exactly!
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Were there any interesting stories behind his constructions?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        As far as I know, he built them all on his own. By the time I logged
+        into the server, he’d already completed it. Su is the kind of guy who
+        quietly gathers all the resources during the early stages. Honestly,
+        before you joined us, about 90% of the diamonds mined on the server were
+        his.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        And after I joined?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        He kept 10%. You took 89%, and I’m left with 1%.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Haha, no! I’m 87%, and the rest is yours. (The number 87 sounds like
+        "idiot" in Chinese, making it a playful jab.)
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Meanwhile, Xiang was managing the food resources.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Who's Xiang? Another operator?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Oh, in the game, we call him Pin. He built the semi-automatic farm in
+        the square in front of the city hall.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>I see, that explains why the server’s name
+        is SuPinEgg. You’re the “Egg.” But why are you called “Egg”?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Well, that used to be my nickname. It wasn’t until recently, when I got
+        pet cats, that my nickname changed to “Meow.”
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Okay~~. Back to the topic. What about your second resident hut, the
+        fourth building? And what about the furnaces, the nether portal, and the
+        enchantment book hut?
+      </p>,
+      <p>
+        <strong>DreadYapper7430 :</strong>
+        Oh, those came much later compared to that period. They’re stories for
+        another time.
       </p>,
     ],
     OtherImages: [
