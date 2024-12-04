@@ -196,6 +196,13 @@ import MinecraftST16 from "./assets/Monologue/Minecraft Story_2/06.png";
 import MinecraftST17 from "./assets/Monologue/Minecraft Story_2/07.png";
 import MinecraftST18 from "./assets/Monologue/Minecraft Story_2/08.png";
 
+import MinecraftST21 from "./assets/Monologue/Minecraft Story_3/01.png";
+import MinecraftST22 from "./assets/Monologue/Minecraft Story_3/02.png";
+import MinecraftST23 from "./assets/Monologue/Minecraft Story_3/03.png";
+import MinecraftST24 from "./assets/Monologue/Minecraft Story_3/04.png";
+import MinecraftST25 from "./assets/Monologue/Minecraft Story_3/05.png";
+import MinecraftST26 from "./assets/Monologue/Minecraft Story_3/06.png";
+
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -2587,6 +2594,345 @@ export const MonologueDetails = [
       MinecraftST15,
       MinecraftST18,
       MinecraftST13,
+    ],
+  },
+  {
+    title: "Minecraft: Story of our server 3, New town!!! New Constructions!!!",
+    RepImage: MinecraftST21,
+    abstract: (
+      <p>
+        Minecraft allows players to host multiplayer games through online
+        servers, creating spaces for diverse players to connect and share
+        creativity. These servers are vibrant hubs where ideas become reality,
+        allowing players to explore architectural styles from medieval to
+        futuristic, fostering creativity by building complex structures or
+        experimenting with design elements. Starting with three members, the
+        server has grown to over ten participants, each contributing unique
+        skills and perspectives. Members collaborate on large projects, create
+        themed regions, and blend personal visions with collective goals. More
+        than just a game, the server has evolved into a shared virtual space for
+        expression and collaboration. Dynamic idea exchanges enhance diversity
+        and foster friendships, making the server an inspiring blend of
+        creativity, innovation, and teamwork.
+      </p>
+    ),
+    date: "04/12/2024",
+    description: [
+      <p>
+        Meow wasn’t active in the server this week as he had gone abroad.
+        Therefore, the focus of this week’s story shifts to the new town,
+        centring on the experiences of Mike_Cheng and the newcomers, led by
+        Lang_Chuan, a student from Mike_Cheng’s class. Lang_Chuan’s team decided
+        to establish their own settlement and stories in the northern region,
+        far from the main city.
+      </p>,
+      <p>
+        In the early days, when Lang_Chuan and his friends just joined the
+        server, the Basilica had just completed its facade construction, and
+        work was beginning on the interior decoration. They explored the server
+        for about two hours, taking numerous screenshots of the cities,
+        marveling at the intricate designs and long-standing builds. However,
+        their initial excitement quickly turned into desperation as they
+        struggled to find food resources.
+      </p>,
+      <p>
+        With their hunger levels dangerously low, they stumbled upon a village
+        in Gaudí Village, located to the north near the city. There, they traded
+        with the villagers for food, resolving their immediate survival needs.
+        Inspired by the beauty of the two-year-old server and the challenges
+        they had just overcome, the group decided to carve out their own legacy.
+      </p>,
+      <p>
+        Setting their sights on a distant northern region, far beyond the
+        current activity ring and devoid of any prior construction, they claimed
+        a patch of untamed land. It was there, amidst the wilderness, that they
+        began to realise their vision of a new branch within the server’s world,
+        marking the start of their ambitious dream.
+      </p>,
+      <p>
+        One day, Mike_Cheng logged into the server and noticed Lang_Chuan was
+        online. After exchanging greetings, Mike_Cheng invited Lang_Chuan to
+        join a discussion about their town's design. During the conversation, he
+        asked if Lang_Chuan could assist him with a few tasks. To get started,
+        Mike_Cheng called Lang_Chuan and his friend to fly over to the newcomer
+        spawn point, where they could begin planning and coordinating their
+        efforts.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Here we are. A new project is finally underway after being delayed for
+        such a long time.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Okay. So, what is it? (Approaching a newly constructed building made of
+        deepslate and smooth quartz blocks.)
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Do you remember I mentioned building a network to link the cities and
+        towns?
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Yes, I remember. The materials are still being prepared. I’ve placed
+        torches along the coast from my town to Gaudí Village. Have I shown you
+        before?
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>I know. Last week, you presented your plan,
+        and it was fantastic. But now, let me introduce this new building—the
+        MRT station.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Oh, I see. (Walking into the building.) It’s quite deep, with water
+        elevators for transport.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Yes. (Following Lang_Chuan and his friend.) This building is still under
+        construction and hasn’t been updated on the server map. I’m planning for
+        this underground network to connect your town and Gaudí Village.
+        Actually, the traffic network was part of my original plan, and I hope
+        you’ll follow it.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>Got it.
+      </p>,
+      <p>
+        <strong>Benny_houtz :</strong> (Facing north in the underground level.)
+        This direction works well for us. So, we’ll dig a tunnel from here to
+        our town, right? It aligns perfectly with just a slight adjustment.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Exactly. However, you can design your own tunnel differently from mine.
+        I’ll link it to Gaudí Village, and you can simply connect to it.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong> Understood.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        By the way, the station’s exterior should be a modern-style
+        building—that’s the only thing I’m particular about.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong> Modern building. Fine by us.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        The reason I insist on modern style is that Meow believes Minecraft
+        materials are more suited for medieval designs. But I’ve built modern
+        structures before, and I’ve seen many stunning modern buildings on
+        YouTube. I’d like to surprise him with a series of modern designs. Have
+        you built modern-style structures before?
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Yes, we’ve done it several times on other servers.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Brilliant. Now, back to the surface. Meow and I have another project
+        that I’d like to offer to you. If we wait for him to start building, it
+        might take ages, and even then, there’s a slim chance he’ll have time
+        after finishing his urban planning.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Haha, I see. So, what is it?
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>I’m sure you’ve noticed that the map at the
+        spawn point isn’t large enough to include all players’ buildings,
+        especially yours. Since I joined, Meow has been asking for help
+        recording the city’s growth and the server’s changes. You’ve visited our
+        city memorial hall, right? The server’s history is illustrated with maps
+        posted in the hall.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Haha, yes, we noticed. Our town is so far away that it’s difficult to
+        create maps linking to yours. You even placed a separate board for it.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Exactly! Because so many buildings are scattered around the main city, I
+        considered creating maps linking to each player’s home. But that would
+        leave many blank maps with just forests and rivers. Moreover, I’ve had
+        to resize the board to fit everything onto a larger panel. Initially,
+        this was Meow’s job, but I’ve been building so quickly that when he logs
+        in, he often misses recording updates. I’ve put all the new updates in a
+        chest, waiting to be posted in the memorial hall. We’ve also discussed
+        building a hall or container to house this large map, making the spawn
+        area tidier.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong> I see. Do you have any ideas for it?
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>Not really. But I reckon the map should be
+        placed on the ground to make updates easier.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>Agreed. We could use glass as a protective
+        layer. Hmm... I might design an open building for it since the map will
+        likely expand as we explore more areas.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Sounds good. But perhaps we could create chambers to highlight different
+        towns and reduce redundant blank maps. However, that might compromise
+        the topological relationships between the towns. And don’t forget the
+        first hut—it must remain unchanged.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Oh, I see. That’s the first building on the server, isn’t it? We just
+        found out. Honestly, we didn’t understand its significance before. Haha.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Yes, the server operators lived there when the server first started.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>Got it. We’ll build it.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Fantastic.
+      </p>,
+      <p>
+        After their discussion, Lang_Chuan, Mike_Cheng, and Benny_Houtz flew
+        back to their town.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Wow, you’ve built so many structures here. You’re true experts at
+        farming machines.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Haha. We’ve built them on every server we’ve played on.
+      </p>,
+      <p>
+        <strong>Benny_houtz :</strong>
+        Yes, and we’ve solved the hunger problem too.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Haha, that’s great! Sorry about last time. I was so focused on building
+        that I didn’t even notice the food situation.
+      </p>,
+      <p>
+        <strong>Benny_houtz :</strong>
+        That’s fine. But you should trade with the villager here. This one,
+        named "All-You-Can-Eat Soup," sells suspicious stew that fully restores
+        your hunger and health.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Oh, really? I didn’t know Minecraft had that! I’ve always been so
+        focused on architecture. By the way, have you decided on a name for your
+        town and what it will look like?
+      </p>,
+      <p>
+        <strong>Benny_houtz :</strong>
+        Well, we haven’t made a final decision yet. What about "No Longer Hungry
+        Village"(不餓村)? Haha.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong> Haha, interesting. But let me think it
+        over.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Take your time.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong> By the way, we’ve decided to build a
+        Japanese-style city here.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Fantastic.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        But the current buildings on this peninsula will be demolished once we
+        gather enough materials.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Oh, really?
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Yes, including the villager trading house and the iron golem farm.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Don’t you feel it’s a pity to demolish them?
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Not at all. These farms and machines were just preparations for our
+        design.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>I see. Fortunately, I’ve recorded them on
+        the map so we can remember the effort that went into them before the
+        masterpiece was built. I’ve updated your new configurations on the map
+        and archived the old ones.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Haha, thanks for that. By the way, can resource duplicators work on this
+        server?
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        No, Meow mentioned they tried before, but none worked. Why do you ask?
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        We wanted to build a stone machine and a log machine that use TNT
+        duplication to collect resources.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Ah, I see. Unfortunately, that’s not an option here.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Well, okay then. It seems those TNT machines won’t work here. We’ve
+        already tried more than twenty times.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Wow, that’s such a shame. You should have asked Meow about it.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        It’s fine. No worries.
+      </p>,
+      <p>
+        <strong>Mike_Cheng :</strong>
+        Alright then. I think I’d better get back to working on the MRT station.
+      </p>,
+      <p>
+        <strong>Lang_Chuan :</strong>
+        Okay, see you later.
+      </p>,
+    ],
+    OtherImages: [
+      MinecraftST22,
+      MinecraftST23,
+      MinecraftST24,
+      MinecraftST25,
+      MinecraftST26,
     ],
   },
 ];
