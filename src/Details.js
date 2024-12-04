@@ -2598,7 +2598,7 @@ export const MonologueDetails = [
   },
   {
     title: "Minecraft: Story of our server 3, New town!!! New Constructions!!!",
-    RepImage: MinecraftST21,
+    RepImage: MinecraftST25,
     abstract: (
       <p>
         Minecraft allows players to host multiplayer games through online
@@ -2931,7 +2931,7 @@ export const MonologueDetails = [
       MinecraftST22,
       MinecraftST23,
       MinecraftST24,
-      MinecraftST25,
+      MinecraftST21,
       MinecraftST26,
     ],
   },
