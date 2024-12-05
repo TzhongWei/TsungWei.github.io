@@ -1,6 +1,6 @@
 import React from "react";
-import { MonologueDetails } from "../Details";
-import MonologueFormat from "../Components/MonologueFormat";
+import { MonologueDetails } from "../MonologueDetails.js";
+import MonologueFormat from "../Components/MonologueFormat.js";
 
 function Monologue() {
   return (

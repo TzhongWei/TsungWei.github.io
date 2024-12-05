@@ -6,7 +6,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Publications from "./Pages/Publication";
-import Monologue from "./Pages/Monoloque";
+import Monologue from "./Pages/Monologue";
 function App() {
   return (
     <Router>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Project from "../Components/Project";
-import { projectDetails } from "../Details";
+import { projectDetails } from "../projectDetails.js";
 
 function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
