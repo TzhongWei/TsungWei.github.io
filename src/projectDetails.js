@@ -583,18 +583,18 @@ export const projectDetails = [
     image: ProjectFig_10_1,
     description: [
       <p>
-        One of the concept of Truchet Tiling is used regular tiling to create
-        various patterns through the rotations. The key factors of this effect
-        are the tiles shared the connection positions. The links of components,
-        therefore, seems to be continued. Conversionally, this tile tricks can
-        be only used for regular triangle, square, and hexagon, since only they
-        can map the plane infinitely.
+        One of the concepts of Truchet Tiling involves using regular tiling to
+        create various patterns through rotations. The key factor in this effect
+        is the shared connection positions of the tiles, which creates the
+        appearance of continuous links. Traditionally, this tiling technique can
+        only be used for regular triangles, squares, and hexagons, as they are
+        the only shapes that can tessellate the plane infinitely.
       </p>,
       <p>
-        PolyVox, instead, was an art worked base on the afore-said concept and
-        furtherly applied cube into a voxel art, which can be arranged in
-        three-dimensional space. we create joints at the centre of each face.
-        Moreover, we created different size of spheres and the pipe between them
+        PolyVox, instead, was an artwork based on the aforementioned concept,
+        extending it by applying cubes to voxel art, which can be arranged in
+        three-dimensional space. Joints were created at the centre of each face.
+        Additionally, spheres of different sizes and connecting pipes were used
         to create intricate patterns.
       </p>,
     ],
