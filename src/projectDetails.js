@@ -172,6 +172,13 @@ import ProjectFig_20_3 from "./ProjectFolder/Project_20/8.png";
 import ProjectFig_20_4 from "./ProjectFolder/Project_20/14.png";
 import ProjectFig_20_6 from "./ProjectFolder/Project_20/Factory_Graph.png";
 
+import ProjectFig_21_1 from "./ProjectFolder/Project_21/02.png";
+import ProjectFig_21_2 from "./ProjectFolder/Project_21/03.png";
+import ProjectFig_21_3 from "./ProjectFolder/Project_21/04.png";
+import ProjectFig_21_4 from "./ProjectFolder/Project_21/05.png";
+import ProjectFig_21_5 from "./ProjectFolder/Project_21/06.png";
+import ProjectFig_21_6 from "./ProjectFolder/Project_21/07.png";
+
 // Enter your Project Details here
 export const projectDetails = [
   {
@@ -288,6 +295,65 @@ export const projectDetails = [
       </p>,
       <p key="4">
         <strong>PhD Ye Yint Aung</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="5">
+        <strong>Postgraduated JingYan Chen Neil</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+    ],
+  },
+  {
+    title:
+      "Reducing Complexity of Topological Interlocking Assemblies on Surfaces With K-Means",
+    image: ProjectFig_21_2,
+    description: [
+      <p>
+        This research addresses the challenges of applying topological
+        interlocking (TI) systems to curved surfaces, focusing on the complexity
+        of designing custom panels. It aims to reduce fabrication complexity and
+        material waste by using K-means clustering to group panels with similar
+        geometries, enabling the reuse of formwork while maintaining design
+        flexibility.
+      </p>,
+      <p>
+        The research methodology includes three phases: form finding,
+        clustering, and block generation. The form-finding phase uses mesh
+        optimization to create an efficient curved surface, followed by K-means
+        clustering to group panels with similar edge lengths, which reduces the
+        need for custom formworks. The block generation phase then creates
+        panels that maximize surface coverage with minimal overlaps, ensuring a
+        smooth and efficient production process.
+      </p>,
+      <p>
+        The application of K-means clustering significantly reduced the number
+        of unique formworks needed, thereby minimizing fabrication complexity
+        and waste. The study demonstrates the feasibility of using TI systems
+        for curved surfaces while achieving cost-effective and efficient
+        production. Future research will focus on developing adjustable
+        frameworks and refining the clustering approach to better handle more
+        complex geometries.
+      </p>,
+    ],
+    links: undefined,
+    imgs: [
+      ProjectFig_21_1,
+      ProjectFig_21_3,
+      ProjectFig_21_4,
+      ProjectFig_21_5,
+      ProjectFig_21_6,
+    ],
+    appendix: [
+      <p key="1">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="2">
+        <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
+        Science and Technology
+      </p>,
+      <p key="3">
+        <strong>PhD Felicia Wagiri</strong> <br /> National Taiwan University of
         Science and Technology
       </p>,
       <p key="5">
