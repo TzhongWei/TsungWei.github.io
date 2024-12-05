@@ -21,7 +21,7 @@ import ProjectFig_2_5 from "./ProjectFolder/Project_2_re/Ticojoint.png";
 
 import ProjectFig_3_1 from "./ProjectFolder/Project_3/Rendering.png";
 import ProjectFig_3_2 from "./ProjectFolder/Project_3/TI locking component concept.jpg";
-import ProjectFig_3_3 from "./ProjectFolder/Project_3/animation#2.gif";
+import ProjectFig_3_3 from "./ProjectFolder/Project_3/animation2.gif";
 import ProjectFig_3_4 from "./ProjectFolder/Project_3/border element 02.jpg";
 import ProjectFig_3_5 from "./ProjectFolder/Project_3/K truchet tililng.jpg";
 import ProjectFig_3_6 from "./ProjectFolder/Project_3/post tension border element06.jpg";
