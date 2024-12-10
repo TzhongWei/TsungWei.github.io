@@ -362,8 +362,8 @@ export const PublicationsDetails = {
     },
     {
       Name:
-        "Wu, B.R., Liao, C.T., Cheng, T.W., Chiang, Y.T. (2018)." +
-        " Investigation and Study on the Deterioration of Wall Tiles with Raised Patterns in Nanzih District, Kaohsiung City." +
+        "Cheng, T.W., Wu, B.R., Chiang, Y.T., Liao, C.T.  (2018)." +
+        " The Study on Unlift of Exterior Tile in Nanzih District of Kaohsiung City" +
         " Processings of the 30th Annual Conference of the Architecture Institute of Taiwan",
       Link: undefined,
     },
