@@ -365,7 +365,7 @@ export const PublicationsDetails = {
         "Cheng, T.W., Wu, B.R., Chiang, Y.T., Liao, C.T.  (2018)." +
         " The Study on Unlift of Exterior Tile in Nanzih District of Kaohsiung City" +
         " Processings of the 30th Annual Conference of the Architecture Institute of Taiwan",
-      Link: undefined,
+      Link: "https://www.architw.org.tw/view_article.php?id=9458",
     },
   ],
 
