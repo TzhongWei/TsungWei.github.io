@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Project from "../Components/Project";
 import { projectDetails } from "../projectDetails.js";
 
@@ -14,11 +14,9 @@ function Projects() {
     setTimeout(() => setSelectedProject(project), 300); // Switch project after fade-out
   };
 
-  const closeProject = () => {
-    if (!zoomedImage) {
-      setIsFading(true); // Start fade-out animation
-      setTimeout(() => setSelectedProject(null), 300); // Return to all projects after fade-out
-    }
+  const handleBackClick = () => {
+    setIsFading(true); // Start fade-out animation
+    setTimeout(() => setSelectedProject(null), 300); // Return to all projects after fade-out
   };
 
   // useEffect for fade-in animation on change of selectedProject
@@ -27,23 +25,6 @@ function Projects() {
       setIsFading(false); // Fade-in animation once project is switched
     }
   }, [selectedProject]);
-
-  // Detect clicks outside of the project to close the selected project
-  useEffect(() => {
-    const handleOutsideClick = (e) => {
-      if (!zoomedImage) {
-        closeProject();
-      }
-    };
-
-    if (selectedProject) {
-      document.addEventListener("click", handleOutsideClick);
-    } else {
-      document.removeEventListener("click", handleOutsideClick);
-    }
-
-    return () => document.removeEventListener("click", handleOutsideClick);
-  }, [selectedProject, zoomedImage]);
 
   const openZoomedImage = (img) => {
     setIsTransitioning(true); // Start transition
@@ -54,8 +35,7 @@ function Projects() {
     }, 500); // Match animation duration
   };
 
-  const closeZoomedImage = (e) => {
-    e.stopPropagation(); // Prevent closing the project list
+  const closeZoomedImage = () => {
     setIsTransitioning(true); // Start transition
     setIsImageVisible(false);
     setTimeout(() => {
@@ -84,7 +64,7 @@ function Projects() {
             <div className="md:w-1/3">
               <img
                 src={selectedProject.image}
-                alt="Project Thumbnail"
+                alt=""
                 loading="lazy"
                 className="rounded-xl shadow-xl shadow-slate-300 dark:shadow-slate-900 w-full object-cover"
               />
@@ -100,6 +80,12 @@ function Projects() {
                   ))}
                 </div>
               )}
+              <button
+                onClick={handleBackClick}
+                className="btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fi mt-5"
+              >
+                Back to Projects
+              </button>
             </div>
 
             {/* Right Side (Description, Links, Additional Images) */}
@@ -115,6 +101,27 @@ function Projects() {
                 ))}
               </div>
 
+              <div className="mb-4">
+                <p className="text-content py-8 lg:max-w-3xl text-justify leading-relaxed">
+                  {selectedProject.links === undefined ? (
+                    <p></p>
+                  ) : (
+                    <p className="\n">Links:</p>
+                  )}
+                </p>
+                {selectedProject.links?.map((link, index) => (
+                  <a
+                    key={index}
+                    href={link}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-blue-500 underline block mb-2 hover:text-blue-700"
+                  >
+                    {link}
+                  </a>
+                ))}
+              </div>
+
               <div className="grid grid-cols-1 gap-4">
                 {selectedProject.imgs?.map((img, index) => (
                   <img
@@ -122,13 +129,8 @@ function Projects() {
                     src={img}
                     alt={`Additional image ${index}`}
                     className="w-full h-auto rounded-md cursor-pointer"
-                    onClick={(e) => {
-                      e.stopPropagation(); // Prevent triggering the closeProject click
-                      openZoomedImage(img);
-                    }}
-                    style={{
-                      pointerEvents: isTransitioning ? "none" : "auto",
-                    }} // Disable clicks during transition
+                    onClick={() => openZoomedImage(img)}
+                    style={{ pointerEvents: isTransitioning ? "none" : "auto" }} // Disable clicks during transition
                   />
                 ))}
               </div>
@@ -162,7 +164,7 @@ function Projects() {
               ? "opacity-100 pointer-events-auto"
               : "opacity-0 pointer-events-none"
           }`}
-          onClick={closeZoomedImage} // Close zoomed image
+          onClick={!isTransitioning ? closeZoomedImage : undefined} // Disable clicks during transition
         >
           <img
             src={zoomedImage}

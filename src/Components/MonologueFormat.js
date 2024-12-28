@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-function Monologue({
+function MonologueFormat({
   title,
   RepImage,
   abstract,
@@ -14,6 +14,9 @@ function Monologue({
 
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState("");
+
+  const [selectedImage, setSelectedImage] = useState(null); // State for zoomed image
+  const [isVisible, setIsVisible] = useState(false); // Animation for fade-in/out
 
   const toggleExpand = () => setIsExpanded(!isExpanded);
 
@@ -29,6 +32,16 @@ function Monologue({
       setComments([...comments, newComment]);
       setNewComment(""); // Clear input after submission
     }
+  };
+
+  const handleImageClick = (image) => {
+    setSelectedImage(image);
+    setTimeout(() => setIsVisible(true), 50); // Fade-in animation delay
+  };
+
+  const closeOverlay = () => {
+    setIsVisible(false); // Trigger fade-out animation
+    setTimeout(() => setSelectedImage(null), 500); // Delay to allow fade-out
   };
 
   return (
@@ -86,7 +99,8 @@ function Monologue({
                   key={index}
                   src={image}
                   alt={`OtherImage-${index}`}
-                  className="h-40 w-auto object-cover rounded-lg"
+                  className="h-40 w-auto object-cover rounded-lg cursor-pointer"
+                  onClick={() => handleImageClick(image)}
                 />
               ))}
             </div>
@@ -130,8 +144,31 @@ function Monologue({
           </div>
         </div>
       </div>
+
+      {/* Zoomed Image Overlay */}
+      {selectedImage && (
+        <div
+          className={`fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 transition-opacity duration-500 ${
+            isVisible
+              ? "opacity-100 pointer-events-auto"
+              : "opacity-0 pointer-events-none"
+          }`}
+          onClick={() => {
+            setIsVisible(false); // Start fade-out animation
+            setTimeout(() => setSelectedImage(null), 500); // Remove after fade-out completes
+          }}
+        >
+          <img
+            src={selectedImage}
+            alt="Zoomed"
+            className={`max-w-6xl max-h-[80vh] object-contain rounded-lg transform transition-transform duration-500 ${
+              isVisible ? "scale-100" : "scale-90"
+            }`}
+          />
+        </div>
+      )}
     </article>
   );
 }
 
-export default Monologue;
+export default MonologueFormat;
