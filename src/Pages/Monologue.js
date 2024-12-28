@@ -1,4 +1,3 @@
-import React from "react";
 import { MonologueDetails } from "../MonologueDetails.js";
 import MonologueFormat from "../Components/MonologueFormat.js";
 

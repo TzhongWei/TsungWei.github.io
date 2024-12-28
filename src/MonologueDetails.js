@@ -31,6 +31,7 @@ import MinecraftST23 from "./assets/Monologue/Minecraft Story_3/03.png";
 import MinecraftST24 from "./assets/Monologue/Minecraft Story_3/04.png";
 import MinecraftST25 from "./assets/Monologue/Minecraft Story_3/05.png";
 import MinecraftST26 from "./assets/Monologue/Minecraft Story_3/06.png";
+import Lax from "./assets/Latex.js";
 
 export const MonologueDetails = [
   {
@@ -46,20 +47,23 @@ export const MonologueDetails = [
     description: [
       "In the chapter “Little Harmonic Labyrinth” from Gödel, Escher, Bach: An Eternal Golden Braid, the interactions among Achilles, the Genie, meta-Genie, and higher-level meta-Genies showcase a recursive, hierarchical process. For a meta-wish to be fulfilled, approval must move up through successive levels, with each Genie requiring permission from its superior. This approval then cascades back down through the same levels, forming a stacking sequence. Each Genie remains in a passive state until it receives confirmation from a superior, only then being able to proceed. This recursive interaction reflects the concepts of nested operations found in recursion and repetition systems.",
       "The same recursive logic applies to the construction of SL block chains through grammar. The linear structure of the grammar (G) begins with:",
-      "G ::= a h h^n h a^2 h h^n h a",
+      <Lax>G ::= a \, h \, h^n \, h \, a^2 \, h \, h^n \, h \, a</Lax>,
       "Within this grammar, the sequence h a² h acts as a return point, dividing the structure symmetrically. This segment, denoted as <Return>, serves as a pivotal point for reversing the sequence along the same path to maintain symmetry:",
-      "G ::= a h -> h^n -> <Return> <- h^n <- h a",
-      "<Return> ::= h a^2 h",
+      <Lax>{`G ::= a \\, h \\to h^n \\to \\text{<Return>} \\gets h^n \\gets h \\, a`}</Lax>,
+      <Lax>{"\\text{<Return>} ::= h \\ a^2 \\ h"}</Lax>,
       "Additional branches can be inserted into the sequence to create more complex structures. A new branch (R) can be defined as:",
-      "R ::= a h^m h a^2 h h^m a",
-      "here, again we display h a^2 h as <Return>",
-      "R ::= a h^m <Return> h^m a",
+      <Lax>R ::= \, a \, h^m \, h \, a^2 \, h \, h^m \, a</Lax>,
+      <p>
+        here, again, we display <Lax>h \, a^2 \, h</Lax> as{" "}
+        <Lax>{"<Return>"}</Lax>
+      </p>,
+      <Lax>{`R ::= a \\, h^m \\, \\text{<Return>} \\, h^m \\, a`}</Lax>,
       "This branch can appear at various points within the original grammar, resulting in complex, layered patterns. For instance:",
-      "G' ::= a h R h^n <Return> h^(n-2) h a",
+      <Lax>{`G' ::= a \\, h \\, R \\, h^n \\, \\text{<Return>} \\, h^{n-2} \\, h \\, a`}</Lax>,
       "When the sequence reaches R, the configuration temporarily shifts focus to complete R, before returning to the main structure. After the strand hits the <Return>, it goes backward along with the branching path. Then, channelling back to the main, the strand keep extending until hit the <Return> again. Finally, return the route and finish G.",
       " With the same concept, we try to insert to grammar turning as a recursion. The grammar, therefore, evolves further as more branches are introduced:",
-      "G ::= a h R' h^n <Return> h^(n-2) h a",
-      "R' ::= a h^m R' h a^2 h h^(m-2) a | R",
+      <Lax>{`G ::= a \\, h \\, R' \\, h^n \\, \\text{<Return>} \\, h^{n-2} \\, h \\, a`}</Lax>,
+      <Lax>{`R' ::= a \\, h^m \\, R' \\, h \\, a^2 \\, h \\, h^{m-2} \\, a \\; | \\; R`}</Lax>,
       "This gradual addition of branches forms a recursive and branching architecture of stacking components.",
       "This hierarchical and recursive framework mirrors L-systems, where 'push and pop' operations allow for extending and retracting branches. Each branch functions as a sub-cluster within the system, contributing to a greater hierarchical structure. When visualised as a tree graph, the branches and nodes resemble the aggregation of architectural elements.",
       "This approach suggests that, despite the inherent complexity of architectural design, a structured path can be identified for expanding and organising components. Recursive rules and hierarchical aggregations allow architectural systems to grow coherently, resulting in a well-defined grammar that governs the entire architectural structure.",

@@ -1,26 +1,21 @@
-export function parseLatex(containerId) {
-  const contentDiv = document.getElementById(containerId);
-  if (!contentDiv) {
-    console.error(`Container with ID "${containerId}" not found.`);
-    return;
-  }
+import React, { useEffect, useRef } from "react";
 
-  const laxTags = contentDiv.querySelectorAll("Lax");
+const Lax = ({ children }) => {
+  const spanRef = useRef(null);
 
-  laxTags.forEach((laxTag) => {
-    const latexContent = laxTag.textContent.trim();
-    const span = document.createElement("span");
-    span.className = "latex";
-    span.innerHTML = `\\(${latexContent}\\)`;
-    laxTag.replaceWith(span);
-  });
+  useEffect(() => {
+    if (window.MathJax) {
+      window.MathJax.typesetPromise([spanRef.current]).catch((err) =>
+        console.error("MathJax processing error:", err)
+      );
+    } else {
+      console.error(
+        "MathJax is not loaded. Ensure MathJax is included in your project."
+      );
+    }
+  }, [children]);
 
-  // Trigger MathJax rendering
-  if (window.MathJax) {
-    window.MathJax.typeset();
-  } else {
-    console.error(
-      "MathJax is not loaded. Make sure to include MathJax in your project."
-    );
-  }
-}
+  return <span ref={spanRef}>{`\\(${children}\\)`}</span>; // Wrap in MathJax delimiters
+};
+
+export default Lax;
