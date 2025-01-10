@@ -210,7 +210,19 @@ export const LecDetails = [
     Duration: "Nov 2024 - Jan 2025",
     DetailsContent: {
       image: LectureImage1,
-      description: "Comming Soon",
+      description: [<p>
+        As a upcoming trend on game-based learning, Minecraft as one of the favourite tools for Game-based learning materials is widely used to different displines to benefit students' learning. Granted by freedon of sandbox gaming setting, Minecraft offers a great environment to teach students. In this lecture, we aimed to teach students with MEP system. Because Minecraft doesn't have electricity and piping system, we used redstone and water system to substitute them. Besides, transportation of farming products is viewed as the water and ventilation system in the reality. Students needed to overcome the obsticles, such as trees and langscapes, to transfer their products into targeting location. Besides, to inimitate the resource limitation in the real, emeralds were applied as currency. Students need to use their limited resources to complete their tasks.
+      </p>,
+      <p>
+        Bidding is an important part in the AEC industry, but it's rarely taught in school. Bidding results in different architectural design outputs and leads to various construction cost. Moreover, designs impacts the interests and profits in operation processes. As a result, students needed to purchase the sites in the game based on their evaulation. The game starts with the bidding lands. Different sites had various pros and cons; for instance, a site is closed to the market, another has a planar landscape, which is easy to construct. 
+      </p>,  
+      <p>
+        After winning the site, students bought materials from the villagers in the market in the game. Mining and making deals with other villagers were prohibited in the game. As a result, students needed to control their expenses to complete the task. Then, students crafted their farming machine in the survival mode. Those teams who designed more farming machines and efficient transport networks could gain more profits in the final presentation.
+      </p>,
+      <p>
+        In the end, students' outputs were beyond my expectations. Firstly, with their detailed planning, they were not bankrupt and fulfilled their designs. Moreover, this games interested them a lot. They were even searhing online resources, and therefore, they can overcome the sizes or productivity of machines under different environment. Some students configured their designed on planar, and the other permuted the machine vertically. 
+      </p>
+    ],
       materialLink: false,
       classmaterial: "None",
     },
