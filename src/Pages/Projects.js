@@ -114,7 +114,23 @@ function Projects() {
                   </p>
                 ))}
               </div>
-
+              <div className="md:w-2/3">
+                <div className="mb-4">
+                  {selectedProject.links && selectedProject.links.length > 0
+                    ? selectedProject.links.map((link, index) => (
+                        <a
+                          key={index}
+                          href={link}
+                          target="_blank" // Opens the link in a new tab
+                          rel="noopener noreferrer" // For security
+                          className="text-blue-500 underline block mb-2 hover:text-blue-700"
+                        >
+                          {link}
+                        </a>
+                      ))
+                    : null}
+                </div>
+              </div>
               <div className="grid grid-cols-1 gap-4">
                 {selectedProject.imgs?.map((img, index) => (
                   <img
