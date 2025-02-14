@@ -1,11 +1,13 @@
 import React from "react";
 import Work from "../Components/Work";
+import Funding from "../Components/Funding";
 import Lecture from "../Components/Lecture";
 import {
   personalDetails,
   workDetails,
   eduDetails,
   LecDetails,
+  FundDetails
 } from "../Details";
 
 function About() {
@@ -71,6 +73,20 @@ function About() {
               />
             )
           )
+        )}
+      </section>
+      <section>
+        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+          Funding
+        </h1>
+        {React.Children.toArray(
+          FundDetails.map(({FundingName, Date, Source}) => (
+            <Funding
+              Name = {FundingName}
+              Date = {Date}
+              Source = {Source}
+            />
+          ))
         )}
       </section>
     </main>

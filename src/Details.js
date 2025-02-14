@@ -12,7 +12,8 @@ import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
 import LectureImage4 from "./assets/LectureImage/Grasshopper_Lecture_1.jpg";
 import LectureImage5 from "./assets/LectureImage/3D_Printing.jpg";
-
+import LectureImage6 from "./assets/LectureImage/MinecraftLC2.png";
+import LectureImage7 from "./assets/LectureImage/PavilionIMG.png"
 import LLMvsArch from "./assets/Monologue/LLMvsArchitecture/LLMvsArchitecture.jpg";
 
 import MC_Bacilica_1 from "./assets/Monologue/Minecraft_Basilica/Whole.png";
@@ -203,6 +204,26 @@ export const eduDetails = [
 ];
 
 export const LecDetails = [
+  {
+    Topic: "Digital Fabrication",
+    Company: "Department of Architecturem NUK",
+    Location: "Kaohsiung, Taiwan",
+    Duration: "Mar 2025 - June 2025",
+    DetailsContent: {
+      image: LectureImage7,
+      description: ["Coming Soon!!"]
+    }
+  },
+  {
+    Topic: "Minecraft Sering Gaming : MEP in Predesign Stage (2)",
+    Company: "Department of Architecturem NUK",
+    Location: "Kaohsiung, Taiwan",
+    Duration: "Feb 2025 - Mar 2025",
+    DetailsContent: {
+      image: LectureImage6,
+      description: ["Coming Soon!!"]
+    }
+  },
   {
     Topic: "Minecraft Serious Gaming",
     Company: "Department of Architecture, NUK",
@@ -465,5 +486,39 @@ export const contactDetails = {
   email: "mike861104@gmail.com",
   phone: "+886 988388094",
 };
+
+export const FundDetails = [
+  {
+    FundingName: <p>DAAD-PPP_Program (2nd) - <br /> Auto-Replicating Robotic Assembly of SL Blocks for the Hierarchical and Reconfigurable Construction</p>,
+    Date: "Jan 2025 - present",
+    Source: "National Science and Technology Council"
+  },
+    {
+      FundingName: "STEAM Course",
+      Date: "Jan 2025 - present",
+      Source: "National University of Kaohsiung"
+    },
+    {
+      FundingName: "The Architecture of Shape Compiler",
+      Date: "Mar 2025 - present",
+      Source: "National Science and Technology Council"
+    },
+  {
+    FundingName: <p>DAAD-PPP_Program (1st) - <br /> Auto-Replicating Robotic Assembly of SL Blocks for the Hierarchical and Reconfigurable Construction</p>,
+    Date: "Jan 2024 - Dec 2025",
+    Source: "National Science and Technology Council"
+  },
+  {
+    FundingName: "Digital Appplication for Sustainable Built Environment Program",
+    Date: "Sep 2023 - Mar 2024",
+    Source: "National Taiwan University of Technology and Science"
+  },
+  {
+    FundingName: "Exploring the Use of Truchet Tiling in Architectural Facade Design",
+    Date: "Sep 2022 - Mar 2023",
+    Source: "Scholarship of Chung Hwa Rotary Education Foundation"
+  }
+]
+
 
 //Move to Monologue.js
