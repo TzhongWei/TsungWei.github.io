@@ -179,6 +179,28 @@ import ProjectFig_21_4 from "./ProjectFolder/Project_21/05.png";
 import ProjectFig_21_5 from "./ProjectFolder/Project_21/06.png";
 import ProjectFig_21_6 from "./ProjectFolder/Project_21/07.png";
 
+import ProjectFig_22_1 from "./ProjectFolder/Project_22/Minecraft.jpg";
+import ProjectFig_22_2 from "./ProjectFolder/Project_22/Centrum.png";
+import ProjectFig_22_3 from "./ProjectFolder/Project_22/CentrumInside.png";
+import ProjectFig_22_4 from "./ProjectFolder/Project_22/Example.png";
+import ProjectFig_22_5 from "./ProjectFolder/Project_22/Example02.png";
+import ProjectFig_22_6 from "./ProjectFolder/Project_22/Market.png";
+import ProjectFig_22_7 from "./ProjectFolder/Project_22/SitePlans.png";
+import ProjectFig_22_8 from "./ProjectFolder/Project_22/Site_1.png";
+import ProjectFig_22_9 from "./ProjectFolder/Project_22/Site_2.png";
+import ProjectFig_22_10 from "./ProjectFolder/Project_22/Site_3.png";
+import ProjectFig_22_11 from "./ProjectFolder/Project_22/Site_4.png";
+import ProjectFig_22_12 from "./ProjectFolder/Project_22/Site_5.png";
+import ProjectFig_22_13 from "./ProjectFolder/Project_22/deal.png";
+import ProjectFig_22_14 from "./ProjectFolder/Project_22/2025-02-17_11.47.27.png";
+import ProjectFig_22_15 from "./ProjectFolder/Project_22/2025-02-17_11.47.18.png";
+import ProjectFig_22_16 from "./ProjectFolder/Project_22/2025-02-17_11.47.34.png";
+import ProjectFig_22_17 from "./ProjectFolder/Project_22/2025-02-17_11.47.54.png";
+import ProjectFig_22_18 from "./ProjectFolder/Project_22/2025-02-17_11.48.05.png";
+import ProjectFig_22_19 from "./ProjectFolder/Project_22/2025-02-17_11.48.13.png";
+import ProjectFig_22_20 from "./ProjectFolder/Project_22/2025-02-17_11.48.27.png";
+
+
 // Enter your Project Details here
 export const projectDetails = [
   {
@@ -221,6 +243,35 @@ export const projectDetails = [
     appendix: [
       <p key="1">
         <strong>Tech</strong> <br /> Javascript, HTML, CSS, npm, Node.js
+      </p>,
+    ],
+  },
+  {
+    title: "Minecraft Serious Gaming Education",
+    image: ProjectFig_22_1,
+    description:[
+      <p>
+        As game-based learning continues to gain momentum, <strong>Minecraft has proven to be a valuable tool for advancing architectural education.</strong> Its versatile sandbox environment allows educators to create interactive and immersive scenarios, helping students to grasp <strong>abstract Mechanical, Electrical, and Plumbing (MEP) concepts </strong>while honing their problem-solving abilities.
+      </p>,
+      <p>
+This study investigates the application of <strong>Minecraft in teaching undergraduate students</strong> about<strong> MEP systems</strong> across various architectural stages, from<strong> pre-design to construction. </strong>To replicate<strong> real-world challenges, </strong>we creatively replaced electricity and piping systems with<strong> Redstone circuits and water channels, </strong>respectively. Students were tasked with<strong> designing and constructing efficient transport systems for farming products,</strong> reflecting real-world water and ventilation networks. Moreover, bidding and resource management were incorporated to mirror the constraints of the Architecture, Engineering, and Construction (AEC) industry. Teams competed for land plots with distinct advantages, purchased materials using in-game currency, and developed farming machines in survival mode. Their <strong>system efficiency was evaluated, with higher profits awarded for more effective designs.</strong> 
+      </p>,
+      <p>
+        The results were highly promising. Students demonstrated<strong> strong strategic planning,</strong> efficiently managed resources, and successfully <strong>executed their projects.</strong> The immersive game environment enhanced engagement, encouraging students to explore online resources to optimise their designs. By assuming multiple roles—<strong>designer, MEP system manager, and builder—students </strong>gained a comprehensive understanding of AEC workflows, refined their problem-solving skills, and adapted creatively to challenges. This study underscores <strong>Minecraft’s significant potential as an innovative educational tool</strong>, capable of simulating complex real-world scenarios and enhancing architectural learning.
+      </p>
+    ],
+    links: ["https://docs.google.com/presentation/d/1uvEp4v1wEXorn-8ZBz6J1AQaXeCvAheAqz9v4wvWB6M/edit?usp=sharing"],
+    imgs: [ProjectFig_22_2,ProjectFig_22_3,ProjectFig_22_4,ProjectFig_22_5,ProjectFig_22_6,ProjectFig_22_7,ProjectFig_22_8,ProjectFig_22_9,ProjectFig_22_10,ProjectFig_22_11,ProjectFig_22_12,ProjectFig_22_13,ProjectFig_22_14,ProjectFig_22_15,ProjectFig_22_16,ProjectFig_22_17,ProjectFig_22_18,ProjectFig_22_19,ProjectFig_22_20],
+    appendix: [
+      <p key="1">
+        <strong>Professor YuPin Ma</strong> <br /> National University Kaohsiung
+      </p>,
+      <p key="2">
+        <strong>Professor ShenGuan Shih</strong> <br /> National Taiwan
+        University of Science and Technology
+      </p>,
+      <p key="3">
+        <strong>Postgraduated student RouSyuan</strong> <br /> National University Kaohsiung
       </p>,
     ],
   },
