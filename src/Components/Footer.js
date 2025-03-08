@@ -6,14 +6,14 @@ function Footer() {
         Designed and Coded by{" "}
         <a
           className="font-medium"
-          href="https://pavanmg.in"
+          href="https://www.github.com/TzhongWei"
           target="_blank"
           rel="noreferrer noopener"
         >
           TsungWei
         </a>{" "}
         with
-        <span className="text-gradient font-medium"> Milktee</span> &
+        <span className="text-gradient font-medium"> Milk Tee</span> &
         <span className="text-gradient font-medium"> Biscuit</span>
       </p>
     </footer>
