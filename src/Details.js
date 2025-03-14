@@ -170,7 +170,7 @@ export const eduDetails = [
     Company: "GAS, Department of Architecture, NTUST",
     Location: "Taipei, Taiwan",
     Type: "Full Time",
-    Duration: "Jan 2024 - July 2024",
+    Duration: "February 2025 - present",
   },
   {
     Position: "Exchange Research",
@@ -436,6 +436,10 @@ export const PublicationsDetails = {
         " Processings of the 30th Annual Conference of the Architecture Institute of Taiwan",
       Link: "https://www.architw.org.tw/view_article.php?id=9458",
     },
+    {
+      Name: "Harsono, K., Cheng, T.-W., Chen, C.-Y., Aung, Y. Y., Wagiri, F., & Shih, S.-G. (2025). Reducing Panel Complexity in Topological Interlocking Assemblies on Curved Surfaces. ARCHITECTURAL INFORMATICS  Proceedings of the 30th  International Conference on Computer-Aided  Architectural Design Research in Asia (CAADRIA 2025), 3, 367–376.",
+      Link: "https://www.caadria2025.org/_files/ugd/027792_a5be5441e74e47bea354e5ac4f428799.pdf"
+    }
   ],
 
   ThsisAndBooks: [
@@ -446,8 +450,10 @@ export const PublicationsDetails = {
   ],
   ComingSoon: [
     {
-      Name: "Kevin Harsono, Shen-Guan Shih, Tsung-Wei Cheng, Felicia Wagiri, Ye Yint Aung. Reducing Panel Complexity in Topological Interlocking Assemblies on Curved Surfaces.",
-      Link: undefined,
+      Name:
+        "Harsono, K., Cheng, T.-W., Wagiri, F., Aung, Y. Y., & Shih, S.-G. (2025)."+
+        "Modular and Mortarless Masonry: Design, Fabrication, and Reusability Assessment Framework for Topological Interlocking Assembly",
+        Link: undefined,
     },
     {
       Name:
@@ -457,10 +463,10 @@ export const PublicationsDetails = {
     },
     {
       Name:
-        "Tsung-Wei Cheng, Felicia Wagiri, Kevin Harsono, Ching-Yen Cheng, Shen-Guan Shih." +
-        " Procedural Design for Interwoven Structures using SL Blocks: A Computational Framework for Modular Architecture",
-      Link: undefined,
-    },
+        "YuPin Ma, TsungWei Cheng*, RouSyuan Guo, Kevin Harsono, Felicia Wagiri, ShenGuan Shih. "+
+        "Game-Based Learning with Minecraft: Fostering Engagement in Mechanical-Electrical-Plumbing Systems Education",
+        Link : undefined
+    }
   ],
   Portfolio: [
     {

@@ -273,6 +273,10 @@ This study investigates the application of <strong>Minecraft in teaching undergr
       <p key="3">
         <strong>Postgraduated student RouSyuan</strong> <br /> National University Kaohsiung
       </p>,
+      <p key="2">
+      <strong>PhD Kevin Harsono</strong> <br /> National Taiwan University of
+      Science and Technology
+    </p>,
     ],
   },
   {
