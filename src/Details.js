@@ -12,8 +12,8 @@ import LectureImage2 from "./assets/LectureImage/Lego.jpg";
 import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
 import LectureImage4 from "./assets/LectureImage/Grasshopper_Lecture_1.jpg";
 import LectureImage5 from "./assets/LectureImage/3D_Printing.jpg";
-import LectureImage6 from "./assets/LectureImage/MinecraftLC2.png";
-import LectureImage7 from "./assets/LectureImage/PavilionIMG.png"
+import LectureImage6 from "./assets/LectureImage/MC2.jpg";
+import LectureImage7 from "./assets/LectureImage/DF1.jpg"
 import LLMvsArch from "./assets/Monologue/LLMvsArchitecture/LLMvsArchitecture.jpg";
 
 import MC_Bacilica_1 from "./assets/Monologue/Minecraft_Basilica/Whole.png";
@@ -98,18 +98,25 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
+    Position: "Research Collaborator",
+    Company: `IBOIS, Doctoral Program Architecture and Sciences of the City (EDAR ), EPFL`,
+    Location: "Lausanne, Switzerland",
+    Type: "Full Time",
+    Duration: "July 2025 - present",
+  },
+  {
     Position: "Research Assistant",
     Company: `GAS Lab, Department of Architecture, NTUST`,
     Location: "Taipei, Taiwan",
     Type: "Full Time",
-    Duration: "Apr 2023 - present",
+    Duration: "Apr 2023 - May 2025",
   },
   {
     Position: "Lecturer",
     Company: `Department of Architecture, NUK`,
     Location: "Kaohsiung, Taiwan",
     Type: "Part Time",
-    Duration: "Nov 2024 - present",
+    Duration: "Nov 2024 - May 2025",
   },
   {
     Position: "Internship",
@@ -170,7 +177,7 @@ export const eduDetails = [
     Company: "GAS, Department of Architecture, NTUST",
     Location: "Taipei, Taiwan",
     Type: "Full Time",
-    Duration: "February 2025 - present",
+    Duration: "February 2025 - June 2025",
   },
   {
     Position: "Exchange Research",
@@ -221,7 +228,16 @@ export const LecDetails = [
     Duration: "Feb 2025 - Mar 2025",
     DetailsContent: {
       image: LectureImage6,
-      description: ["Coming Soon!!"]
+      description: [<p>
+        This lecture was used Minecraft game-based learning method to teach students MEP system. 
+        Different from the previous courses, the participants were senior students and master's students. 
+        In other words, they have already learned MEP related classes. As a result, the aim of this lecture is 
+        to examine if this learning method was effective and also straightforward to express the concept of 
+        MEP system.  
+      </p>, <p>
+        In this lecture, we still focused on the predesign stage, MEP LOD 100 - LOD 150. Before the classes, 
+        we did the investigation and tested students' understanding of MEP system. The bidding process and farming machines were elimitated.
+      </p>]
     }
   },
   {
