@@ -490,7 +490,7 @@ export const PublicationsDetails = {
       ,Link: undefined
     },
     {
-      Name: "TsungWei Cheng, Kevin Harsono, Shang Jun Xie, Chengxiang Huang, Yaoyuan Liu, YupPin Ma, ShenGuan Shih" + "Designing with Structure: Parametric Interwoven Arches from Reused Corrugated Paperboard"
+      Name: "TsungWei Cheng, Kevin Harsono, Shang Jun Xie, Chengxiang He, Yaoyuan Liu, YupPin Ma, ShenGuan Shih" + "Designing with Structure: Parametric Interwoven Arches from Reused Corrugated Paperboard"
       ,Link: undefined
     }
   ],
