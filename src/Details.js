@@ -395,6 +395,14 @@ export const LecDetails = [
 export const PublicationsDetails = {
   ConferenceAndJournalPapers: [
     {
+      Name: "Harsono, K., Alfred, W., Wagiri, F., Aung, Y. Y., Cheng, T. W., Basyaruddin, B., & Shih, S. G. (2025). Building for tomorrow: harnessing topological interlocking for sustainable, reusable building component. Architectural Engineering and Design Management, 1-22.",
+      Link: "https://www.tandfonline.com/doi/full/10.1080/17452007.2025.2496490?af=R"
+    },
+    {
+      Name: "Harsono, K., Cheng, T. W., Chen, C. Y., Aung, Y., Wagiri, F., & Shih, S. G. Reducing Panel Complexity in Topological Interlocking Assemblies on Curved Surfaces."
+      , Link: "https://www.researchgate.net/profile/Kevin-Harsono-2/publication/389561871_Reducing_Panel_Complexity_in_Topological_Interlocking_Assemblies_on_Curved_Surfaces/links/67c7f62a96e7fb48b9d8adbc/Reducing-Panel-Complexity-in-Topological-Interlocking-Assemblies-on-Curved-Surfaces.pdf"
+    },
+    {
       Name:
         "Tsung-Wei Cheng, Kevin Harsono, Yuxi Lui, Ching-Yen Chen, Shen-Guan Shih, Oliver Tessmann. (2024)." +
         " Beyond Babel: Towering With Minimal Communication. Proceedings of the IASS 2024 Symposium. International" +
@@ -473,15 +481,17 @@ export const PublicationsDetails = {
     },
     {
       Name:
-        "Kevin Harsono, Shen-Guan Shih, Felicia Wagiri, Ye Yint Aung, Tsung-Wei Cheng, William Alfred." +
-        " Building for Tomorrow: Harnessing Topological Interlocking for Sustainable Reusable Building Component.",
-      Link: undefined,
-    },
-    {
-      Name:
         "YuPin Ma, TsungWei Cheng*, RouSyuan Guo, Kevin Harsono, Felicia Wagiri, ShenGuan Shih. "+
         "Game-Based Learning with Minecraft: Fostering Engagement in Mechanical-Electrical-Plumbing Systems Education",
         Link : undefined
+    },
+    {
+      Name: "TsungWei Cheng, Kevin Harsono, Yaoyuan Liu, Shang Jun Xie, YupPin Ma, ShenGuan Shih" + "Geometric and Structural Study of Triangular Modular Systems From Slot-Fit Interlocking Snowflake to Deployable Faceted Skins"
+      ,Link: undefined
+    },
+    {
+      Name: "TsungWei Cheng, Kevin Harsono, Shang Jun Xie, Chengxiang Huang, Yaoyuan Liu, YupPin Ma, ShenGuan Shih" + "Designing with Structure: Parametric Interwoven Arches from Reused Corrugated Paperboard"
+      ,Link: undefined
     }
   ],
   Portfolio: [
