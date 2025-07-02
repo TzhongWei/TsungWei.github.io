@@ -512,18 +512,13 @@ export const contactDetails = {
 export const FundDetails = [
   {
     FundingName: <p>DAAD-PPP_Program (2nd) - <br /> Auto-Replicating Robotic Assembly of SL Blocks for the Hierarchical and Reconfigurable Construction</p>,
-    Date: "Jan 2025 - present",
+    Date: "Jan 2025 - May 2025",
     Source: "National Science and Technology Council"
   },
     {
       FundingName: "STEAM Course",
-      Date: "Jan 2025 - present",
+      Date: "Jan 2025 - May 2025",
       Source: "National University of Kaohsiung"
-    },
-    {
-      FundingName: "The Architecture of Shape Compiler",
-      Date: "Mar 2025 - present",
-      Source: "National Science and Technology Council"
     },
   {
     FundingName: <p>DAAD-PPP_Program (1st) - <br /> Auto-Replicating Robotic Assembly of SL Blocks for the Hierarchical and Reconfigurable Construction</p>,
