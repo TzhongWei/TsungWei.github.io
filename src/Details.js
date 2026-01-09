@@ -47,6 +47,7 @@ import MinecraftST23 from "./assets/Monologue/Minecraft Story_3/03.png";
 import MinecraftST24 from "./assets/Monologue/Minecraft Story_3/04.png";
 import MinecraftST25 from "./assets/Monologue/Minecraft Story_3/05.png";
 import MinecraftST26 from "./assets/Monologue/Minecraft Story_3/06.png";
+import { Link } from "react-router-dom";
 
 // Logos
 export const logos = {
@@ -395,6 +396,18 @@ export const LecDetails = [
 export const PublicationsDetails = {
   ConferenceAndJournalPapers: [
     {
+      Name: "Cheng, T. W., Wagiri, F., Harsono, K., Chen, C. Y., Shih, S. G. (2025) Procedural Design for Interwoven Structures using SL Blocks: A computational Framework for Modular Architecture",
+      Link: undefined
+    },
+    {
+      Name: "Harsono, K., Cheng, T.W., Wagiri, F., Aung, Y. Y., Shih, S. G., (2025). Modular and mortarless masonry: design, fabrication, and reusability assessment framework for topological interlocking assembly",
+      Link: "https://www.researchgate.net/publication/398986476_Modular_and_mortarless_masonry_design_fabrication_and_reusability_assessment_framework_for_topological_interlocking_assembly"
+    },
+    {
+      Name: "Yu Pin Ma, TsungWei Cheng, Rou Syuan Guo, Kevin Harsono, Felicia Wagiri, Shen-Guan Shih,. (2025). Game-based Learning with Minecraft: Fostering Engagement in Mechanical-Electrical-Plumbing Systems Education",
+      Link: "https://www.researchgate.net/publication/397878519_Game-based_Learning_with_Minecraft_Fostering_Engagement_in_Mechanical-Electrical-Plumbing_Systems_Education"
+    },
+    {
       Name: "Harsono, K., Alfred, W., Wagiri, F., Aung, Y. Y., Cheng, T. W., Basyaruddin, B., & Shih, S. G. (2025). Building for tomorrow: harnessing topological interlocking for sustainable, reusable building component. Architectural Engineering and Design Management, 1-22.",
       Link: "https://www.tandfonline.com/doi/full/10.1080/17452007.2025.2496490?af=R"
     },
@@ -474,24 +487,16 @@ export const PublicationsDetails = {
   ],
   ComingSoon: [
     {
-      Name:
-        "Harsono, K., Cheng, T.-W., Wagiri, F., Aung, Y. Y., & Shih, S.-G. (2025)."+
-        "Modular and Mortarless Masonry: Design, Fabrication, and Reusability Assessment Framework for Topological Interlocking Assembly",
-        Link: undefined,
-    },
-    {
-      Name:
-        "YuPin Ma, TsungWei Cheng*, RouSyuan Guo, Kevin Harsono, Felicia Wagiri, ShenGuan Shih. "+
-        "Game-Based Learning with Minecraft: Fostering Engagement in Mechanical-Electrical-Plumbing Systems Education",
-        Link : undefined
-    },
-    {
       Name: "TsungWei Cheng, Kevin Harsono, Yaoyuan Liu, Shang Jun Xie, YupPin Ma, ShenGuan Shih" + "Geometric and Structural Study of Triangular Modular Systems From Slot-Fit Interlocking Snowflake to Deployable Faceted Skins"
       ,Link: undefined
     },
     {
       Name: "TsungWei Cheng, Kevin Harsono, Shang Jun Xie, Chengxiang He, Yaoyuan Liu, YupPin Ma, ShenGuan Shih" + "Designing with Structure: Parametric Interwoven Arches from Reused Corrugated Paperboard"
       ,Link: undefined
+    },
+    {
+      Name: "Felicia Wagiri, Shen Guan Shih, TsungWei Cheng, On the Calibrated Flexibility of Modular Brick Constructions Inspired by Polyhedral and Auxetic Structures",
+      Link: undefined
     }
   ],
   Portfolio: [
