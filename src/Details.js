@@ -62,28 +62,30 @@ export const personalDetails = {
   tagline: "I'm a researcher | programmer | designer",
   img: profile,
   InvertImg: InvertProfile,
-  about: [
-    "TsungWei Cheng Mike is a passionate researcher and designer specialising in digital architecture." +
-      " He holds a Master’s in Architecture from National Taiwan University of Science and Technology (NTUST)" +
-      " and participated in exchange programs with TU Berlin and the Digital Design Unit (DDU) at TU Darmstadt." +
-      " He also interned at Global Reengineering Company for three years, focusing on optimising UHPC facade panels" +
-      " with Grasshopper.",
-
-    "Currently, TsungWei works as a Ph.D. student and research assistant at the GAS lab at NTUST and lectures " +
-      "at National University of Kaohsiung (NUK). His research centers on dry stacking systems, computer-aided design (CAD)," +
-      " and digital fabrication for building components.",
-
-    "He actively contributes to research projects, such as Auto-Replicating Robotic Assembly using SL Blocks, " +
-      " through the PPP program between Taiwan and Germany. He also applied Rhino Compute to automate metal sheet" +
-      " designs for IPCS/BIES Fabrication Center projects. His programming expertise includes C# and Grasshopper" +
-      " for simulation, visualisation, and optimisation. Additionally, he explores circular economy concepts using " +
-      "osteomorphic and topological interlocking block systems in collaboration with ZhenXi Construction and Bio " +
-      "Architecture Formosa.",
-
-    "TsungWei has presented at CAADRIA 2024 in Singapore and has authored eight academic publications across" +
-      " journals and conferences. With extensive experience in both academic and industrial collaborations, his" +
-      " work emphasises sustainable and reusable components in architecture, aiming to drive meaningful advancements" +
-      " in the field.",
+  about: [<p>
+    TsungWei Cheng Mike is a researcher and designer specialising in digital fabrication, 
+    bio-sourced materials, and modular architectural systems. He holds a Master’s degree in 
+    Architecture from National Taiwan University of Science and Technology (NTUST) and has 
+    completed academic exchanges at TU Berlin and the Digital Design Unit (DDU) at TU Darmstadt.
+  </p>,
+  <p>
+He is currently a Scientific Collaborator at IBOIS–EPFL, where his work focuses on timber–earthen 
+construction systems, bio-sourced prototyping, and computational design methods for sustainable 
+building components.
+  </p>,
+  <p>
+    TsungWei’s research builds on several years of experience in dry-stacking systems, interlocking 
+    geometries, CAD/CAM workflows, and digital manufacturing. His previous work includes optimising 
+    UHPC façade components, developing rule-based interlocking systems, and contributing to 
+    prototype-based research in both academic and industrial contexts.
+  </p>,
+  <p>
+    With over ten peer-reviewed publications across journals and conferences—including 
+    CAADRIA and ICCEA—he bridges vernacular construction logics with emerging digital 
+    and robotic fabrication techniques. His work aims to advance sustainable, reusable, 
+    and material-informed architectural systems, particularly for future applications 
+    in resource-limited environments.
+  </p>
   ],
 };
 
