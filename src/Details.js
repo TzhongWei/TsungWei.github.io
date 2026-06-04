@@ -13,7 +13,8 @@ import LectureImage3 from "./assets/LectureImage/RhinoAdvance_1.png";
 import LectureImage4 from "./assets/LectureImage/Grasshopper_Lecture_1.jpg";
 import LectureImage5 from "./assets/LectureImage/3D_Printing.jpg";
 import LectureImage6 from "./assets/LectureImage/MC2.jpg";
-import LectureImage7 from "./assets/LectureImage/DF1.jpg"
+import LectureImage7 from "./assets/LectureImage/DF1.jpg";
+import LectureImage8 from "./assets/LectureImage/Atelier_Poster_2.jpg";
 import LLMvsArch from "./assets/Monologue/LLMvsArchitecture/LLMvsArchitecture.jpg";
 
 import MC_Bacilica_1 from "./assets/Monologue/Minecraft_Basilica/Whole.png";
@@ -215,13 +216,44 @@ export const eduDetails = [
 
 export const LecDetails = [
   {
+    Topic: "Weinand Atelier",
+    Company: "ENAC, EPFL",
+    Location: "Lausanne, Switzerland",
+    Duration: "Sep 2025 - Dec 2025",
+    DetailsContent: {
+      image: LectureImage8,
+      description: [<p>
+        An architectural prototype is a physical model, either full-scale or scaled, used to test and refine design ideas before construction. It bridges the gap between concept and reality by revealing spatial qualities, material behaviour, construction methods, and user experience that cannot be fully understood through digital models alone.
+      </p>, <p>
+        Throughout architectural history, prototypes have served as powerful tools for experimentation, from Gaudí’s plaster models to contemporary 1:1 projects such as the Khudi Bari in Bangladesh. By allowing designers to evaluate feasibility and performance under real-world conditions, prototyping reduces uncertainty while fostering innovation and informed decision-making.
+      </p>, <p>
+        Beyond technical validation, prototyping can drive broader cultural and environmental change. Especially in low-resource contexts, it creates opportunities to explore new materials, construction techniques, and social practices. As existing construction systems are often embedded within regulations, standards, and institutional frameworks, architecture as prototyping offers a way to test alternative futures and transform ambitious ideas into achievable realities.
+      </p>],
+            materialLink: false,
+      classmaterial: "https://www.epfl.ch/labs/ibois/teaching-2/studio-weinand/bio-sourced-materials-from-prototype-to-building-autumn-2025/",
+    }
+  },
+  {
     Topic: "Digital Fabrication",
     Company: "Department of Architecturem NUK",
     Location: "Kaohsiung, Taiwan",
     Duration: "Mar 2025 - June 2025",
     DetailsContent: {
       image: LectureImage7,
-      description: ["Coming Soon!!"]
+      description: [<p>
+        This lecture was designed for senior students and master's students at the architectural department. 
+        The aim of this lecture is to introduce students to the computational geometry and digital fabrication with a laser cutting machine. 
+        The students were required to design a pavilion with the second-haned corrogated paper boards.
+      </p>,
+      <p>
+        The lecture was divided into three parts; computational geometry lectures, design, and prototyping. 
+        In the first part, students were introduced to the basic computational geometry concepts, such as rule-based design, topology, curvature, interlocking system, etc. 
+        In the end of the lecture, students were required to finish a small exercise via Grasshopper. In the second part, students were required to design a pavilion with the second-hand corrugated paper boards.
+        The design process was divided into three stages, form-finding, paneling, and labelling. 
+        In the last part, two designs were chosen to be fabricated with a laser cutting machine. The students were required to reorient the panels on the XY plane and add tabs for assembly.
+      </p>],
+            materialLink: false,
+      classmaterial: "None",
     }
   },
   {
@@ -240,7 +272,9 @@ export const LecDetails = [
       </p>, <p>
         In this lecture, we still focused on the predesign stage, MEP LOD 100 - LOD 150. Before the classes, 
         we did the investigation and tested students' understanding of MEP system. The bidding process and farming machines were elimitated.
-      </p>]
+      </p>],
+        materialLink: false,
+      classmaterial: "None",
     }
   },
   {

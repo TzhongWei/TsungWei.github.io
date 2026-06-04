@@ -83,7 +83,7 @@ function Header() {
           <li>
             <a
               href={
-                "https://drive.google.com/file/d/1QSExeo5rPnECnIYJT1O8hjI6NNLSvcNR/view?usp=sharing"
+                "https://drive.google.com/file/d/1QSExeo5rPnECnIYJT1O8hjI6NNLSvcNR/view?usp=drive_link"
               }
               target="_blank"
               rel="noreferrer noopener"
