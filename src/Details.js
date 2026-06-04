@@ -15,40 +15,6 @@ import LectureImage5 from "./assets/LectureImage/3D_Printing.jpg";
 import LectureImage6 from "./assets/LectureImage/MC2.jpg";
 import LectureImage7 from "./assets/LectureImage/DF1.jpg";
 import LectureImage8 from "./assets/LectureImage/Atelier_Poster_2.jpg";
-import LLMvsArch from "./assets/Monologue/LLMvsArchitecture/LLMvsArchitecture.jpg";
-
-import MC_Bacilica_1 from "./assets/Monologue/Minecraft_Basilica/Whole.png";
-import MC_Bacilica_2 from "./assets/Monologue/Minecraft_Basilica/out.png";
-import MC_Bacilica_3 from "./assets/Monologue/Minecraft_Basilica/hall.png";
-import MC_Bacilica_4 from "./assets/Monologue/Minecraft_Basilica/effect.png";
-import MC_Bacilica_5 from "./assets/Monologue/Minecraft_Basilica/stair.png";
-import MC_Bacilica_6 from "./assets/Monologue/Minecraft_Basilica/near.png";
-import MC_Bacilica_7 from "./assets/Monologue/Minecraft_Basilica/far.png";
-import MC_Bacilica_8 from "./assets/Monologue/Minecraft_Basilica/Map1.png";
-import MC_Bacilica_9 from "./assets/Monologue/Minecraft_Basilica/Map2.png";
-
-import MinecraftST01 from "./assets/Monologue/Minecraft Story_1/01.png";
-import MinecraftST02 from "./assets/Monologue/Minecraft Story_1/02.png";
-import MinecraftST03 from "./assets/Monologue/Minecraft Story_1/03.png";
-import MinecraftST04 from "./assets/Monologue/Minecraft Story_1/04.png";
-import MinecraftST05 from "./assets/Monologue/Minecraft Story_1/05.png";
-
-import MinecraftST11 from "./assets/Monologue/Minecraft Story_2/01.png";
-import MinecraftST12 from "./assets/Monologue/Minecraft Story_2/02.png";
-import MinecraftST13 from "./assets/Monologue/Minecraft Story_2/03.png";
-import MinecraftST14 from "./assets/Monologue/Minecraft Story_2/04.png";
-import MinecraftST15 from "./assets/Monologue/Minecraft Story_2/05.png";
-import MinecraftST16 from "./assets/Monologue/Minecraft Story_2/06.png";
-import MinecraftST17 from "./assets/Monologue/Minecraft Story_2/07.png";
-import MinecraftST18 from "./assets/Monologue/Minecraft Story_2/08.png";
-
-import MinecraftST21 from "./assets/Monologue/Minecraft Story_3/01.png";
-import MinecraftST22 from "./assets/Monologue/Minecraft Story_3/02.png";
-import MinecraftST23 from "./assets/Monologue/Minecraft Story_3/03.png";
-import MinecraftST24 from "./assets/Monologue/Minecraft Story_3/04.png";
-import MinecraftST25 from "./assets/Monologue/Minecraft Story_3/05.png";
-import MinecraftST26 from "./assets/Monologue/Minecraft Story_3/06.png";
-import { Link } from "react-router-dom";
 
 // Logos
 export const logos = {
@@ -523,12 +489,12 @@ export const PublicationsDetails = {
   ],
   ComingSoon: [
     {
-      Name: "TsungWei Cheng, Kevin Harsono, Yaoyuan Liu, Shang Jun Xie, YupPin Ma, ShenGuan Shih" + "Geometric and Structural Study of Triangular Modular Systems From Slot-Fit Interlocking Snowflake to Deployable Faceted Skins"
-      ,Link: undefined
+      Name: "TsungWei Cheng, Kevin Harsono, Yaoyuan Liu, Shang Jun Xie, YupPin Ma, ShenGuan Shih Geometric and Structural Study of Triangular Modular Systems From Slot-Fit Interlocking Snowflake to Deployable Faceted Skins",
+      Link: undefined
     },
     {
-      Name: "TsungWei Cheng, Kevin Harsono, Shang Jun Xie, Chengxiang He, Yaoyuan Liu, YupPin Ma, ShenGuan Shih" + "Designing with Structure: Parametric Interwoven Arches from Reused Corrugated Paperboard"
-      ,Link: undefined
+      Name: "TsungWei Cheng, Kevin Harsono, Shang Jun Xie, Chengxiang He, Yaoyuan Liu, YupPin Ma, ShenGuan Shih Designing with Structure: Parametric Interwoven Arches from Reused Corrugated Paperboard",
+      Link: undefined
     },
     {
       Name: "Felicia Wagiri, Shen Guan Shih, TsungWei Cheng, On the Calibrated Flexibility of Modular Brick Constructions Inspired by Polyhedral and Auxetic Structures",

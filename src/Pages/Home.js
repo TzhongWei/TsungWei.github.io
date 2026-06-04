@@ -3,7 +3,6 @@ import gsap from "gsap";
 import { personalDetails } from "../Details";
 
 function Home() {
-  const [isOpen, setIsOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Detect dark mode from system preferences
@@ -15,10 +14,6 @@ function Home() {
     darkMediaQuery.addListener(handleThemeChange);
     return () => darkMediaQuery.removeListener(handleThemeChange);
   }, []);
-
-  const toggleClass = () => {
-    setIsOpen(!isOpen);
-  };
 
   const { name, tagline, img, InvertImg } = personalDetails;
   const h11 = useRef();

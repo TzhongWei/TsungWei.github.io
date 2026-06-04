@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Project from "../Components/Project";
 import { projectDetails } from "../projectDetails.js";
 
@@ -14,12 +14,12 @@ function Projects() {
     setTimeout(() => setSelectedProject(project), 300); // Switch project after fade-out
   };
 
-  const closeProject = () => {
+  const closeProject = useCallback(() => {
     if (!zoomedImage) {
       setIsFading(true); // Start fade-out animation
       setTimeout(() => setSelectedProject(null), 300); // Return to all projects after fade-out
     }
-  };
+  }, [zoomedImage]);
 
   // useEffect for fade-in animation on change of selectedProject
   useEffect(() => {
@@ -43,7 +43,7 @@ function Projects() {
     }
 
     return () => document.removeEventListener("click", handleOutsideClick);
-  }, [selectedProject, zoomedImage]);
+  }, [selectedProject, zoomedImage, closeProject]);
 
   const openZoomedImage = (img) => {
     setIsTransitioning(true); // Start transition
@@ -84,7 +84,7 @@ function Projects() {
             <div className="md:w-1/3">
               <img
                 src={selectedProject.image}
-                alt="Project Thumbnail"
+                alt={selectedProject.title}
                 loading="lazy"
                 className="rounded-xl shadow-xl shadow-slate-300 dark:shadow-slate-900 w-full object-cover"
               />
@@ -136,7 +136,7 @@ function Projects() {
                   <img
                     key={index}
                     src={img}
-                    alt={`Additional image ${index}`}
+                    alt={`${selectedProject.title} detail ${index + 1}`}
                     className="w-full h-auto rounded-md cursor-pointer"
                     onClick={(e) => {
                       e.stopPropagation(); // Prevent triggering the closeProject click

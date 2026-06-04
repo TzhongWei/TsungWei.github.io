@@ -1,12 +1,5 @@
 import logo from "./assets/SmallC.png";
 import profile from "./assets/TestC(2).gif";
-// Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 
 //import ProjectFig_1_1 from "./ProjectFolder/Project_1/alley_1.png";
 import ProjectFig_1_2 from "./ProjectFolder/Project_1/alley_3.png";

@@ -153,10 +153,7 @@ function MonologueFormat({
               ? "opacity-100 pointer-events-auto"
               : "opacity-0 pointer-events-none"
           }`}
-          onClick={() => {
-            setIsVisible(false); // Start fade-out animation
-            setTimeout(() => setSelectedImage(null), 500); // Remove after fade-out completes
-          }}
+          onClick={closeOverlay}
         >
           <img
             src={selectedImage}
